@@ -940,11 +940,11 @@ Studienfach: (h\_staktsfz01)?
 
 is:
 
-it1: Meinen Eltern finden, dass ich ein gutes Studienfach
+it1: Meine Eltern finden, dass ich ein gutes Studienfach
 
 gewählt habe
 
-it2: Meinen Freundinnen und Freunde finden, dass ich ein
+it2: Meine Freundinnen und Freunde finden, dass ich ein
 
 gutes Studienfach gewählt habe.
 
