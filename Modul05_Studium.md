@@ -6,7 +6,7 @@
 
 -----------------------------------------------------------
 
-tc: IF wave=1 OR IF wave=2 OR IF wave=3 OR wave=4 OR wave=5
+tc: IF wave=1 OR IF wave=2 OR IF wave=3 OR wave=4 OR wave=5 
 
 vn:
 
