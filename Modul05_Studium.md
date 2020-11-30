@@ -2454,11 +2454,7 @@ tr:
 
 
 
-GOTO gsh\_00 IF (bestwuw\_183b =4 OR bestwuw\_183b =5 AND
-
-h\_studever!=1) OR (bestwuw\_183b =MISSING AND
-
-sf\_bestwuw\_183b =1)
+GOTO gsh\_00 IF ((bestwuw\_183b =4 OR bestwuw\_183b =5) AND h\_studever!=1) OR (bestwuw\_183b =MISSING AND sf\_bestwuw\_183b =1)
 
 
 
