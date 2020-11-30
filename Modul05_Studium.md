@@ -403,7 +403,7 @@ fo:
 
 tr: 
 
-GOTO stu\_25
+GOTO stu\_24
 
 hi:
 
