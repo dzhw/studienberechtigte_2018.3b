@@ -337,9 +337,9 @@ It3: Eingeschränkte persönliche Anwesenheit
 
 It4: Eingeschränkte persönliche Studienberatung
 
-It5: überwiegend digitale Vorlesungen
+It5: Überwiegend digitale Vorlesungen
 
-It6: überwiegend digitale Seminare und Übungen
+It6: Überwiegend digitale Seminare und Übungen
 
 It7: Eingeschränkte Möglichkeiten, Prüfungen abzulegen
 
