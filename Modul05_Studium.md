@@ -915,11 +915,7 @@ hl:
 
 in:
 
-q1: Was halten Ihre Eltern und Ihre Freunde von Ihrem
-
-Studienfach: (h\_staktsfz01)?
-
-q2: Was halten Ihre Eltern und Ihre Freunde von diesem
+q: Was halten Ihre Eltern und Ihre Freunde von Ihrem
 
 Studienfach: (h\_staktsfz01)?
 
