@@ -214,7 +214,15 @@ ao5:
 
 ao6:
 
-ao7: man kann im Allgemeinen vertrauen
+ao7: 
+
+ao8:
+
+ao9:
+
+ao10:
+
+ao11: man kann im Allgemeinen vertrauen
 
 mv:
 
