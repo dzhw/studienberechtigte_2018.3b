@@ -27,7 +27,7 @@ mv:
 
 ka:
 
-vc:
+vc:[Zwischenseite_3] visible if wave=4 OR wave=5
 
 av:
 
