@@ -80,15 +80,15 @@ it4: Problemen bei der Vereinbarkeit von Familie und
 
 Beruf/Ausbildung/Studium
 
-ao1:1: gar nicht
+ao1:1: sehr stark
 
-ao2:2: kaum
+ao2:2: stark
 
 ao3:3: mittelmäßig
 
-ao4:4: stark
+ao4:4: kaum
 
-ao5:5: sehr stark
+ao5:5: gar nicht
 
 ao6:6: trifft nicht zu \[abgesetzt darstellen\]
 
