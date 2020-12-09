@@ -534,7 +534,7 @@ tc:
 
 vn: berzucor\_183b
 
-qt: Einfachauswahl mit horizontalen ao
+qt: Einfachauswahl mit vertikalen ao
 
 hl:
 
