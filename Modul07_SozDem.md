@@ -136,27 +136,27 @@ is:
 
 it:
 
-ao1: Menschen verhalten sich im Allgemeinen nicht fair
+ao1:1: Menschen verhalten sich im Allgemeinen nicht fair (1)
 
-ao2:
+ao2:2: (2)
 
-ao3:
+ao3:3: (3)
 
-ao4:
+ao4:4: (4)
 
-ao5:
+ao5:5: (5)
 
-ao6:
+ao6:6: (6)
 
-ao7:
+ao7:7: (7)
 
-ao8:
+ao8:8: (8)
 
-ao9:
+ao9:9: (9)
 
-ao10:
+ao10:10: (10)
 
-ao11: Menschen verhalten sich im Allgemeinen fair
+ao11:11: Menschen verhalten sich im Allgemeinen fair (11)
 
 mv:
 
