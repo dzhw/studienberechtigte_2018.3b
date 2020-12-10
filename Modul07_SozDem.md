@@ -80,15 +80,15 @@ in der Regel gut lösen.
 
 st:
 
-ao1:1: trifft voll und ganz zu
+ao1:1: trifft voll und ganz zu (1)
 
-ao2:2: trifft ziemlich zu
+ao2:2: (2)
 
-ao3:3: trifft etwas zu
+ao3:3: (3)
 
-ao4:4: trifft wenig zu
+ao4:4: (4)
 
-ao5:5: trifft gar nicht zu
+ao5:5: trifft gar nicht zu (5)
 
 mv:
 
