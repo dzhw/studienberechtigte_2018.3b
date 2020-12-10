@@ -54,7 +54,7 @@ tc:
 
 vn: bbfried\_183b
 
-qt: Einfachauswahl mit horizontaler ao
+qt: Einfachauswahl mit vertikalen ao
 
 hl:
 
