@@ -972,7 +972,7 @@ tc:
 
 vn: studleist\_183b
 
-qt: Einfachauswahl mit horizontalen ao
+qt: Einfachauswahl mit vertikalen ao
 
 hl:
 
