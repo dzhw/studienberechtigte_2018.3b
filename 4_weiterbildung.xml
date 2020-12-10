@@ -1,0 +1,2100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zofar:questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:zofar="http://www.his.de/zofar/xml/questionnaire" xmlns:display="http://www.dzhw.eu/zofar/xml/display"
+	language="de">
+	<zofar:name>SLC IntEr - Weiterbildung</zofar:name>
+	<zofar:description></zofar:description>
+
+
+	<zofar:variables>
+
+		<zofar:variable name="width" type="number" />
+		<zofar:variable name="height" type="number" />
+		<!-- <variable name="url" type="string" /> <variable name="isMobile" type="string" 
+			/> -->
+		<zofar:variable name="jsCheck" type="boolean" />
+
+		<!-- t0001 -->
+		<zofar:variable name="t0001" type="singleChoiceAnswerOption" />
+
+		<!-- taa01 -->
+		<zofar:variable name="taa01" type="singleChoiceAnswerOption" />
+		<zofar:variable name="taa01dropDown" type="singleChoiceAnswerOption" />
+		<zofar:variable name="taa02" type="singleChoiceAnswerOption" />
+		<zofar:variable name="taa02dropDown" type="singleChoiceAnswerOption" />
+		<zofar:variable name="taa01a" type="boolean" />
+		<zofar:variable name="taa03" type="singleChoiceAnswerOption" />
+		<zofar:variable name="taa04" type="singleChoiceAnswerOption" />
+		<zofar:variable name="taa03a" type="boolean" />
+		<!-- taa05 -->
+		<zofar:variable name="taa05" type="singleChoiceAnswerOption" />
+		<zofar:variable name="taa06" type="string" />
+		<!-- taa08 -->
+		<zofar:variable name="taa08" type="singleChoiceAnswerOption" />
+		<!-- taa20 -->
+		<zofar:variable name="taa20" type="singleChoiceAnswerOption" />
+		<!-- tba01 -->
+		<zofar:variable name="tba01" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tba02" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tba01a" type="boolean" />
+		<zofar:variable name="tba03" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tba04" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tba03a" type="boolean" />
+		<!-- tba05 -->
+		<zofar:variable name="tba05" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tba06" type="string" />
+		<!-- tba08 -->
+		<zofar:variable name="tba08" type="singleChoiceAnswerOption" />
+		<!-- tba20 -->
+		<zofar:variable name="tba20" type="singleChoiceAnswerOption" />
+		<!-- tca01 -->
+		<zofar:variable name="tca01" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tca02" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tca01a" type="boolean" />
+		<zofar:variable name="tca03" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tca04" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tca03a" type="boolean" />
+		<!-- tca05 -->
+		<zofar:variable name="tca05" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tca06" type="string" />
+		<!-- tca08 -->
+		<zofar:variable name="tca08" type="singleChoiceAnswerOption" />
+		<!-- taa20 -->
+		<zofar:variable name="tca20" type="singleChoiceAnswerOption" />
+		<!-- taa01 -->
+		<zofar:variable name="tda01" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tda02" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tda01a" type="boolean" />
+		<zofar:variable name="tda03" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tda04" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tda03a" type="boolean" />
+		<!-- taa05 -->
+		<zofar:variable name="tda05" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tda06" type="string" />
+		<!-- tda08 -->
+		<zofar:variable name="tda08" type="singleChoiceAnswerOption" />
+		<!-- taa20 -->
+		<zofar:variable name="tda20" type="singleChoiceAnswerOption" />
+		<!-- taa01 -->
+		<zofar:variable name="tea01" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tea02" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tea01a" type="boolean" />
+		<zofar:variable name="tea03" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tea04" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tea03a" type="boolean" />
+		<!-- taa05 -->
+		<zofar:variable name="tea05" type="singleChoiceAnswerOption" />
+		<zofar:variable name="tea06" type="string" />
+		<!-- tea08 -->
+		<zofar:variable name="tea08" type="singleChoiceAnswerOption" />
+		<!-- taa20 -->
+		<zofar:variable name="tea20" type="singleChoiceAnswerOption" />
+
+
+		<zofar:variable name="sf_t0001" type="boolean" />
+		<zofar:variable name="sf_taa01" type="boolean" />
+		<zofar:variable name="sf_taa05" type="boolean" />
+		<zofar:variable name="sf_taa20" type="boolean" />
+		<zofar:variable name="sf_tba01" type="boolean" />
+		<zofar:variable name="sf_tba05" type="boolean" />
+		<zofar:variable name="sf_tba20" type="boolean" />
+		<zofar:variable name="sf_tca01" type="boolean" />
+		<zofar:variable name="sf_tca05" type="boolean" />
+		<zofar:variable name="sf_tca20" type="boolean" />
+		<zofar:variable name="sf_tda01" type="boolean" />
+		<zofar:variable name="sf_tda05" type="boolean" />
+		<zofar:variable name="sf_tda20" type="boolean" />
+		<zofar:variable name="sf_tea01" type="boolean" />
+		<zofar:variable name="sf_tea05" type="boolean" />
+		<zofar:variable name="sf_tea20" type="boolean" />
+
+
+	</zofar:variables>
+	
+	<zofar:page uid="t0001" additionalLanguages="" customLayout="false">
+        <zofar:header>
+            <zofar:text uid="t1" block="true">#{layout.BOLD_START} #{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Fort- und Weiterbildung #{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}</zofar:text>
+        </zofar:header>
+        <zofar:body uid="body">
+            <zofar:questionSingleChoice uid="qsc1">
+                <zofar:header>
+                    <zofar:question uid="q">Haben Sie seit #{zofar.valueOf(h_enterdatum)} jemals eine Fort- oder Weiterbildung absolviert?</zofar:question>
+                    <zofar:instruction block="true" uid="instr">
+																#{layout.BREAK}
+																Bitte geben Sie nur längerfristige Fort- und Weiterbildungen im Umfang von insgesamt mindestens 70 Stunden an. 
+																#{layout.BREAK}
+																Z. B.: Aufstiegsfortbildungen wie Meister(in) oder Fachwirt(in), berufsqualifizierende Weiterbildungen oder Kurse zum Erwerb anerkannter Lizenzen.</zofar:instruction>
+                </zofar:header>
+                <zofar:responseDomain uid="rd" variable="t0001" showValues="false">
+                    <zofar:answerOption uid="ao1" value="1" label="ja"/>
+                    <zofar:answerOption uid="ao2" value="2" label="nein"/>
+                </zofar:responseDomain>
+            </zofar:questionSingleChoice>
+            <zofar:section uid="sw2" visible="(navigatorBean.isSame() and zofar.isMissing(t0001)) or sf_t0001.value">
+                <zofar:header/>
+                <zofar:body uid="bb">
+                    <zofar:multipleChoice uid="mcsf">
+                        <zofar:header>
+                            <zofar:introduction uid="intro1">#{layout.WARNING_START}
+								Für den weiteren Fragebogenverlauf und die Auswertung der Daten ist es wichtig, dass Sie die Frage beantworten. 
+								#{layout.WARNING_END}</zofar:introduction>
+                        </zofar:header>
+                        <zofar:responseDomain uid="rd">
+                            <zofar:answerOption variable="sf_t0001" uid="ao1" label="Ich möchte diese Frage dennoch nicht beantworten."/>
+                        </zofar:responseDomain>
+                    </zofar:multipleChoice>
+                </zofar:body>
+            </zofar:section>
+        </zofar:body>
+        <zofar:transitions>
+            <zofar:transition target="taa01" condition="zofar.asNumber(t0001)==1"/>
+<!--             <zofar:transition target="taa01b" condition="zofar.asNumber(t0001)==1 zofar.asNumber(PRELOADcohort)==2"/> -->
+            <zofar:transition target="zwischen_t" condition="zofar.asNumber(t0001)==2 or (zofar.isMissing(t0001) and sf_t0001.value)"/>
+        </zofar:transitions>
+        <zofar:triggers xsi:nil="true"/>
+        <zofar:side xsi:nil="true"/>
+        <zofar:researchdata xsi:nil="true"/>
+        <zofar:breadcrumb xsi:nil="true"/>
+    </zofar:page>	
+
+	<zofar:page uid="taa01">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			
+			<zofar:matrixQuestionSingleChoice uid="mmx">
+				<zofar:header>
+					<zofar:introduction uid="int" block="true">
+						Sie haben
+						angegeben, eine oder mehrere Fort- oder Weiterbildungen begonnen zu
+						haben.
+					</zofar:introduction>
+					<zofar:question uid="q" block="true">
+						Bitte
+						nennen Sie uns zu Ihrer ersten Weiterbildung Beginn- und Endmonat
+						sowie -jahr.
+					</zofar:question>
+					<zofar:instruction uid="is">
+					#{layout.BREAK}
+						Wir interessieren uns auch für Tätigkeiten, die vor #{h_enterdatum.value} begonnen haben und zu dem Zeitpunkt noch andauerten. 
+						Machen Sie für diese Tätigkeiten bitte Angaben ab #{h_enterdatum.value}.
+					</zofar:instruction>
+				</zofar:header>
+				<zofar:responseDomain uid="rd">
+					<zofar:item uid="item1">
+						<zofar:header>
+							<zofar:question uid="qi1">#{layout.BOLD_START}von: #{layout.BOLD_END}</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="taa01" uid="rd1" type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999" label="Monat"></zofar:answerOption>
+							<zofar:answerOption uid="ao1" value="1" label="Januar"></zofar:answerOption>
+							<zofar:answerOption uid="ao2" value="2" label="Februar"></zofar:answerOption>
+							<zofar:answerOption uid="ao3" value="3" label="März"></zofar:answerOption>
+							<zofar:answerOption uid="ao4" value="4" label="April"></zofar:answerOption>
+							<zofar:answerOption uid="ao5" value="5" label="Mai"></zofar:answerOption>
+							<zofar:answerOption uid="ao6" value="6" label="Juni"></zofar:answerOption>
+							<zofar:answerOption uid="ao7" value="7" label="Juli"></zofar:answerOption>
+							<zofar:answerOption uid="ao8" value="8" label="August"></zofar:answerOption>
+							<zofar:answerOption uid="ao9" value="9" label="September"></zofar:answerOption>
+							<zofar:answerOption uid="ao10" value="10" label="Oktober"></zofar:answerOption>
+							<zofar:answerOption uid="ao11" value="11" label="November"></zofar:answerOption>
+							<zofar:answerOption uid="ao12" value="12" label="Dezember"></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:item>
+					<zofar:item uid="item2">
+						<zofar:header>
+							<zofar:question uid="qi2"></zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="taa02" uid="rd2" type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+						</zofar:responseDomain>
+					</zofar:item>
+				</zofar:responseDomain>
+			</zofar:matrixQuestionSingleChoice>
+			<zofar:multipleChoice uid="mc1" >
+				<zofar:header>
+					<zofar:question uid="q1" block="true"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd2">
+					<zofar:answerOption variable="taa01a" uid="ao1"
+						label="Beginn vor #{h_enterdatum.value}"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:multipleChoice>
+			<zofar:matrixQuestionSingleChoice
+				uid="mmx2">
+				<zofar:header>
+					<zofar:question uid="q2" block="true"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd3">
+					<zofar:item uid="item3">
+						<zofar:header>
+							<zofar:question uid="qi3">#{layout.BOLD_START}bis: #{layout.BOLD_END}</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="taa03" uid="rd3" type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999" label="Monat"></zofar:answerOption>
+							<zofar:answerOption uid="ao1" value="1" label="Januar"></zofar:answerOption>
+							<zofar:answerOption uid="ao2" value="2" label="Februar"></zofar:answerOption>
+							<zofar:answerOption uid="ao3" value="3" label="März"></zofar:answerOption>
+							<zofar:answerOption uid="ao4" value="4" label="April"></zofar:answerOption>
+							<zofar:answerOption uid="ao5" value="5" label="Mai"></zofar:answerOption>
+							<zofar:answerOption uid="ao6" value="6" label="Juni"></zofar:answerOption>
+							<zofar:answerOption uid="ao7" value="7" label="Juli"></zofar:answerOption>
+							<zofar:answerOption uid="ao8" value="8" label="August"></zofar:answerOption>
+							<zofar:answerOption uid="ao9" value="9" label="September"></zofar:answerOption>
+							<zofar:answerOption uid="ao10" value="10" label="Oktober"></zofar:answerOption>
+							<zofar:answerOption uid="ao11" value="11" label="November"></zofar:answerOption>
+							<zofar:answerOption uid="ao12" value="12" label="Dezember"></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:item>
+					<zofar:item uid="item4">
+						<zofar:header>
+							<zofar:question uid="qi4"></zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="taa04" uid="rd4"
+							type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+						</zofar:responseDomain>
+					</zofar:item>
+				</zofar:responseDomain>
+			</zofar:matrixQuestionSingleChoice>
+			<zofar:multipleChoice uid="mc2">
+				<zofar:header>
+					<zofar:question uid="q3" block="true"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd4">
+					<zofar:answerOption variable="taa03a" uid="ao1"
+						label="#{layout.BOLD_START}dauert noch an#{layout.BOLD_END}"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:multipleChoice>
+			<zofar:section uid="softforce"
+				visible="navigatorBean.isSame() or sf_taa01.value">
+				<zofar:body uid="b">
+					<zofar:multipleChoice uid="soft">
+						<zofar:header>
+							<zofar:question uid="q" block="true">
+								#{layout.WARNING_START}Für den weiteren Fragebogenverlauf und
+								die Auswertung
+								der Daten ist es wichtig, dass Sie die Frage
+								beantworten.#{layout.WARNING_END}
+							</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_taa01" uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten."></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="taa01" 
+				condition="            (
+							            (
+							            	(
+							            	zofar.asNumber(taa01dropDown)==999999 or zofar.asNumber(taa02dropDown)==999999
+							            	) 
+							            	and !taa01a.value
+							            	)
+							            or
+							            (
+							            	(
+							            	zofar.asNumber(taa03dropDown)==999999 or zofar.asNumber(taa04dropDown)==999999
+							            	) 
+							            	and !taa03a.value)
+							           )
+							           and
+							           (
+							           !sf_taa01.value or zofar.isMissing(sf_taa01)
+							           )
+							           "/>
+ 			<zofar:transition target="taa05" />
+		</zofar:transitions>
+	</zofar:page>
+	
+	<zofar:page uid="taa05">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:questionSingleChoice uid="sc">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="(((zofar.asNumber(taa04) * 100) + zofar.asNumber(taa03)) lt zofar.asNumber(h_exitdatum))
+																	or (zofar.asNumber(taa04)==999999 or zofar.asNumber(taa03)==999999)">
+						Was für eine Weiterbildung war das?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="(((zofar.asNumber(taa04) * 100) + zofar.asNumber(taa03)) ge zofar.asNumber(h_exitdatum))
+																	and zofar.asNumber(taa04)!=999999 and zofar.asNumber(taa03)!=999999">
+						Was für eine Weiterbildung war bzw. ist das?
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="taa05" uid="rd">
+					<zofar:unit uid="u1">
+						<zofar:header>
+							<zofar:title uid="t1">
+								Aufstiegsfortbildung
+							</zofar:title>
+						</zofar:header>
+						<zofar:answerOption uid="ao1" value="1"
+							label="Meister(in)"></zofar:answerOption>
+							<zofar:answerOption uid="ao2" value="2"
+							label="Techniker(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao3" value="3"
+							label="Fachwirt(in), Betriebswirt(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao4" value="4"
+							label="Fachkaufmann/-frau"></zofar:answerOption>
+					</zofar:unit>
+					<zofar:unit uid="u2">
+						<zofar:header>
+							<zofar:title uid="t2">
+								berufsqualifizierende Weiterbildung
+							</zofar:title>
+						</zofar:header>
+						<zofar:answerOption uid="ao5" value="5"
+							label="Facharzt/-ärztin"></zofar:answerOption>
+						<zofar:answerOption uid="ao6" value="6"
+							label="Fachapotheker(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao7" value="7"
+							label="Fachanwalt/-anwältin, Patentanwalt/-anwältin"></zofar:answerOption>
+						<zofar:answerOption uid="ao8" value="8" label="Notar(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao9" value="9"
+							label="psychologische(r) Psychotherapeut(in), Kinder- und
+																	  Jugendpsychotherapeut(in), Fachpsychologe/-psychologin"></zofar:answerOption>
+						<zofar:answerOption uid="ao10" value="10"
+							label="Steuerberater(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao11" value="11"
+							label="Wirtschaftsprüfer(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao12" value="12"
+							label="Fachingenieur(in)"></zofar:answerOption>
+					</zofar:unit>
+					<zofar:unit uid="u3">
+						<zofar:header>
+							<zofar:title uid="t3">
+								Sonstiges
+							</zofar:title>
+						</zofar:header>
+						<zofar:answerOption uid="ao13" value="13"
+							label="Kurse zum Erwerb anerkannter Lizenzen 
+						(z. B. Schweißer(innen)-, Taxifahrer(innen)-, Gabelstaplerschein oder Netzwerkadministrator(in))"></zofar:answerOption>
+						<zofar:answerOption uid="ao14" value="14"
+							label="sonstige Weiterbildung, und zwar ">
+							<zofar:questionOpen variable="taa06" uid="qo" size="60"></zofar:questionOpen>
+						</zofar:answerOption>
+					</zofar:unit>
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+			<zofar:section uid="softforce"
+				visible="navigatorBean.isSame() or sf_taa05.value">
+				<zofar:body uid="b">
+					<zofar:multipleChoice uid="soft" >
+						<zofar:header>
+							<zofar:question uid="q" block="true">
+								#{layout.WARNING_START}Für den weiteren Fragebogenverlauf und
+								die Auswertung
+								der Daten ist es wichtig, dass Sie die Frage
+								beantworten.#{layout.WARNING_END}
+							</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd" >
+							<zofar:answerOption variable="sf_taa05" uid="ao1" 
+								label="Ich möchte diese Frage dennoch nicht beantworten."></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+			
+		</zofar:body>
+		<zofar:triggers>
+<!-- 			<zofar:variable variable="taa01" value="ao1" onExit="false" direction="forward" condition="zofar.asNumber(PRELOADcohort)==1 and taa01a.value"/> -->
+<!--             <zofar:variable variable="taa01" value="ao7" onExit="false" direction="forward" condition="zofar.asNumber(PRELOADcohort)==2 and taa01a.value"/> -->
+<!--             <zofar:variable variable="taa02" value="2018" onExit="false" direction="forward" condition="taa01a.value"/> -->
+<!--             <zofar:variable variable="taa03" value="12" onExit="false" direction="forward" condition="taa03a.value"/> -->
+<!--             <zofar:variable variable="taa04" value="2019" onExit="false" direction="forward" condition="taa03a.value"/> -->
+        </zofar:triggers>	
+		<zofar:transitions>
+			<zofar:transition target="taa05"
+				condition="
+					(zofar.isMissing(taa05) and 
+					zofar.isMissing(taa06)) and 
+					(zofar.isMissing(sf_taa05) or !sf_taa05.value)" />
+			<zofar:transition target="taa08" />
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="taa08">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:questionSingleChoice uid="sc">
+				<zofar:header>
+					<zofar:question uid="q" block="true"
+						visible="((zofar.asNumber(taa04) * 100) + zofar.asNumber(taa03)) lt zofar.asNumber(h_exitdatum)
+																	or(zofar.asNumber(taa04)==999999 or zofar.asNumber(taa03)==999999)">
+						Haben Sie in dieser Weiterbildung ein Zertifikat erworben? 
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="(((zofar.asNumber(taa04) * 100) + zofar.asNumber(taa03)) ge zofar.asNumber(h_exitdatum))
+																	and zofar.asNumber(taa04)!=999999 and zofar.asNumber(taa03)!=999999">
+						Haben Sie in dieser Weiterbildung ein Zertifikat erworben
+						oder planen Sie, eines zu erwerben?
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="taa08" uid="rd">
+					<zofar:answerOption uid="ao1" value="1" label="ja"></zofar:answerOption>
+					<zofar:answerOption uid="ao2" value="2" label="nein"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="taa20" />
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="taa20">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:questionSingleChoice uid="sc">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="zofar.asNumber(taa01dropDown)!=999999 and zofar.asNumber(taa02dropDown)!=999999">
+						Haben Sie nach #{zofar.labelOf(taa01)} #{zofar.labelOf(taa02)} noch eine weitere Fort-/Weiterbildung begonnen?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="zofar.asNumber(taa01dropDown)==999999 or zofar.asNumber(taa02dropDown)==999999">
+						Haben Sie seitdem noch eine weitere Fort-/Weiterbildung
+						begonnen?
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="taa20" uid="rd">
+					<zofar:answerOption uid="ao1" value="1" label="ja"></zofar:answerOption>
+					<zofar:answerOption uid="ao2" value="2" label="nein"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+			<zofar:section uid="softforce"
+				visible="navigatorBean.isSame() or sf_taa20.value">
+				<zofar:body uid="b">
+					<zofar:multipleChoice uid="soft">
+						<zofar:header>
+							<zofar:question uid="q" block="true">
+								#{layout.WARNING_START}Für den weiteren Fragebogenverlauf und
+								die Auswertung
+								der Daten ist es wichtig, dass Sie die Frage
+								beantworten.#{layout.WARNING_END}
+							</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_taa20" uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten."></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="taa20"
+				condition="
+					zofar.isMissing(taa20) and 
+					(zofar.isMissing(sf_taa20) or !sf_taa20.value)" />
+			<zofar:transition target="tba01" condition="zofar.asNumber(taa20)==1" />
+			<zofar:transition target="zwischen_t" condition="zofar.asNumber(taa20)==2 
+				or (zofar.isMissing(taa20) and sf_taa20.value)"/>
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="tba01">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:matrixQuestionSingleChoice
+				uid="mmx">
+				<zofar:header>
+					<zofar:question uid="q" block="true"
+						visible="zofar.asNumber(taa01dropDown)!=999999 and zofar.asNumber(taa02dropDown)!=999999">
+						Bitte nennen Sie uns zu Ihrer nächsten
+						Weiterbildung seit #{zofar.labelOf(taa01)}
+						#{zofar.labelOf(taa02)}
+						Beginn- und Endmonat sowie -jahr.
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="zofar.asNumber(taa01dropDown)==999999 and zofar.asNumber(taa02dropDown)==999999">
+						Bitte nennen Sie uns zu Ihrer nächsten Weiterbildung
+						Beginn- und Endmonat sowie –jahr.
+					</zofar:question>
+					<zofar:instruction uid="is">
+					#{layout.BREAK}
+						Wir interessieren uns auch für Tätigkeiten, die vor #{h_enterdatum.value} begonnen haben und zu dem Zeitpunkt noch andauerten. 
+						Machen Sie für diese Tätigkeiten bitte Angaben ab #{h_enterdatum.value}.
+					</zofar:instruction>
+				</zofar:header>
+				<zofar:responseDomain uid="rd">
+					<zofar:item uid="item1">
+						<zofar:header>
+							<zofar:question uid="qi1">#{layout.BOLD_START}von: #{layout.BOLD_END}</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="tba01" uid="rd1"
+							type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999"
+								label="Monat"></zofar:answerOption>
+							<zofar:answerOption uid="ao1" value="1" label="Januar"></zofar:answerOption>
+							<zofar:answerOption uid="ao2" value="2" label="Februar"></zofar:answerOption>
+							<zofar:answerOption uid="ao3" value="3" label="März"></zofar:answerOption>
+							<zofar:answerOption uid="ao4" value="4" label="April"></zofar:answerOption>
+							<zofar:answerOption uid="ao5" value="5" label="Mai"></zofar:answerOption>
+							<zofar:answerOption uid="ao6" value="6" label="Juni"></zofar:answerOption>
+							<zofar:answerOption uid="ao7" value="7" label="Juli"></zofar:answerOption>
+							<zofar:answerOption uid="ao8" value="8" label="August"></zofar:answerOption>
+							<zofar:answerOption uid="ao9" value="9"
+								label="September"></zofar:answerOption>
+							<zofar:answerOption uid="ao10" value="10"
+								label="Oktober"></zofar:answerOption>
+							<zofar:answerOption uid="ao11" value="11"
+								label="November"></zofar:answerOption>
+							<zofar:answerOption uid="ao12" value="12"
+								label="Dezember"></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:item>
+					<zofar:item uid="item2">
+						<zofar:header>
+							<zofar:question uid="qi2"></zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="tba02" uid="rd2"
+							type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+						</zofar:responseDomain>
+					</zofar:item>
+				</zofar:responseDomain>
+			</zofar:matrixQuestionSingleChoice>
+			<zofar:multipleChoice uid="mc1">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd2">
+					<zofar:answerOption variable="tba01a" uid="ao1" label="#{layout.BOLD_START}Beginn vor #{h_enterdatum.value}#{layout.BOLD_END}"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:multipleChoice>
+			<zofar:matrixQuestionSingleChoice
+				uid="mmx2">
+				<zofar:header>
+					<zofar:question uid="q2" block="true"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd3">
+					<zofar:item uid="item3">
+						<zofar:header>
+							<zofar:question uid="qi3">#{layout.BOLD_START}bis: #{layout.BOLD_END}</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="tba03" uid="rd3"
+							type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999"
+								label="Monat"></zofar:answerOption>
+							<zofar:answerOption uid="ao1" value="1" label="Januar"></zofar:answerOption>
+							<zofar:answerOption uid="ao2" value="2" label="Februar"></zofar:answerOption>
+							<zofar:answerOption uid="ao3" value="3" label="März"></zofar:answerOption>
+							<zofar:answerOption uid="ao4" value="4" label="April"></zofar:answerOption>
+							<zofar:answerOption uid="ao5" value="5" label="Mai"></zofar:answerOption>
+							<zofar:answerOption uid="ao6" value="6" label="Juni"></zofar:answerOption>
+							<zofar:answerOption uid="ao7" value="7" label="Juli"></zofar:answerOption>
+							<zofar:answerOption uid="ao8" value="8" label="August"></zofar:answerOption>
+							<zofar:answerOption uid="ao9" value="9"
+								label="September"></zofar:answerOption>
+							<zofar:answerOption uid="ao10" value="10"
+								label="Oktober"></zofar:answerOption>
+							<zofar:answerOption uid="ao11" value="11"
+								label="November"></zofar:answerOption>
+							<zofar:answerOption uid="ao12" value="12"
+								label="Dezember"></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:item>
+					<zofar:item uid="item4">
+						<zofar:header>
+							<zofar:question uid="qi4"></zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="tba04" uid="rd4"
+							type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+						</zofar:responseDomain>
+					</zofar:item>
+				</zofar:responseDomain>
+			</zofar:matrixQuestionSingleChoice>
+			<zofar:multipleChoice uid="mc2">
+				<zofar:header>
+					<zofar:question uid="q3" block="true"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd4">
+					<zofar:answerOption variable="tba03a" uid="ao1"
+						label="#{layout.BOLD_START}dauert noch an#{layout.BOLD_END}"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:multipleChoice>
+			<zofar:section uid="softforce"
+				visible="navigatorBean.isSame() or sf_tba01.value">
+				<zofar:body uid="b">
+					<zofar:multipleChoice uid="soft">
+						<zofar:header>
+							<zofar:question uid="q" block="true">
+								#{layout.WARNING_START}Für den weiteren Fragebogenverlauf und
+								die Auswertung
+								der Daten ist es wichtig, dass Sie die Frage
+								beantworten.#{layout.WARNING_END}
+							</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_tba01" uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten."></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="tba01" 
+				condition="            (
+							            (
+							            	(
+							            	zofar.asNumber(tba01dropDown)==999999 or zofar.asNumber(tba02dropDown)==999999
+							            	) 
+							            	and !tba01a.value
+							            	)
+							            or
+							            (
+							            	(
+							            	zofar.asNumber(tba03dropDown)==999999 or zofar.asNumber(tba04dropDown)==999999
+							            	) 
+							            	and !tba03a.value)
+							           )
+							           and
+							           (
+							           !sf_tba01.value or zofar.isMissing(sf_tba01)
+							           )
+							           "/>
+ 			<zofar:transition target="tba05" />
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="tba05">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:questionSingleChoice uid="sc">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="((zofar.asNumber(tba04) * 100) + zofar.asNumber(tba03)) lt zofar.asNumber(h_exitdatum)
+																	or(zofar.asNumber(tba04)==999999 or zofar.asNumber(tba03)==999999)">
+						Was für eine Weiterbildung war das?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="(((zofar.asNumber(tba04) * 100) + zofar.asNumber(tba03)) ge zofar.asNumber(h_exitdatum))
+																	and zofar.asNumber(tba04)!=999999 and zofar.asNumber(tba03)!=999999">
+						Was für eine Weiterbildung war bzw. ist das?
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="tba05" uid="rd">
+					<zofar:unit uid="u1">
+						<zofar:header>
+							<zofar:title uid="t1">
+								Aufstiegsfortbildung
+							</zofar:title>
+						</zofar:header>
+						<zofar:answerOption uid="ao1" value="1"
+							label="Meister(in)"></zofar:answerOption>
+							<zofar:answerOption uid="ao2" value="2"
+							label="Techniker(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao3" value="3"
+							label="Fachwirt(in), Betriebswirt(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao4" value="4"
+							label="Fachkaufmann/-frau"></zofar:answerOption>
+					</zofar:unit>
+					<zofar:unit uid="u2">
+						<zofar:header>
+							<zofar:title uid="t2">
+								berufsqualifizierende Weiterbildung
+							</zofar:title>
+						</zofar:header>
+						<zofar:answerOption uid="ao5" value="5"
+							label="Facharzt/-ärztin"></zofar:answerOption>
+						<zofar:answerOption uid="ao6" value="6"
+							label="Fachapotheker(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao7" value="7"
+							label="Fachanwalt/-anwältin, Patentanwalt/-anwältin"></zofar:answerOption>
+						<zofar:answerOption uid="ao8" value="8" label="Notar(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao9" value="9"
+							label="psychologische(r) Psychotherapeut(in), Kinder- und
+																	  Jugendpsychotherapeut(in), Fachpsychologe/-psychologin"></zofar:answerOption>
+						<zofar:answerOption uid="ao10" value="10"
+							label="Steuerberater(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao11" value="11"
+							label="Wirtschaftsprüfer(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao12" value="12"
+							label="Fachingenieur(in)"></zofar:answerOption>
+					</zofar:unit>
+					<zofar:unit uid="u3">
+						<zofar:header>
+							<zofar:title uid="t3">
+								Sonstiges
+							</zofar:title>
+						</zofar:header>
+						<zofar:answerOption uid="ao13" value="13"
+							label="Kurse zum Erwerb anerkannter Lizenzen 
+						(z. B. Schweißer(innen)-, Taxifahrer(innen)-, Gabelstaplerschein oder Netzwerkadministrator(in))"></zofar:answerOption>
+						<zofar:answerOption uid="ao14" value="14"
+							label="sonstige Weiterbildung, und zwar ">
+							<zofar:questionOpen variable="tba06" uid="qo" size="60"></zofar:questionOpen>
+						</zofar:answerOption>
+					</zofar:unit>
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+			<zofar:section uid="softforce"
+				visible="navigatorBean.isSame() or sf_tba05.value">
+				<zofar:body uid="b">
+					<zofar:multipleChoice uid="soft">
+						<zofar:header>
+							<zofar:question uid="q" block="true">
+								#{layout.WARNING_START}Für den weiteren Fragebogenverlauf und
+								die Auswertung
+								der Daten ist es wichtig, dass Sie die Frage
+								beantworten.#{layout.WARNING_END}
+							</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_tba05" uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten."></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+<!-- 		<zofar:triggers> -->
+<!-- 			<zofar:variable variable="tba01" value="1" label="Januar" onExit="false" direction="forward" condition="zofar.asNumber(PRELOADcohort)==1 and tba01a.value"/> -->
+<!--             <zofar:variable variable="tba01" value="7" label="Juli" onExit="false" direction="forward" condition="zofar.asNumber(PRELOADcohort)==2 and tba01a.value"/> -->
+<!--             <zofar:variable variable="tba02" value="2018" onExit="false" direction="forward" condition="tba01a.value"/> -->
+<!--             <zofar:variable variable="tba03" value="12" label="Dezember" onExit="false" direction="forward" condition="tba03a.value"/> -->
+<!--             <zofar:variable variable="tba04" value="2019" onExit="false" direction="forward" condition="tba03a.value"/> -->
+<!--         </zofar:triggers>	 -->
+		<zofar:transitions>
+			<zofar:transition target="tba05"
+				condition="
+					(zofar.isMissing(tba05) and 
+					zofar.isMissing(tba06)) and 
+					(zofar.isMissing(sf_tba05) or !sf_tba05.value)" />
+			<zofar:transition target="tba08" />
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="tba08">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:questionSingleChoice uid="sc">
+				<zofar:header>
+					<zofar:question uid="q" block="true"
+						visible="((zofar.asNumber(tba04) * 100) + zofar.asNumber(tba03)) lt zofar.asNumber(h_exitdatum)
+																	or(zofar.asNumber(tba04)==999999 or zofar.asNumber(tba03)==999999)">
+						Haben Sie in dieser Weiterbildung ein Zertifikat erworben?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="(((zofar.asNumber(tba04) * 100) + zofar.asNumber(tba03)) ge zofar.asNumber(h_exitdatum))
+																	and zofar.asNumber(tba04)!=999999 and zofar.asNumber(tba03)!=999999">
+						Haben Sie in dieser Weiterbildung ein Zertifikat erworben
+						oder planen Sie, eines zu erwerben?
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="tba08" uid="rd">
+					<zofar:answerOption uid="ao1" value="1" label="ja"></zofar:answerOption>
+					<zofar:answerOption uid="ao2" value="2" label="nein"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="tba20" />
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="tba20">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:questionSingleChoice uid="sc">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="zofar.asNumber(tba01dropDown)!=999999 and zofar.asNumber(tba02dropDown)!=999999">
+						Haben Sie nach #{zofar.labelOf(tba01)} #{zofar.labelOf(tba02)} noch eine weitere Fort-/Weiterbildung begonnen?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="zofar.asNumber(tba01dropDown)==999999 or zofar.asNumber(tba02dropDown)==999999">
+						Haben Sie seitdem noch eine weitere Fort-/Weiterbildung
+						begonnen?
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="tba20" uid="rd">
+					<zofar:answerOption uid="ao1" value="1" label="ja"></zofar:answerOption>
+					<zofar:answerOption uid="ao2" value="2" label="nein"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+			<zofar:section uid="softforce"
+				visible="navigatorBean.isSame() or sf_tba20.value">
+				<zofar:body uid="b">
+					<zofar:multipleChoice uid="soft">
+						<zofar:header>
+							<zofar:question uid="q" block="true">
+								#{layout.WARNING_START}Für den weiteren Fragebogenverlauf und
+								die Auswertung
+								der Daten ist es wichtig, dass Sie die Frage
+								beantworten.#{layout.WARNING_END}
+							</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_tba20" uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten."></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="tba20"
+				condition="
+					zofar.isMissing(tba20) and 
+					(zofar.isMissing(sf_tba20) or !sf_tba20.value)" />
+			<zofar:transition target="tca01" condition="zofar.asNumber(tba20)==1" />
+			<zofar:transition target="zwischen_t" condition="zofar.asNumber(tba20)==2 
+				or (zofar.isMissing(tba20) and sf_tba20.value)"/>
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="tca01">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:matrixQuestionSingleChoice
+				uid="mmx">
+				<zofar:header>
+					<zofar:question uid="q" block="true"
+						visible="zofar.asNumber(tba01dropDown)!=999999 and zofar.asNumber(tba02dropDown)!=999999">
+						Bitte nennen Sie uns zu Ihrer nächsten
+						Weiterbildung seit #{zofar.labelOf(tba01)}
+						#{zofar.labelOf(tba02)}
+						Beginn- und Endmonat sowie -jahr.
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="zofar.asNumber(tba01dropDown)==999999 and zofar.asNumber(tba02dropDown)==999999">
+						Bitte nennen Sie uns zu Ihrer nächsten Weiterbildung
+						Beginn- und Endmonat sowie –jahr.
+					</zofar:question>
+					<zofar:instruction uid="is">
+					#{layout.BREAK}
+						Wir interessieren uns auch für Tätigkeiten, die vor #{h_enterdatum.value} begonnen haben und zu dem Zeitpunkt noch andauerten. 
+						Machen Sie für diese Tätigkeiten bitte Angaben ab #{h_enterdatum.value}.
+					</zofar:instruction>
+				</zofar:header>
+				<zofar:responseDomain uid="rd">
+					<zofar:item uid="item1">
+						<zofar:header>
+							<zofar:question uid="qi1">#{layout.BOLD_START}von: #{layout.BOLD_END}</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="tca01" uid="rd1"
+							type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999"
+								label="Monat"></zofar:answerOption>
+							<zofar:answerOption uid="ao1" value="1" label="Januar"></zofar:answerOption>
+							<zofar:answerOption uid="ao2" value="2" label="Februar"></zofar:answerOption>
+							<zofar:answerOption uid="ao3" value="3" label="März"></zofar:answerOption>
+							<zofar:answerOption uid="ao4" value="4" label="April"></zofar:answerOption>
+							<zofar:answerOption uid="ao5" value="5" label="Mai"></zofar:answerOption>
+							<zofar:answerOption uid="ao6" value="6" label="Juni"></zofar:answerOption>
+							<zofar:answerOption uid="ao7" value="7" label="Juli"></zofar:answerOption>
+							<zofar:answerOption uid="ao8" value="8" label="August"></zofar:answerOption>
+							<zofar:answerOption uid="ao9" value="9"
+								label="September"></zofar:answerOption>
+							<zofar:answerOption uid="ao10" value="10"
+								label="Oktober"></zofar:answerOption>
+							<zofar:answerOption uid="ao11" value="11"
+								label="November"></zofar:answerOption>
+							<zofar:answerOption uid="ao12" value="12"
+								label="Dezember"></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:item>
+					<zofar:item uid="item2">
+						<zofar:header>
+							<zofar:question uid="qi2"></zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="tca02" uid="rd2"
+							type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+						</zofar:responseDomain>
+					</zofar:item>
+				</zofar:responseDomain>
+			</zofar:matrixQuestionSingleChoice>
+			<zofar:multipleChoice uid="mc1">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd2">
+					<zofar:answerOption variable="tca01a" uid="ao1"
+						label="#{layout.BOLD_START}Beginn vor #{h_enterdatum.value}#{layout.BOLD_END}"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:multipleChoice>
+			<zofar:matrixQuestionSingleChoice
+				uid="mmx2">
+				<zofar:header>
+					<zofar:question uid="q2" block="true"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd3">
+					<zofar:item uid="item3">
+						<zofar:header>
+							<zofar:question uid="qi3">#{layout.BOLD_START}bis: #{layout.BOLD_END}</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="tca03" uid="rd3"
+							type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999"
+								label="Monat"></zofar:answerOption>
+							<zofar:answerOption uid="ao1" value="1" label="Januar"></zofar:answerOption>
+							<zofar:answerOption uid="ao2" value="2" label="Februar"></zofar:answerOption>
+							<zofar:answerOption uid="ao3" value="3" label="März"></zofar:answerOption>
+							<zofar:answerOption uid="ao4" value="4" label="April"></zofar:answerOption>
+							<zofar:answerOption uid="ao5" value="5" label="Mai"></zofar:answerOption>
+							<zofar:answerOption uid="ao6" value="6" label="Juni"></zofar:answerOption>
+							<zofar:answerOption uid="ao7" value="7" label="Juli"></zofar:answerOption>
+							<zofar:answerOption uid="ao8" value="8" label="August"></zofar:answerOption>
+							<zofar:answerOption uid="ao9" value="9"
+								label="September"></zofar:answerOption>
+							<zofar:answerOption uid="ao10" value="10"
+								label="Oktober"></zofar:answerOption>
+							<zofar:answerOption uid="ao11" value="11"
+								label="November"></zofar:answerOption>
+							<zofar:answerOption uid="ao12" value="12"
+								label="Dezember"></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:item>
+					<zofar:item uid="item4">
+						<zofar:header>
+							<zofar:question uid="qi4"></zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="tca04" uid="rd4"
+							type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+						</zofar:responseDomain>
+					</zofar:item>
+				</zofar:responseDomain>
+			</zofar:matrixQuestionSingleChoice>
+			<zofar:multipleChoice uid="mc2">
+				<zofar:header>
+					<zofar:question uid="q3" block="true"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd4">
+					<zofar:answerOption variable="tca03a" uid="ao1"
+						label="#{layout.BOLD_START}dauert noch an#{layout.BOLD_END}"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:multipleChoice>
+			<zofar:section uid="softforce"
+				visible="navigatorBean.isSame() or sf_tca01.value">
+				<zofar:body uid="b">
+					<zofar:multipleChoice uid="soft">
+						<zofar:header>
+							<zofar:question uid="q" block="true">
+								#{layout.WARNING_START}Für den weiteren Fragebogenverlauf und
+								die Auswertung
+								der Daten ist es wichtig, dass Sie die Frage
+								beantworten.#{layout.WARNING_END}
+							</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_tca01" uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten."></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="tca01" 
+				condition="            (
+							            (
+							            	(
+							            	zofar.asNumber(tca01dropDown)==999999 or zofar.asNumber(tca02dropDown)==999999
+							            	) 
+							            	and !tca01a.value
+							            	)
+							            or
+							            (
+							            	(
+							            	zofar.asNumber(tca03dropDown)==999999 or zofar.asNumber(tca04dropDown)==999999
+							            	) 
+							            	and !tca03a.value)
+							           )
+							           and
+							           (
+							           !sf_tca01.value or zofar.isMissing(sf_tca01)
+							           )
+							           "/>
+ 			<zofar:transition target="tca05" />
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="tca05">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:questionSingleChoice uid="sc">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="((zofar.asNumber(tca04) * 100) + zofar.asNumber(tca03)) lt zofar.asNumber(h_exitdatum)
+																	or(zofar.asNumber(tca04)==999999 or zofar.asNumber(tca03)==999999)">
+						Was für eine Weiterbildung war das?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="(((zofar.asNumber(tca04) * 100) + zofar.asNumber(tca03)) ge zofar.asNumber(h_exitdatum))
+																	and zofar.asNumber(tca04)!=999999 and zofar.asNumber(tca03)!=999999">
+						Was für eine Weiterbildung war bzw. ist das?
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="tca05" uid="rd">
+					<zofar:unit uid="u1">
+						<zofar:header>
+							<zofar:title uid="t1">
+								Aufstiegsfortbildung
+							</zofar:title>
+						</zofar:header>
+						<zofar:answerOption uid="ao1" value="1"
+							label="Meister(in)"></zofar:answerOption>
+							<zofar:answerOption uid="ao2" value="2"
+							label="Techniker(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao3" value="3"
+							label="Fachwirt(in), Betriebswirt(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao4" value="4"
+							label="Fachkaufmann/-frau"></zofar:answerOption>
+					</zofar:unit>
+					<zofar:unit uid="u2">
+						<zofar:header>
+							<zofar:title uid="t2">
+								berufsqualifizierende Weiterbildung
+							</zofar:title>
+						</zofar:header>
+						<zofar:answerOption uid="ao5" value="5"
+							label="Facharzt/-ärztin"></zofar:answerOption>
+						<zofar:answerOption uid="ao6" value="6"
+							label="Fachapotheker(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao7" value="7"
+							label="Fachanwalt/-anwältin, Patentanwalt/-anwältin"></zofar:answerOption>
+						<zofar:answerOption uid="ao8" value="8" label="Notar(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao9" value="9"
+							label="psychologische(r) Psychotherapeut(in), Kinder- und
+																	  Jugendpsychotherapeut(in), Fachpsychologe/-psychologin"></zofar:answerOption>
+						<zofar:answerOption uid="ao10" value="10"
+							label="Steuerberater(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao11" value="11"
+							label="Wirtschaftsprüfer(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao12" value="12"
+							label="Fachingenieur(in)"></zofar:answerOption>
+					</zofar:unit>
+					<zofar:unit uid="u3">
+						<zofar:header>
+							<zofar:title uid="t3">
+								Sonstiges
+							</zofar:title>
+						</zofar:header>
+						<zofar:answerOption uid="ao13" value="13"
+							label="Kurse zum Erwerb anerkannter Lizenzen 
+						(z. B. Schweißer(innen)-, Taxifahrer(innen)-, Gabelstaplerschein oder Netzwerkadministrator(in))"></zofar:answerOption>
+						<zofar:answerOption uid="ao14" value="14"
+							label="sonstige Weiterbildung, und zwar ">
+							<zofar:questionOpen variable="tca06" uid="qo" size="60"></zofar:questionOpen>
+						</zofar:answerOption>
+					</zofar:unit>
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+			<zofar:section uid="softforce"
+				visible="navigatorBean.isSame() or sf_tca05.value">
+				<zofar:body uid="b">
+					<zofar:multipleChoice uid="soft">
+						<zofar:header>
+							<zofar:question uid="q" block="true">
+								#{layout.WARNING_START}Für den weiteren Fragebogenverlauf und
+								die Auswertung
+								der Daten ist es wichtig, dass Sie die Frage
+								beantworten.#{layout.WARNING_END}
+							</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_tca05" uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten."></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+<!-- 		<zofar:triggers> -->
+<!-- 			<zofar:variable variable="tca01" value="1" label="Januar" onExit="false" direction="forward" condition="zofar.asNumber(PRELOADcohort)==1 and tca01a.value"/> -->
+<!--             <zofar:variable variable="tca01" value="7" label="Juli" onExit="false" direction="forward" condition="zofar.asNumber(PRELOADcohort)==2 and tca01a.value"/> -->
+<!--             <zofar:variable variable="tca02" value="2018" onExit="false" direction="forward" condition="tca01a.value"/> -->
+<!--             <zofar:variable variable="tca03" value="12" label="Dezember" onExit="false" direction="forward" condition="tca03a.value"/> -->
+<!--             <zofar:variable variable="tca04" value="2019" onExit="false" direction="forward" condition="tca03a.value"/> -->
+<!--         </zofar:triggers> -->
+		<zofar:transitions>
+			<zofar:transition target="tca05"
+				condition="
+					(zofar.isMissing(tca05) and 
+					zofar.isMissing(tca06)) and 
+					(zofar.isMissing(sf_tca05) or !sf_tca05.value)" />
+			<zofar:transition target="tca08" />
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="tca08">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:questionSingleChoice uid="sc">
+				<zofar:header>
+					<zofar:question uid="q" block="true"
+						visible="((zofar.asNumber(tca04) * 100) + zofar.asNumber(tca03)) lt zofar.asNumber(h_exitdatum)
+																	or(zofar.asNumber(tca04)==999999 or zofar.asNumber(tca03)==999999)">
+						Haben Sie in dieser Weiterbildung ein Zertifikat erworben?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="(((zofar.asNumber(tca04) * 100) + zofar.asNumber(tca03)) ge zofar.asNumber(h_exitdatum))
+																	and zofar.asNumber(tca04)!=999999 and zofar.asNumber(tca03)!=999999">
+						Haben Sie in dieser Weiterbildung ein Zertifikat erworben
+						oder planen Sie, eines zu erwerben?
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="tca08" uid="rd">
+					<zofar:answerOption uid="ao1" value="1" label="ja"></zofar:answerOption>
+					<zofar:answerOption uid="ao2" value="2" label="nein"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="tca20" />
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="tca20">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:questionSingleChoice uid="sc">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="zofar.asNumber(tca01dropDown)!=999999 and zofar.asNumber(tca02dropDown)!=999999">
+						Haben Sie nach #{zofar.labelOf(tca01)} #{zofar.labelOf(tca02)} noch eine weitere Fort-/Weiterbildung begonnen?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="zofar.asNumber(tca01dropDown)==999999 or zofar.asNumber(tca02dropDown)==999999">
+						Haben Sie seitdem noch eine weitere Fort-/Weiterbildung
+						begonnen?
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="tca20" uid="rd">
+					<zofar:answerOption uid="ao1" value="1" label="ja"></zofar:answerOption>
+					<zofar:answerOption uid="ao2" value="2" label="nein"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+			<zofar:section uid="softforce"
+				visible="navigatorBean.isSame() or sf_tca20.value">
+				<zofar:body uid="b">
+					<zofar:multipleChoice uid="soft">
+						<zofar:header>
+							<zofar:question uid="q" block="true">
+								#{layout.WARNING_START}Für den weiteren Fragebogenverlauf und
+								die Auswertung
+								der Daten ist es wichtig, dass Sie die Frage
+								beantworten.#{layout.WARNING_END}
+							</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_tca20" uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten."></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="tca20"
+				condition="
+					zofar.isMissing(tca20) and 
+					(zofar.isMissing(sf_tca20) or !sf_tca20.value)" />
+			<zofar:transition target="tda01" condition="zofar.asNumber(tca20)==1" />
+			<zofar:transition target="zwischen_t" condition="zofar.asNumber(tca20)==2 
+				or (zofar.isMissing(tca20) and sf_tca20.value)"/>
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="tda01">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:matrixQuestionSingleChoice
+				uid="mmx">
+				<zofar:header>
+					<zofar:question uid="q" block="true"
+						visible="zofar.asNumber(tca01dropDown)!=999999 and zofar.asNumber(tca02dropDown)!=999999">
+						Bitte nennen Sie uns zu Ihrer nächsten
+						Weiterbildung seit #{zofar.labelOf(tca01)}
+						#{zofar.labelOf(tca02)}
+						Beginn- und Endmonat sowie -jahr.
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="zofar.asNumber(tca01dropDown)==999999 and zofar.asNumber(tca02dropDown)==999999">
+						Bitte nennen Sie uns zu Ihrer nächsten Weiterbildung
+						Beginn- und Endmonat sowie –jahr.
+					</zofar:question>
+					<zofar:instruction uid="is">
+					#{layout.BREAK}
+						Wir interessieren uns auch für Tätigkeiten, die vor #{h_enterdatum.value} begonnen haben und zu dem Zeitpunkt noch andauerten. 
+						Machen Sie für diese Tätigkeiten bitte Angaben ab #{h_enterdatum.value}.
+					</zofar:instruction>
+				</zofar:header>
+				<zofar:responseDomain uid="rd">
+					<zofar:item uid="item1">
+						<zofar:header>
+							<zofar:question uid="qi1">#{layout.BOLD_START}von: #{layout.BOLD_END}</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="tda01" uid="rd1"
+							type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999"
+								label="Monat"></zofar:answerOption>
+							<zofar:answerOption uid="ao1" value="1" label="Januar"></zofar:answerOption>
+							<zofar:answerOption uid="ao2" value="2" label="Februar"></zofar:answerOption>
+							<zofar:answerOption uid="ao3" value="3" label="März"></zofar:answerOption>
+							<zofar:answerOption uid="ao4" value="4" label="April"></zofar:answerOption>
+							<zofar:answerOption uid="ao5" value="5" label="Mai"></zofar:answerOption>
+							<zofar:answerOption uid="ao6" value="6" label="Juni"></zofar:answerOption>
+							<zofar:answerOption uid="ao7" value="7" label="Juli"></zofar:answerOption>
+							<zofar:answerOption uid="ao8" value="8" label="August"></zofar:answerOption>
+							<zofar:answerOption uid="ao9" value="9"
+								label="September"></zofar:answerOption>
+							<zofar:answerOption uid="ao10" value="10"
+								label="Oktober"></zofar:answerOption>
+							<zofar:answerOption uid="ao11" value="11"
+								label="November"></zofar:answerOption>
+							<zofar:answerOption uid="ao12" value="12"
+								label="Dezember"></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:item>
+					<zofar:item uid="item2">
+						<zofar:header>
+							<zofar:question uid="qi2"></zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="tda02" uid="rd2"
+							type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+						</zofar:responseDomain>
+					</zofar:item>
+				</zofar:responseDomain>
+			</zofar:matrixQuestionSingleChoice>
+			<zofar:multipleChoice uid="mc1">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd2">
+					<zofar:answerOption variable="tda01a" uid="ao1"
+						label="#{layout.BOLD_START}Beginn vor #{h_enterdatum.value}#{layout.BOLD_END}"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:multipleChoice>
+			<zofar:matrixQuestionSingleChoice
+				uid="mmx2">
+				<zofar:header>
+					<zofar:question uid="q2" block="true"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd3">
+					<zofar:item uid="item3">
+						<zofar:header>
+							<zofar:question uid="qi3">#{layout.BOLD_START}bis: #{layout.BOLD_END}</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="tda03" uid="rd3"
+							type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999"
+								label="Monat"></zofar:answerOption>
+							<zofar:answerOption uid="ao1" value="1" label="Januar"></zofar:answerOption>
+							<zofar:answerOption uid="ao2" value="2" label="Februar"></zofar:answerOption>
+							<zofar:answerOption uid="ao3" value="3" label="März"></zofar:answerOption>
+							<zofar:answerOption uid="ao4" value="4" label="April"></zofar:answerOption>
+							<zofar:answerOption uid="ao5" value="5" label="Mai"></zofar:answerOption>
+							<zofar:answerOption uid="ao6" value="6" label="Juni"></zofar:answerOption>
+							<zofar:answerOption uid="ao7" value="7" label="Juli"></zofar:answerOption>
+							<zofar:answerOption uid="ao8" value="8" label="August"></zofar:answerOption>
+							<zofar:answerOption uid="ao9" value="9"
+								label="September"></zofar:answerOption>
+							<zofar:answerOption uid="ao10" value="10"
+								label="Oktober"></zofar:answerOption>
+							<zofar:answerOption uid="ao11" value="11"
+								label="November"></zofar:answerOption>
+							<zofar:answerOption uid="ao12" value="12"
+								label="Dezember"></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:item>
+					<zofar:item uid="item4">
+						<zofar:header>
+							<zofar:question uid="qi4"></zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="tda04" uid="rd4"
+							type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+						</zofar:responseDomain>
+					</zofar:item>
+				</zofar:responseDomain>
+			</zofar:matrixQuestionSingleChoice>
+			<zofar:multipleChoice uid="mc2">
+				<zofar:header>
+					<zofar:question uid="q3" block="true"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd4">
+					<zofar:answerOption variable="tda03a" uid="ao1"
+						label="#{layout.BOLD_START}dauert noch an#{layout.BOLD_END}"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:multipleChoice>
+			<zofar:section uid="softforce"
+				visible="navigatorBean.isSame() or sf_tda01.value">
+				<zofar:body uid="b">
+					<zofar:multipleChoice uid="soft">
+						<zofar:header>
+							<zofar:question uid="q" block="true">
+								#{layout.WARNING_START}Für den weiteren Fragebogenverlauf und
+								die Auswertung
+								der Daten ist es wichtig, dass Sie die Frage
+								beantworten.#{layout.WARNING_END}
+							</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_tda01" uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten."></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="tda01" 
+				condition="            (
+							            (
+							            	(
+							            	zofar.asNumber(tda01dropDown)==999999 or zofar.asNumber(tda02dropDown)==999999
+							            	) 
+							            	and !tda01a.value
+							            	)
+							            or
+							            (
+							            	(
+							            	zofar.asNumber(tda03dropDown)==999999 or zofar.asNumber(tda04dropDown)==999999
+							            	) 
+							            	and !tda03a.value)
+							           )
+							           and
+							           (
+							           !sf_tda01.value or zofar.isMissing(sf_tda01)
+							           )
+							           "/>
+ 			<zofar:transition target="tda05" />
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="tda05">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:questionSingleChoice uid="sc">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="((zofar.asNumber(tda04) * 100) + zofar.asNumber(tda03)) lt zofar.asNumber(h_exitdatum)
+																	or(zofar.asNumber(tda04)==999999 or zofar.asNumber(tda03)==999999)">
+						Was für eine Weiterbildung war das?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="(((zofar.asNumber(tda04) * 100) + zofar.asNumber(tda03)) ge zofar.asNumber(h_exitdatum))
+																	and zofar.asNumber(tda04)!=999999 and zofar.asNumber(tda03)!=999999">
+						Was für eine Weiterbildung war bzw. ist das?
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="tda05" uid="rd">
+					<zofar:unit uid="u1">
+						<zofar:header>
+							<zofar:title uid="t1">
+								Aufstiegsfortbildung
+							</zofar:title>
+						</zofar:header>
+						<zofar:answerOption uid="ao1" value="1"
+							label="Meister(in)"></zofar:answerOption>
+							<zofar:answerOption uid="ao2" value="2"
+							label="Techniker(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao3" value="3"
+							label="Fachwirt(in), Betriebswirt(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao4" value="4"
+							label="Fachkaufmann/-frau"></zofar:answerOption>
+					</zofar:unit>
+					<zofar:unit uid="u2">
+						<zofar:header>
+							<zofar:title uid="t2">
+								berufsqualifizierende Weiterbildung
+							</zofar:title>
+						</zofar:header>
+						<zofar:answerOption uid="ao5" value="5"
+							label="Facharzt/-ärztin"></zofar:answerOption>
+						<zofar:answerOption uid="ao6" value="6"
+							label="Fachapotheker(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao7" value="7"
+							label="Fachanwalt/-anwältin, Patentanwalt/-anwältin"></zofar:answerOption>
+						<zofar:answerOption uid="ao8" value="8" label="Notar(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao9" value="9"
+							label="psychologische(r) Psychotherapeut(in), Kinder- und
+																	  Jugendpsychotherapeut(in), Fachpsychologe/-psychologin"></zofar:answerOption>
+						<zofar:answerOption uid="ao10" value="10"
+							label="Steuerberater(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao11" value="11"
+							label="Wirtschaftsprüfer(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao12" value="12"
+							label="Fachingenieur(in)"></zofar:answerOption>
+					</zofar:unit>
+					<zofar:unit uid="u3">
+						<zofar:header>
+							<zofar:title uid="t3">
+								Sonstiges
+							</zofar:title>
+						</zofar:header>
+						<zofar:answerOption uid="ao13" value="13"
+							label="Kurse zum Erwerb anerkannter Lizenzen 
+						(z. B. Schweißer(innen)-, Taxifahrer(innen)-, Gabelstaplerschein oder Netzwerkadministrator(in))"></zofar:answerOption>
+						<zofar:answerOption uid="ao14" value="14"
+							label="sonstige Weiterbildung, und zwar ">
+							<zofar:questionOpen variable="tda06" uid="qo" size="60"></zofar:questionOpen>
+						</zofar:answerOption>
+					</zofar:unit>
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+			<zofar:section uid="softforce"
+				visible="navigatorBean.isSame() or sf_tda05.value">
+				<zofar:body uid="b">
+					<zofar:multipleChoice uid="soft">
+						<zofar:header>
+							<zofar:question uid="q" block="true">
+								#{layout.WARNING_START}Für den weiteren Fragebogenverlauf und
+								die Auswertung
+								der Daten ist es wichtig, dass Sie die Frage
+								beantworten.#{layout.WARNING_END}
+							</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_tda05" uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten."></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+<!-- 		<zofar:triggers> -->
+<!-- 			<zofar:variable variable="tda01" value="1" label="Januar" onExit="false" direction="forward" condition="zofar.asNumber(PRELOADcohort)==1 and tda01a.value"/> -->
+<!--             <zofar:variable variable="tda01" value="7" label="Juli" onExit="false" direction="forward" condition="zofar.asNumber(PRELOADcohort)==2 and tda01a.value"/> -->
+<!--             <zofar:variable variable="tda02" value="2018" onExit="false" direction="forward" condition="tda01a.value"/> -->
+<!--             <zofar:variable variable="tda03" value="12" label="Dezember" onExit="false" direction="forward" condition="tda03a.value"/> -->
+<!--             <zofar:variable variable="tda04" value="2019" onExit="false" direction="forward" condition="tda03a.value"/> -->
+<!--         </zofar:triggers>	 -->
+		<zofar:transitions>
+			<zofar:transition target="tda05"
+				condition="
+					(zofar.isMissing(tda05) and 
+					zofar.isMissing(tda06)) and 
+					(zofar.isMissing(sf_tda05) or !sf_tda05.value)" />
+			<zofar:transition target="tda08" />
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="tda08">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:questionSingleChoice uid="sc">
+				<zofar:header>
+					<zofar:question uid="q" block="true"
+						visible="((zofar.asNumber(tda04) * 100) + zofar.asNumber(tda03)) lt zofar.asNumber(h_exitdatum)
+																	or(zofar.asNumber(tda04)==999999 or zofar.asNumber(tda03)==999999)">
+						Haben Sie in dieser Weiterbildung ein Zertifikat erworben?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="(((zofar.asNumber(tda04) * 100) + zofar.asNumber(tda03)) ge zofar.asNumber(h_exitdatum))
+																	and zofar.asNumber(tda04)!=999999 and zofar.asNumber(tda03)!=999999">
+						Haben Sie in dieser Weiterbildung ein Zertifikat erworben
+						oder planen Sie, eines zu erwerben?
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="tda08" uid="rd">
+					<zofar:answerOption uid="ao1" value="1" label="ja"></zofar:answerOption>
+					<zofar:answerOption uid="ao2" value="2" label="nein"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="tda20" />
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="tda20">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:questionSingleChoice uid="sc">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="zofar.asNumber(tda01dropDown)!=999999 and zofar.asNumber(tda02dropDown)!=999999">
+						Haben Sie nach #{zofar.labelOf(tda01)} #{zofar.labelOf(tda02)} noch eine weitere Fort-/Weiterbildung begonnen?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="zofar.asNumber(tda01dropDown)==999999 or zofar.asNumber(tda02dropDown)==999999">
+						Haben Sie seitdem noch eine weitere Fort-/Weiterbildung
+						begonnen?
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="tda20" uid="rd">
+					<zofar:answerOption uid="ao1" value="1" label="ja"></zofar:answerOption>
+					<zofar:answerOption uid="ao2" value="2" label="nein"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+			<zofar:section uid="softforce"
+				visible="navigatorBean.isSame() or sf_tda20.value">
+				<zofar:body uid="b">
+					<zofar:multipleChoice uid="soft">
+						<zofar:header>
+							<zofar:question uid="q" block="true">
+								#{layout.WARNING_START}Für den weiteren Fragebogenverlauf und
+								die Auswertung
+								der Daten ist es wichtig, dass Sie die Frage
+								beantworten.#{layout.WARNING_END}
+							</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_tda20" uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten."></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="tda20"
+				condition="
+					zofar.isMissing(tda20) and 
+					(zofar.isMissing(sf_tda20) or !sf_tda20.value)" />
+			<zofar:transition target="tea01" condition="zofar.asNumber(tda20)==1" />
+			<zofar:transition target="zwischen_t" condition="zofar.asNumber(tda20)==2 
+				or (zofar.isMissing(tda20) and sf_tda20.value)"/>
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="tea01">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:matrixQuestionSingleChoice
+				uid="mmx">
+				<zofar:header>
+					<zofar:question uid="q" block="true"
+						visible="zofar.asNumber(tda01dropDown)!=999999 and zofar.asNumber(tda02dropDown)!=999999">
+						Bitte nennen Sie uns zu Ihrer nächsten
+						Weiterbildung seit #{zofar.labelOf(tda01)}
+						#{zofar.labelOf(tda02)}
+						Beginn- und Endmonat sowie -jahr.
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="zofar.asNumber(tda01dropDown)==999999 and zofar.asNumber(tda02dropDown)==999999">
+						Bitte nennen Sie uns zu Ihrer nächsten Weiterbildung
+						Beginn- und Endmonat sowie –jahr.
+					</zofar:question>
+					<zofar:instruction uid="is">
+					#{layout.BREAK}
+						Wir interessieren uns auch für Tätigkeiten, die vor #{h_enterdatum.value} begonnen haben und zu dem Zeitpunkt noch andauerten. 
+						Machen Sie für diese Tätigkeiten bitte Angaben ab #{h_enterdatum.value}.
+					</zofar:instruction>
+				</zofar:header>
+				<zofar:responseDomain uid="rd">
+					<zofar:item uid="item1">
+						<zofar:header>
+							<zofar:question uid="qi1">#{layout.BOLD_START}von: #{layout.BOLD_END}</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="tea01" uid="rd1"
+							type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999"
+								label="Monat"></zofar:answerOption>
+							<zofar:answerOption uid="ao1" value="1" label="Januar"></zofar:answerOption>
+							<zofar:answerOption uid="ao2" value="2" label="Februar"></zofar:answerOption>
+							<zofar:answerOption uid="ao3" value="3" label="März"></zofar:answerOption>
+							<zofar:answerOption uid="ao4" value="4" label="April"></zofar:answerOption>
+							<zofar:answerOption uid="ao5" value="5" label="Mai"></zofar:answerOption>
+							<zofar:answerOption uid="ao6" value="6" label="Juni"></zofar:answerOption>
+							<zofar:answerOption uid="ao7" value="7" label="Juli"></zofar:answerOption>
+							<zofar:answerOption uid="ao8" value="8" label="August"></zofar:answerOption>
+							<zofar:answerOption uid="ao9" value="9"
+								label="September"></zofar:answerOption>
+							<zofar:answerOption uid="ao10" value="10"
+								label="Oktober"></zofar:answerOption>
+							<zofar:answerOption uid="ao11" value="11"
+								label="November"></zofar:answerOption>
+							<zofar:answerOption uid="ao12" value="12"
+								label="Dezember"></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:item>
+					<zofar:item uid="item2">
+						<zofar:header>
+							<zofar:question uid="qi2"></zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="tea02" uid="rd2"
+							type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+						</zofar:responseDomain>
+					</zofar:item>
+				</zofar:responseDomain>
+			</zofar:matrixQuestionSingleChoice>
+			<zofar:multipleChoice uid="mc1">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd2">
+					<zofar:answerOption variable="tea01a" uid="ao1"
+						label="#{layout.BOLD_START}Beginn vor #{h_enterdatum.value}#{layout.BOLD_END}"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:multipleChoice>
+			<zofar:matrixQuestionSingleChoice
+				uid="mmx2">
+				<zofar:header>
+					<zofar:question uid="q2" block="true"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd3">
+					<zofar:item uid="item3">
+						<zofar:header>
+							<zofar:question uid="qi3">#{layout.BOLD_START}bis: #{layout.BOLD_END}</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="tea03" uid="rd3"
+							type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999"
+								label="Monat"></zofar:answerOption>
+							<zofar:answerOption uid="ao1" value="1" label="Januar"></zofar:answerOption>
+							<zofar:answerOption uid="ao2" value="2" label="Februar"></zofar:answerOption>
+							<zofar:answerOption uid="ao3" value="3" label="März"></zofar:answerOption>
+							<zofar:answerOption uid="ao4" value="4" label="April"></zofar:answerOption>
+							<zofar:answerOption uid="ao5" value="5" label="Mai"></zofar:answerOption>
+							<zofar:answerOption uid="ao6" value="6" label="Juni"></zofar:answerOption>
+							<zofar:answerOption uid="ao7" value="7" label="Juli"></zofar:answerOption>
+							<zofar:answerOption uid="ao8" value="8" label="August"></zofar:answerOption>
+							<zofar:answerOption uid="ao9" value="9"
+								label="September"></zofar:answerOption>
+							<zofar:answerOption uid="ao10" value="10"
+								label="Oktober"></zofar:answerOption>
+							<zofar:answerOption uid="ao11" value="11"
+								label="November"></zofar:answerOption>
+							<zofar:answerOption uid="ao12" value="12"
+								label="Dezember"></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:item>
+					<zofar:item uid="item4">
+						<zofar:header>
+							<zofar:question uid="qi4"></zofar:question>
+						</zofar:header>
+						<zofar:responseDomain variable="tea04" uid="rd4"
+							type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+                            <zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+						</zofar:responseDomain>
+					</zofar:item>
+				</zofar:responseDomain>
+			</zofar:matrixQuestionSingleChoice>
+			<zofar:multipleChoice uid="mc2">
+				<zofar:header>
+					<zofar:question uid="q3" block="true"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd4">
+					<zofar:answerOption variable="tea03a" uid="ao1"
+						label="#{layout.BOLD_START}dauert noch an#{layout.BOLD_END}"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:multipleChoice>
+			<zofar:section uid="softforce"
+				visible="navigatorBean.isSame() or sf_tea01.value">
+				<zofar:body uid="b">
+					<zofar:multipleChoice uid="soft">
+						<zofar:header>
+							<zofar:question uid="q" block="true">
+								#{layout.WARNING_START}Für den weiteren Fragebogenverlauf und
+								die Auswertung
+								der Daten ist es wichtig, dass Sie die Frage
+								beantworten.#{layout.WARNING_END}
+							</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_tea01" uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten."></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="tea01" 
+				condition="            (
+							            (
+							            	(
+							            	zofar.asNumber(tea01dropDown)==999999 or zofar.asNumber(tea02dropDown)==999999
+							            	) 
+							            	and !tea01a.value
+							            	)
+							            or
+							            (
+							            	(
+							            	zofar.asNumber(tea03dropDown)==999999 or zofar.asNumber(tea04dropDown)==999999
+							            	) 
+							            	and !tea03a.value)
+							           )
+							           and
+							           (
+							           !sf_tea01.value or zofar.isMissing(sf_tea01)
+							           )
+							           "/>
+ 			<zofar:transition target="tea05" />
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="tea05">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:questionSingleChoice uid="sc">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="((zofar.asNumber(tea04) * 100) + zofar.asNumber(tea03)) lt zofar.asNumber(h_exitdatum)
+																	or(zofar.asNumber(tea04)==999999 or zofar.asNumber(tea03)==999999)">
+						Was für eine Weiterbildung war das?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="(((zofar.asNumber(tea04) * 100) + zofar.asNumber(tea03)) ge zofar.asNumber(h_exitdatum))
+																	and zofar.asNumber(tea04)!=999999 and zofar.asNumber(tea03)!=999999">
+						Was für eine Weiterbildung war bzw. ist das?
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="tea05" uid="rd">
+					<zofar:unit uid="u1">
+						<zofar:header>
+							<zofar:title uid="t1">
+								Aufstiegsfortbildung
+							</zofar:title>
+						</zofar:header>
+						<zofar:answerOption uid="ao1" value="1"
+							label="Meister(in)"></zofar:answerOption>
+							<zofar:answerOption uid="ao2" value="2"
+							label="Techniker(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao3" value="3"
+							label="Fachwirt(in), Betriebswirt(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao4" value="4"
+							label="Fachkaufmann/-frau"></zofar:answerOption>
+					</zofar:unit>
+					<zofar:unit uid="u2">
+						<zofar:header>
+							<zofar:title uid="t2">
+								berufsqualifizierende Weiterbildung
+							</zofar:title>
+						</zofar:header>
+						<zofar:answerOption uid="ao5" value="5"
+							label="Facharzt/-ärztin"></zofar:answerOption>
+						<zofar:answerOption uid="ao6" value="6"
+							label="Fachapotheker(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao7" value="7"
+							label="Fachanwalt/-anwältin, Patentanwalt/-anwältin"></zofar:answerOption>
+						<zofar:answerOption uid="ao8" value="8" label="Notar(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao9" value="9"
+							label="psychologische(r) Psychotherapeut(in), Kinder- und
+																	  Jugendpsychotherapeut(in), Fachpsychologe/-psychologin"></zofar:answerOption>
+						<zofar:answerOption uid="ao10" value="10"
+							label="Steuerberater(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao11" value="11"
+							label="Wirtschaftsprüfer(in)"></zofar:answerOption>
+						<zofar:answerOption uid="ao12" value="12"
+							label="Fachingenieur(in)"></zofar:answerOption>
+					</zofar:unit>
+					<zofar:unit uid="u3">
+						<zofar:header>
+							<zofar:title uid="t3">
+								Sonstiges
+							</zofar:title>
+						</zofar:header>
+						<zofar:answerOption uid="ao13" value="13"
+							label="Kurse zum Erwerb anerkannter Lizenzen 
+						(z. B. Schweißer(innen)-, Taxifahrer(innen)-, Gabelstaplerschein oder Netzwerkadministrator(in))"></zofar:answerOption>
+						<zofar:answerOption uid="ao14" value="14"
+							label="sonstige Weiterbildung, und zwar ">
+							<zofar:questionOpen variable="tea06" uid="qo" size="60"></zofar:questionOpen>
+						</zofar:answerOption>
+					</zofar:unit>
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+			<zofar:section uid="softforce"
+				visible="navigatorBean.isSame() or sf_tea05.value">
+				<zofar:body uid="b">
+					<zofar:multipleChoice uid="soft">
+						<zofar:header>
+							<zofar:question uid="q" block="true">
+								#{layout.WARNING_START}Für den weiteren Fragebogenverlauf und
+								die Auswertung
+								der Daten ist es wichtig, dass Sie die Frage
+								beantworten.#{layout.WARNING_END}
+							</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_tea05" uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten."></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+<!-- 		<zofar:triggers> -->
+<!-- 			<zofar:variable variable="tea01" value="1" label="Januar" onExit="false" direction="forward" condition="zofar.asNumber(PRELOADcohort)==1 and tea01a.value"/> -->
+<!--             <zofar:variable variable="tea01" value="7" label="Juli" onExit="false" direction="forward" condition="zofar.asNumber(PRELOADcohort)==2 and tea01a.value"/> -->
+<!--             <zofar:variable variable="tea02" value="2018" onExit="false" direction="forward" condition="tea01a.value"/> -->
+<!--             <zofar:variable variable="tea03" value="12" label="Dezember" onExit="false" direction="forward" condition="tea03a.value"/> -->
+<!--             <zofar:variable variable="tea04" value="2019" onExit="false" direction="forward" condition="tea03a.value"/> -->
+<!--         </zofar:triggers> -->
+		<zofar:transitions>
+			<zofar:transition target="tea05"
+				condition="
+					(zofar.isMissing(tea05) and 
+					zofar.isMissing(tea06)) and 
+					(zofar.isMissing(sf_tea05) or !sf_tea05.value)" />
+			<zofar:transition target="tea08" />
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="tea08">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:questionSingleChoice uid="sc">
+				<zofar:header>
+					<zofar:question uid="q" block="true"
+						visible="((zofar.asNumber(tea04) * 100) + zofar.asNumber(tea03)) lt zofar.asNumber(h_exitdatum)
+																	or(zofar.asNumber(tea04)==999999 or zofar.asNumber(tea03)==999999)">
+						Haben Sie in dieser Weiterbildung ein Zertifikat erworben?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="(((zofar.asNumber(tea04) * 100) + zofar.asNumber(tea03)) ge zofar.asNumber(h_exitdatum))
+																	and zofar.asNumber(tea04)!=999999 and zofar.asNumber(tea03)!=999999">
+						Haben Sie in dieser Weiterbildung ein Zertifikat erworben
+						oder planen Sie, eines zu erwerben?
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="tea08" uid="rd">
+					<zofar:answerOption uid="ao1" value="1" label="ja"></zofar:answerOption>
+					<zofar:answerOption uid="ao2" value="2" label="nein"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="tea20" />
+		</zofar:transitions>
+	</zofar:page>
+
+	<zofar:page uid="tea20">
+		<zofar:header>
+			<zofar:text uid="t4" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START}
+				#{layout.DZHW_GREY_START}Fort- und
+				Weiterbildung#{layout.DZHW_GREY_END} #{layout.HEADLINE_END}
+				#{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="b">
+			<zofar:questionSingleChoice uid="sc">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="zofar.asNumber(tea01dropDown)!=999999 and zofar.asNumber(tea02dropDown)!=999999">
+						Damit die Befragung nicht zu lang wird,  
+						begrenzen wir die Fragen nach weiteren Fort- und Weiterbildungen. #{layout.BREAK} #{layout.BREAK}
+						Bitte geben Sie uns nur noch an, ob Sie nach #{zofar.labelOf(tea01)} #{zofar.labelOf(tea02)} noch eine weitere Fort-/Weiterbildung begonnen haben.
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="zofar.asNumber(tea01dropDown)==999999 or zofar.asNumber(tea02dropDown)==999999">
+						Damit die Befragung nicht zu lang wird,  
+						begrenzen wir die Fragen nach weiteren Fort- und Weiterbildungen. #{layout.BREAK} #{layout.BREAK}
+						Bitte geben Sie uns nur noch an, ob Sie seitdem noch eine weitere Fort-/Weiterbildung
+						begonnen haben.
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="tea20" uid="rd">
+					<zofar:answerOption uid="ao1" value="1" label="ja"></zofar:answerOption>
+					<zofar:answerOption uid="ao2" value="2" label="nein"></zofar:answerOption>
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+			<zofar:section uid="softforce"
+				visible="navigatorBean.isSame() or sf_tea20.value">
+				<zofar:body uid="b">
+					<zofar:multipleChoice uid="soft">
+						<zofar:header>
+							<zofar:question uid="q" block="true">
+								#{layout.WARNING_START}Für den weiteren Fragebogenverlauf und
+								die Auswertung
+								der Daten ist es wichtig, dass Sie die Frage
+								beantworten.#{layout.WARNING_END}
+							</zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_tea20" uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten."></zofar:answerOption>
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="tea20"
+				condition="
+					zofar.isMissing(tea20) and 
+					(zofar.isMissing(sf_tea20) or !sf_tea20.value)" />
+			<zofar:transition target="zwischen_t" 
+				condition="
+					!zofar.isMissing(tea20) 
+					or (zofar.isMissing(tea20) and sf_tea20.value)" />
+		</zofar:transitions>
+	</zofar:page>
+
+<!-- 	<zofar:page uid="end">
+		<zofar:header>
+			<zofar:title uid="t1">Vielen Dank!</zofar:title>
+		</zofar:header>
+	</zofar:page> -->
+</zofar:questionnaire>

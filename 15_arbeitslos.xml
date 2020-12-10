@@ -1,0 +1,1376 @@
+<zofar:questionnaire language="de"
+	xmlns:zofar="http://www.his.de/zofar/xml/questionnaire"
+	xmlns:display="http://www.dzhw.eu/zofar/xml/display"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<zofar:variables xmlns="http://www.his.de/zofar/xml/questionnaire">
+		<zofar:variable name="u0001" type="singleChoiceAnswerOption" />
+		<zofar:variable name="sf_u0001" type="boolean" />
+		<zofar:variable name="flag_u0001" type="string" />
+		<zofar:variable name="uaa01" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uaa02" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uaa01a" type="boolean" />
+		<zofar:variable name="uaa03" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uaa04" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uaa03a" type="boolean" />
+		<zofar:variable name="sf_uaa01" type="boolean" />
+		<zofar:variable name="flag_uaa01" type="string" />
+		<zofar:variable name="uaa05" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uaa06" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uaa20" type="singleChoiceAnswerOption" />
+		<zofar:variable name="sf_uaa20" type="boolean" />
+		<zofar:variable name="flag_uaa20" type="string" />
+		<zofar:variable name="uba01" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uba02" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uba01a" type="boolean" />
+		<zofar:variable name="uba03" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uba04" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uba03a" type="boolean" />
+		<zofar:variable name="sf_uba01" type="boolean" />
+		<zofar:variable name="flag_uba01" type="string" />
+		<zofar:variable name="uba05" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uba06" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uba20" type="singleChoiceAnswerOption" />
+		<zofar:variable name="sf_uba20" type="boolean" />
+		<zofar:variable name="flag_uba20" type="string" />
+		<zofar:variable name="uca01" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uca02" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uca01a" type="boolean" />
+		<zofar:variable name="uca03" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uca04" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uca03a" type="boolean" />
+		<zofar:variable name="sf_uca01" type="boolean" />
+		<zofar:variable name="flag_uca01" type="string" />
+		<zofar:variable name="uca05" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uca06" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uca20" type="singleChoiceAnswerOption" />
+		<zofar:variable name="sf_uca20" type="boolean" />
+		<zofar:variable name="flag_uca20" type="string" />
+		<zofar:variable name="uda01" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uda02" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uda01a" type="boolean" />
+		<zofar:variable name="uda03" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uda04" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uda03a" type="boolean" />
+		<zofar:variable name="sf_uda01" type="boolean" />
+		<zofar:variable name="flag_uda01" type="string" />
+		<zofar:variable name="uda05" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uda06" type="singleChoiceAnswerOption" />
+		<zofar:variable name="uea20" type="singleChoiceAnswerOption" />
+	</zofar:variables>
+	<zofar:page uid="u0001" customLayout="false">
+		<zofar:header>
+			<zofar:text uid="txt" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Arbeitslosigkeit
+				#{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="body">
+			<zofar:questionSingleChoice uid="qsc1">
+				<zofar:header>
+					<zofar:question uid="q" block="true">Waren Sie seit
+						#{zofar.valueOf(h_enterdatum)} arbeitslos?</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="u0001" uid="rd">
+					<zofar:answerOption uid="ao1" value="1"
+						label="ja" />
+					<zofar:answerOption uid="ao2" value="2"
+						label="nein" />
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+			<zofar:section uid="sw"
+				visible="navigatorBean.isSame() or zofar.isBooleanSet('flag_u0001',sessionController.participant)">
+				<zofar:header />
+				<zofar:body uid="bb">
+					<zofar:multipleChoice uid="mcsf">
+						<zofar:header>
+							<zofar:introduction uid="intro1">#{layout.WARNING_START}
+								Für den weiteren Fragebogenverlauf und
+								die Auswertung der Daten
+								ist es wichtig, dass Sie die Frage
+								beantworten.
+								#{layout.WARNING_END}
+							</zofar:introduction>
+							<zofar:question uid="q1"></zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_u0001"
+								uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten." />
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="uaa01"
+				condition="zofar.asNumber(u0001)==1" />
+			<zofar:transition target="zwischen_u"
+				condition="zofar.asNumber(u0001)==2" />
+			<zofar:transition target="zwischen_u"
+				condition="zofar.isMissing(u0001) and sf_u0001.value" />
+			<zofar:transition target="u0001" />
+		</zofar:transitions>
+		<zofar:triggers>
+			<zofar:variable variable="flag_u0001" value="true"
+				direction="same" onExit="false" />
+		</zofar:triggers>
+		<zofar:side xsi:nil="true" />
+		<zofar:researchdata xsi:nil="true" />
+		<zofar:breadcrumb xsi:nil="true" />
+	</zofar:page>
+	<zofar:page uid="uaa01" customLayout="false">
+		<zofar:header>
+			<zofar:text uid="txt" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Arbeitslosigkeit
+				#{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="body">
+			<zofar:matrixQuestionSingleChoice
+				uid="mqsc1">
+				<zofar:header>
+					<zofar:introduction uid="intro1" block="true"
+						visible="zofar.asNumber(h_alo)==1">Sie haben angegeben, seit #{zofar.valueOf(h_enterdatum)}
+						mindestens einmal arbeitslos gewesen zu sein.</zofar:introduction>
+					<zofar:question uid="q1" block="true">Wann waren Sie
+						erstmals seit #{zofar.valueOf(h_enterdatum)} arbeitslos?
+					</zofar:question>
+					<zofar:instruction uid="is" block="true">
+                    	#{layout.BREAK}Wir interessieren uns auch für Tätigkeiten, die vor #{h_enterdatum.value} begonnen haben und zu dem Zeitpunkt noch andauerten. Machen Sie für diese Tätigkeiten bitte Angaben ab #{h_enterdatum.value}.
+                    </zofar:instruction>
+				</zofar:header>
+                <zofar:responseDomain noResponseOptions="1" uid="rd">
+                    <zofar:header>
+                        <zofar:title uid="t1"/>
+                    </zofar:header>
+                    <zofar:item uid="i1">
+                        <zofar:header>
+                            <zofar:question uid="qi1" block="true">#{layout.BOLD_START}von: #{layout.BOLD_END}</zofar:question>
+                        </zofar:header>
+                        <zofar:responseDomain variable="uaa01" uid="rd1" type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" label="Monat"/>
+                            <zofar:answerOption uid="ao1" value="1" label="Januar"/>
+                            <zofar:answerOption uid="ao2" value="2" label="Februar"/>
+                            <zofar:answerOption uid="ao3" value="3" label="März"/>
+                            <zofar:answerOption uid="ao4" value="4" label="April"/>
+                            <zofar:answerOption uid="ao5" value="5" label="Mai"/>
+                            <zofar:answerOption uid="ao6" value="6" label="Juni"/>
+                            <zofar:answerOption uid="ao7" value="7" label="Juli"/>
+                            <zofar:answerOption uid="ao8" value="8" label="August"/>
+                            <zofar:answerOption uid="ao9" value="9" label="September"/>
+                            <zofar:answerOption uid="ao10" value="10" label="Oktober"/>
+                            <zofar:answerOption uid="ao11" value="11" label="November"/>
+                            <zofar:answerOption uid="ao12" value="12" label="Dezember"/>
+                        </zofar:responseDomain>
+                    </zofar:item>
+                    <zofar:item uid="i2">
+                        <zofar:header>
+                            <zofar:question uid="qi2"/>
+                        </zofar:header>
+                        <zofar:responseDomain variable="uaa02" uid="rd2" type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+                        </zofar:responseDomain>
+                    </zofar:item>
+                </zofar:responseDomain>
+            </zofar:matrixQuestionSingleChoice>
+            <zofar:multipleChoice uid="mc1">
+                <zofar:header>
+                    <zofar:question uid="q1"/>
+                </zofar:header>
+                <zofar:responseDomain uid="rd3">
+                    <zofar:answerOption variable="uaa01a" uid="ao1" label="#{layout.BOLD_START}Beginn vor #{h_enterdatum.value}#{layout.BOLD_END}"/>
+                </zofar:responseDomain>
+            </zofar:multipleChoice>
+            <zofar:matrixQuestionSingleChoice uid="msc2">
+                <zofar:header>
+                    <zofar:question uid="q3" block="true"/>
+                </zofar:header>
+                <zofar:responseDomain noResponseOptions="1" uid="rd4">
+                    <zofar:header>
+                        <zofar:title uid="t2"/>
+                    </zofar:header>
+                    <zofar:item uid="i3">
+                        <zofar:header>
+                            <zofar:question uid="qi3">#{layout.BOLD_START}bis: #{layout.BOLD_END}</zofar:question>
+                        </zofar:header>
+                        <zofar:responseDomain variable="uaa03" uid="rd5" type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" label="Monat"/>
+                            <zofar:answerOption uid="ao1" value="1" label="Januar"/>
+                            <zofar:answerOption uid="ao2" value="2" label="Februar"/>
+                            <zofar:answerOption uid="ao3" value="3" label="März"/>
+                            <zofar:answerOption uid="ao4" value="4" label="April"/>
+                            <zofar:answerOption uid="ao5" value="5" label="Mai"/>
+                            <zofar:answerOption uid="ao6" value="6" label="Juni"/>
+                            <zofar:answerOption uid="ao7" value="7" label="Juli"/>
+                            <zofar:answerOption uid="ao8" value="8" label="August"/>
+                            <zofar:answerOption uid="ao9" value="9" label="September"/>
+                            <zofar:answerOption uid="ao10" value="10" label="Oktober"/>
+                            <zofar:answerOption uid="ao11" value="11" label="November"/>
+                            <zofar:answerOption uid="ao12" value="12" label="Dezember"/>
+                        </zofar:responseDomain>
+                    </zofar:item>
+                    <zofar:item uid="i4">
+                        <zofar:header>
+                            <zofar:question uid="qi4"/>
+                        </zofar:header>
+                        <zofar:responseDomain variable="uaa04" uid="rd6" type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+                        </zofar:responseDomain>
+                    </zofar:item>
+                </zofar:responseDomain>
+            </zofar:matrixQuestionSingleChoice>
+            <zofar:multipleChoice uid="mc2">
+                <zofar:header>
+                    <zofar:question uid="q4"/>
+                </zofar:header>
+                <zofar:responseDomain uid="rd7">
+                    <zofar:answerOption variable="uaa03a" uid="ao1" label="#{layout.BOLD_START}dauert noch an#{layout.BOLD_END}"/>
+                </zofar:responseDomain>
+            </zofar:multipleChoice>
+			<zofar:section uid="sw1" visible="flag_uaa01.value">
+				<zofar:header>
+					<zofar:text uid="t">#{layout.WARNING_START}
+						Bitte überprüfen Sie Ihre Eingabe. Sie haben ein Datum eingegeben, das
+						in der Zukunft liegt.
+						#{layout.WARNING_END}
+					</zofar:text>
+				</zofar:header>
+				<zofar:body uid="bb" />
+			</zofar:section>
+			<zofar:multipleChoice uid="mcsf"
+				visible="(navigatorBean.isSame()               and               (              ((zofar.asNumber(uaa01dropDown)==999999 or zofar.asNumber(uaa02dropDown)==999999) and !uaa01a.value)              or               ((zofar.asNumber(uaa03dropDown)==999999 or zofar.asNumber(uaa04dropDown)==999999) and !uaa03a.value)              ))              or               sf_uaa01.value">
+				<zofar:header>
+					<zofar:introduction uid="intro1">#{layout.WARNING_START}
+						Für den weiteren Fragebogenverlauf und die Auswertung der Daten
+						ist es wichtig, dass Sie die Frage beantworten.
+						#{layout.WARNING_END}
+					</zofar:introduction>
+					<zofar:question uid="q1"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd8">
+					<zofar:answerOption variable="sf_uaa01"
+						uid="ao1"
+						label="Ich möchte diese Frage dennoch nicht beantworten." />
+				</zofar:responseDomain>
+			</zofar:multipleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="uaa01"
+				condition="            (            ((zofar.asNumber(uaa01dropDown)==999999 or zofar.asNumber(uaa02dropDown)==999999) and !uaa01a.value)            or             ((zofar.asNumber(uaa03dropDown)==999999 or zofar.asNumber(uaa04dropDown)==999999) and !uaa03a.value)            )            and             !sf_uaa01.value" />
+			<zofar:transition target="uaa01"
+				condition="                       !flag_uaa01.value                        and                          (((zofar.asNumber(uaa02dropDown) * 100) + zofar.asNumber(uaa01dropDown))                                         gt                                          (zofar.asNumber(h_exitdatum) +1 )                                        and                                        (zofar.getMonth(startPoint) lt 12)                                        and                                          (zofar.asNumber(uaa02dropDown) lt 999999)                                         and                                         (zofar.asNumber(uaa01dropDown) lt 999999)                                         )                                        or                                        (((zofar.asNumber(uaa02dropDown) * 100) + zofar.asNumber(uaa01dropDown))                                        gt                                          (zofar.asNumber(h_exitdatum) + 89)                                        and                                        (zofar.getMonth(startPoint) == 12)                                        and                                          (zofar.asNumber(uaa02dropDown) lt 999999)                                         and                                         (zofar.asNumber(uaa01dropDown) lt 999999))                                                                                  or                                         (((zofar.asNumber(uaa04dropDown) * 100) + zofar.asNumber(uaa03dropDown))                                         gt                                          (zofar.asNumber(h_exitdatum) +1 )                                        and                                        (zofar.getMonth(startPoint) lt 12)                                        and                                          (zofar.asNumber(uaa04dropDown) lt 999999)                                         and                                         (zofar.asNumber(uaa03dropDown) lt 999999)                                         )                                        or                                        (((zofar.asNumber(uaa04dropDown) * 100) + zofar.asNumber(uaa03dropDown))                                        gt                                          (zofar.asNumber(h_exitdatum) + 89)                                        and                                        (zofar.getMonth(startPoint) == 12)                                        and                                          (zofar.asNumber(uaa04dropDown) lt 999999)                                         and                                         (zofar.asNumber(uaa03dropDown) lt 999999))                          " />
+			<zofar:transition target="uaa05"
+				condition="zofar.asNumber(PRELOADcohort)==2" />
+			<zofar:transition target="uaa20"
+				condition="		zofar.asNumber(PRELOADcohort)==1 and 
+							(((	zofar.asNumber(uaa04dropDown)*100) + zofar.asNumber(uaa03dropDown))!=zofar.asNumber(h_exitdatum))" />
+			<zofar:transition target="zwischen_u"
+				condition="		zofar.asNumber(PRELOADcohort)==1 and 
+							(((	zofar.asNumber(uaa04dropDown)*100) + zofar.asNumber(uaa03dropDown))==zofar.asNumber(h_exitdatum))" />				
+		</zofar:transitions>
+		<zofar:triggers>
+<!-- 			<zofar:variable variable="uaa01" value="1" label="Januar" onExit="true" direction="forward" condition="zofar.asNumber(PRELOADcohort)==1 and uaa01a.value" /> -->
+<!-- 			<zofar:variable variable="uaa01" value="7" label="Juli" onExit="true" direction="forward" condition="zofar.asNumber(PRELOADcohort)==2 and uaa01a.value" /> -->
+<!-- 			<zofar:variable variable="uaa02" value="2018" onExit="true" direction="forward" condition="uaa01a.value" /> -->
+<!-- 			<zofar:variable variable="uaa03" value="12" label="Dezember" onExit="true" direction="forward" condition="uaa03a.value" /> -->
+<!-- 			<zofar:variable variable="uaa04" value="2019" onExit="true" direction="forward" condition="uaa03a.value" /> -->
+			<zofar:variable variable="flag_uaa01" value="true" direction="forward" onExit="true" condition="                                         (((zofar.asNumber(uaa02dropDown) * 100) + zofar.asNumber(uaa01dropDown))                                         gt                                          (zofar.asNumber(h_exitdatum) +1 )                                        and                                        (zofar.getMonth(startPoint) lt 12)                                        and                                          (zofar.asNumber(uaa02dropDown) lt 999999)                                         and                                         (zofar.asNumber(uaa01dropDown) lt 999999)                                         )                                        or                                        (((zofar.asNumber(uaa02dropDown) * 100) + zofar.asNumber(uaa01dropDown))                                        gt                                          (zofar.asNumber(h_exitdatum) + 89)                                        and                                        (zofar.getMonth(startPoint) == 12)                                        and                                          (zofar.asNumber(uaa02dropDown) lt 999999)                                         and                                         (zofar.asNumber(uaa01dropDown) lt 999999))                                                                                  or                                         (((zofar.asNumber(uaa04dropDown) * 100) + zofar.asNumber(uaa03dropDown))                                         gt                                          (zofar.asNumber(h_exitdatum) +1 )                                        and                                        (zofar.getMonth(startPoint) lt 12)                                        and                                          (zofar.asNumber(uaa04dropDown) lt 999999)                                         and                                         (zofar.asNumber(uaa03dropDown) lt 999999)                                         )                                        or                                        (((zofar.asNumber(uaa04dropDown) * 100) + zofar.asNumber(uaa03dropDown))                                        gt                                          (zofar.asNumber(h_exitdatum) + 89)                                        and                                        (zofar.getMonth(startPoint) == 12)                                        and                                          (zofar.asNumber(uaa04dropDown) lt 999999)                                         and                                         (zofar.asNumber(uaa03dropDown) lt 999999))                                         " />
+		</zofar:triggers>
+		<zofar:side xsi:nil="true" />
+		<zofar:researchdata xsi:nil="true" />
+		<zofar:breadcrumb xsi:nil="true" />
+	</zofar:page>
+	<zofar:page uid="uaa05" customLayout="false">
+		<zofar:header>
+			<zofar:text uid="txt" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Arbeitslosigkeit
+				#{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="body">
+			<zofar:questionSingleChoice uid="qsc1">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="zofar.asNumber(uaa01)!=999999 and zofar.asNumber(uaa02)!=999999 and zofar.asNumber(uaa03)!=999999 and zofar.asNumber(uaa04)!=999999">Waren Sie während dieser Arbeitslosigkeit zwischen
+						#{zofar.labelOf(uaa01)} #{zofar.labelOf(uaa02)} und
+						#{zofar.labelOf(uaa03)} #{zofar.labelOf(uaa04)} arbeitslos oder
+						arbeitssuchend gemeldet?</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="zofar.asNumber(uaa01)==999999 or zofar.asNumber(uaa02)==999999 or zofar.asNumber(uaa03)==999999 or zofar.asNumber(uaa04)==999999">Waren Sie in dieser Zeit arbeitslos oder arbeitssuchend
+						gemeldet?</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="uaa05" uid="rd">
+					<zofar:answerOption uid="ao1" value="1"
+						label="ja, die gesamte Zeit" />
+					<zofar:answerOption uid="ao2" value="2"
+						label="ja, aber nicht die gesamte Zeit" />
+					<zofar:answerOption uid="ao3" value="3"
+						label="nein" />
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="uaa06" 		condition="zofar.asNumber(uaa05)==1 or zofar.asNumber(uaa05)==2"/>
+			<zofar:transition target="uaa20" 		condition=" (((	zofar.asNumber(uaa04dropDown)*100) + zofar.asNumber(uaa03dropDown))!=zofar.asNumber(h_exitdatum))" />
+			<zofar:transition target="zwischen_u"  	condition="	(((	zofar.asNumber(uaa04dropDown)*100) + zofar.asNumber(uaa03dropDown))==zofar.asNumber(h_exitdatum))" />				
+		</zofar:transitions>
+		<zofar:triggers></zofar:triggers>
+		<zofar:side xsi:nil="true" />
+		<zofar:researchdata xsi:nil="true" />
+		<zofar:breadcrumb xsi:nil="true" />
+	</zofar:page>
+	<zofar:page uid="uaa06" customLayout="false">
+		<zofar:header>
+			<zofar:text uid="txt" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Arbeitslosigkeit
+				#{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="body">
+			<zofar:questionSingleChoice uid="qsc1">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="zofar.asNumber(uaa01)!=999999 and zofar.asNumber(uaa02)!=999999 and zofar.asNumber(uaa03)!=999999 and zofar.asNumber(uaa04)!=999999">Und haben Sie während dieser Arbeitslosigkeit zwischen
+						#{zofar.labelOf(uaa01)} #{zofar.labelOf(uaa02)} und
+						#{zofar.labelOf(uaa03)} #{zofar.labelOf(uaa04)}
+						Arbeitslosengeld (auch Unterhaltsgeld, Arbeitslosengeld 1) oder
+						Arbeitslosengeld 2 (z. B. durch Hartz IV) bekommen?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="zofar.asNumber(uaa01)==999999 or zofar.asNumber(uaa02)==999999 or zofar.asNumber(uaa03)==999999 or zofar.asNumber(uaa04)==999999">Und haben Sie in dieser Zeit Arbeitslosengeld (auch
+						Unterhaltsgeld, Arbeitslosengeld 1) oder Arbeitslosengeld 2 (z. B.
+						durch Hartz IV) bekommen?</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="uaa06" uid="rd">
+					<zofar:answerOption uid="ao1" value="1"
+						label="ja, die gesamte Zeit" />
+					<zofar:answerOption uid="ao2" value="2"
+						label="ja, aber nicht die gesamte Zeit" />
+					<zofar:answerOption uid="ao3" value="3"
+						label="nein" />
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="uaa20" 		condition=" (((	zofar.asNumber(uaa04dropDown)*100) + zofar.asNumber(uaa03dropDown))!=zofar.asNumber(h_exitdatum))" />
+			<zofar:transition target="zwischen_u"  	condition="	(((	zofar.asNumber(uaa04dropDown)*100) + zofar.asNumber(uaa03dropDown))==zofar.asNumber(h_exitdatum))" />				
+		</zofar:transitions>
+		<zofar:triggers></zofar:triggers>
+		<zofar:side xsi:nil="true" />
+		<zofar:researchdata xsi:nil="true" />
+		<zofar:breadcrumb xsi:nil="true" />
+	</zofar:page>
+	<zofar:page uid="uaa20" customLayout="false">
+		<zofar:header>
+			<zofar:text uid="txt" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Arbeitslosigkeit
+				#{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="body">
+			<zofar:questionSingleChoice uid="qsc1">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="                  zofar.asNumber(uaa03) != 999999                  and                  zofar.asNumber(uaa04) != 999999                  ">Waren Sie seit
+						#{zofar.labelOf(uaa03)}
+						#{zofar.labelOf(uaa04)} ein weiteres Mal
+						arbeitslos?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="                  zofar.asNumber(uaa03) == 999999                  or                  zofar.asNumber(uaa04) == 999999                  ">Waren Sie danach ein weiteres Mal arbeitslos?
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="uaa20" uid="rd">
+					<zofar:answerOption uid="ao1" value="1"
+						label="ja" />
+					<zofar:answerOption uid="ao2" value="2"
+						label="nein" />
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+			<zofar:section uid="sw"
+				visible="navigatorBean.isSame() or zofar.isBooleanSet('flag_uaa20',sessionController.participant)">
+				<zofar:header />
+				<zofar:body uid="bb">
+					<zofar:multipleChoice uid="mcsf">
+						<zofar:header>
+							<zofar:introduction uid="intro1">#{layout.WARNING_START}
+								Für den weiteren Fragebogenverlauf und
+								die Auswertung der Daten
+								ist es wichtig, dass Sie die Frage
+								beantworten.
+								#{layout.WARNING_END}
+							</zofar:introduction>
+							<zofar:question uid="q1"></zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_uaa20"
+								uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten." />
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="uba01"
+				condition="zofar.asNumber(uaa20)==1" />
+			<zofar:transition target="zwischen_u"
+				condition="zofar.asNumber(uaa20)==2" />
+			<zofar:transition target="zwischen_u"
+				condition="zofar.isMissing(uaa20) and sf_uaa20.value" />
+			<zofar:transition target="uaa20" />
+		</zofar:transitions>
+		<zofar:triggers>
+			<zofar:variable variable="flag_uaa20" value="true"
+				direction="same" onExit="false" />
+		</zofar:triggers>
+		<zofar:side xsi:nil="true" />
+		<zofar:researchdata xsi:nil="true" />
+		<zofar:breadcrumb xsi:nil="true" />
+	</zofar:page>
+	<zofar:page uid="uba01" customLayout="false">
+		<zofar:header>
+			<zofar:text uid="txt" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Arbeitslosigkeit
+				#{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="body">
+			<zofar:matrixQuestionSingleChoice
+				uid="msc">
+				<zofar:header>
+					<zofar:question uid="q1" block="true">Wann waren Sie erneut
+						arbeitslos?</zofar:question>
+					<zofar:instruction uid="is" block="true">
+                    	#{layout.BREAK}Wir interessieren uns auch für Tätigkeiten, die vor #{h_enterdatum.value} begonnen haben und zu dem Zeitpunkt noch andauerten. Machen Sie für diese Tätigkeiten bitte Angaben ab #{h_enterdatum.value}.
+                    </zofar:instruction>
+				</zofar:header>
+                <zofar:responseDomain noResponseOptions="1" uid="rd">
+                    <zofar:header>
+                        <zofar:title uid="t1"/>
+                    </zofar:header>
+                    <zofar:item uid="i1">
+                        <zofar:header>
+                            <zofar:question uid="qi1" block="true">#{layout.BOLD_START}von: #{layout.BOLD_END}</zofar:question>
+                        </zofar:header>
+                        <zofar:responseDomain variable="uba01" uid="rd1" type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" label="Monat"/>
+                            <zofar:answerOption uid="ao1" value="1" label="Januar"/>
+                            <zofar:answerOption uid="ao2" value="2" label="Februar"/>
+                            <zofar:answerOption uid="ao3" value="3" label="März"/>
+                            <zofar:answerOption uid="ao4" value="4" label="April"/>
+                            <zofar:answerOption uid="ao5" value="5" label="Mai"/>
+                            <zofar:answerOption uid="ao6" value="6" label="Juni"/>
+                            <zofar:answerOption uid="ao7" value="7" label="Juli"/>
+                            <zofar:answerOption uid="ao8" value="8" label="August"/>
+                            <zofar:answerOption uid="ao9" value="9" label="September"/>
+                            <zofar:answerOption uid="ao10" value="10" label="Oktober"/>
+                            <zofar:answerOption uid="ao11" value="11" label="November"/>
+                            <zofar:answerOption uid="ao12" value="12" label="Dezember"/>
+                        </zofar:responseDomain>
+                    </zofar:item>
+                    <zofar:item uid="i2">
+                        <zofar:header>
+                            <zofar:question uid="qi2"/>
+                        </zofar:header>
+                        <zofar:responseDomain variable="uba02" uid="rd2" type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+                        </zofar:responseDomain>
+                    </zofar:item>
+                </zofar:responseDomain>
+            </zofar:matrixQuestionSingleChoice>
+            <zofar:multipleChoice uid="mc1">
+                <zofar:header>
+                    <zofar:question uid="q1"/>
+                </zofar:header>
+                <zofar:responseDomain uid="rd3">
+                    <zofar:answerOption variable="uba01a" uid="ao1" label="#{layout.BOLD_START}Beginn vor #{h_enterdatum.value}#{layout.BOLD_END}"/>
+                </zofar:responseDomain>
+            </zofar:multipleChoice>
+            <zofar:matrixQuestionSingleChoice uid="msc2">
+                <zofar:header>
+                    <zofar:question uid="q3" block="true"/>
+                </zofar:header>
+                <zofar:responseDomain noResponseOptions="1" uid="rd4">
+                    <zofar:header>
+                        <zofar:title uid="t2"/>
+                    </zofar:header>
+                    <zofar:item uid="i3">
+                        <zofar:header>
+                            <zofar:question uid="qi3">#{layout.BOLD_START}bis: #{layout.BOLD_END}</zofar:question>
+                        </zofar:header>
+                        <zofar:responseDomain variable="uba03" uid="rd5" type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" label="Monat"/>
+                            <zofar:answerOption uid="ao1" value="1" label="Januar"/>
+                            <zofar:answerOption uid="ao2" value="2" label="Februar"/>
+                            <zofar:answerOption uid="ao3" value="3" label="März"/>
+                            <zofar:answerOption uid="ao4" value="4" label="April"/>
+                            <zofar:answerOption uid="ao5" value="5" label="Mai"/>
+                            <zofar:answerOption uid="ao6" value="6" label="Juni"/>
+                            <zofar:answerOption uid="ao7" value="7" label="Juli"/>
+                            <zofar:answerOption uid="ao8" value="8" label="August"/>
+                            <zofar:answerOption uid="ao9" value="9" label="September"/>
+                            <zofar:answerOption uid="ao10" value="10" label="Oktober"/>
+                            <zofar:answerOption uid="ao11" value="11" label="November"/>
+                            <zofar:answerOption uid="ao12" value="12" label="Dezember"/>
+                        </zofar:responseDomain>
+                    </zofar:item>
+                    <zofar:item uid="i4">
+                        <zofar:header>
+                            <zofar:question uid="qi4"/>
+                        </zofar:header>
+                        <zofar:responseDomain variable="uba04" uid="rd6" type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+                        </zofar:responseDomain>
+                    </zofar:item>
+                </zofar:responseDomain>
+            </zofar:matrixQuestionSingleChoice>
+            <zofar:multipleChoice uid="mc2">
+                <zofar:header>
+                    <zofar:question uid="q4"/>
+                </zofar:header>
+                <zofar:responseDomain uid="rd7">
+                    <zofar:answerOption variable="uba03a" uid="ao1" label="#{layout.BOLD_START}dauert noch an#{layout.BOLD_END}"/>
+                </zofar:responseDomain>
+            </zofar:multipleChoice>
+			<zofar:section uid="sw1" visible="flag_uba01.value">
+				<zofar:header>
+					<zofar:text uid="t">#{layout.WARNING_START}
+						Bitte überprüfen Sie Ihre Eingabe. Sie haben ein Datum eingegeben, das
+						in der Zukunft liegt.
+						#{layout.WARNING_END}
+					</zofar:text>
+				</zofar:header>
+				<zofar:body uid="bb" />
+			</zofar:section>
+			<zofar:multipleChoice uid="mcsf"
+				visible="(navigatorBean.isSame()               and               (              ((zofar.asNumber(uba01dropDown)==999999 or zofar.asNumber(uba02dropDown)==999999) and !uba01a.value)              or               ((zofar.asNumber(uba03dropDown)==999999 or zofar.asNumber(uba04dropDown)==999999) and !uba03a.value)              ))              or               sf_uba01.value">
+				<zofar:header>
+					<zofar:introduction uid="intro1">#{layout.WARNING_START}
+						Für den weiteren Fragebogenverlauf und die Auswertung der Daten
+						ist es wichtig, dass Sie die Frage beantworten.
+						#{layout.WARNING_END}
+					</zofar:introduction>
+					<zofar:question uid="q1"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd8">
+					<zofar:answerOption variable="sf_uba01"
+						uid="ao1"
+						label="Ich möchte diese Frage dennoch nicht beantworten." />
+				</zofar:responseDomain>
+			</zofar:multipleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="uba01"
+				condition="            (            ((zofar.asNumber(uba01dropDown)==999999 or zofar.asNumber(uba02dropDown)==999999) and !uba01a.value)            or             ((zofar.asNumber(uba03dropDown)==999999 or zofar.asNumber(uba04dropDown)==999999) and !uba03a.value)            )            and             !sf_uba01.value" />
+			<zofar:transition target="uba01"
+				condition="                       !flag_uba01.value                        and                          (((zofar.asNumber(uba02dropDown) * 100) + zofar.asNumber(uba01dropDown))                                         gt                                          (zofar.asNumber(h_exitdatum) +1 )                                        and                                        (zofar.getMonth(startPoint) lt 12)                                        and                                          (zofar.asNumber(uba02dropDown) lt 999999)                                         and                                         (zofar.asNumber(uba01dropDown) lt 999999)                                         )                                        or                                        (((zofar.asNumber(uba02dropDown) * 100) + zofar.asNumber(uba01dropDown))                                        gt                                          (zofar.asNumber(h_exitdatum) + 89)                                        and                                        (zofar.getMonth(startPoint) == 12)                                        and                                          (zofar.asNumber(uba02dropDown) lt 999999)                                         and                                         (zofar.asNumber(uba01dropDown) lt 999999))                                                                                  or                                         (((zofar.asNumber(uba04dropDown) * 100) + zofar.asNumber(uba03dropDown))                                         gt                                          (zofar.asNumber(h_exitdatum) +1 )                                        and                                        (zofar.getMonth(startPoint) lt 12)                                        and                                          (zofar.asNumber(uba04dropDown) lt 999999)                                         and                                         (zofar.asNumber(uba03dropDown) lt 999999)                                         )                                        or                                        (((zofar.asNumber(uba04dropDown) * 100) + zofar.asNumber(uba03dropDown))                                        gt                                          (zofar.asNumber(h_exitdatum) + 89)                                        and                                        (zofar.getMonth(startPoint) == 12)                                        and                                          (zofar.asNumber(uba04dropDown) lt 999999)                                         and                                         (zofar.asNumber(uba03dropDown) lt 999999))                          " />
+			<zofar:transition target="uba05"
+				condition="zofar.asNumber(PRELOADcohort)==2" />
+			<zofar:transition target="uba20"
+				condition="		zofar.asNumber(PRELOADcohort)==1 and 
+							(((	zofar.asNumber(uba04dropDown)*100) + zofar.asNumber(uba03dropDown))!=zofar.asNumber(h_exitdatum))" />
+			<zofar:transition target="zwischen_u"
+				condition="		zofar.asNumber(PRELOADcohort)==1 and 
+							(((	zofar.asNumber(uba04dropDown)*100) + zofar.asNumber(uba03dropDown))==zofar.asNumber(h_exitdatum))" />				
+		</zofar:transitions>
+		<zofar:triggers>
+<!-- 			<zofar:variable variable="uba01" value="1" label="Januar" -->
+<!-- 				onExit="true" direction="forward" -->
+<!-- 				condition="zofar.asNumber(PRELOADcohort)==1 and uba01a.value" /> -->
+<!-- 			<zofar:variable variable="uba01" value="7" label="Juli" -->
+<!-- 				onExit="true" direction="forward" -->
+<!-- 				condition="zofar.asNumber(PRELOADcohort)==2 and uba01a.value" /> -->
+<!-- 			<zofar:variable variable="uba02" value="2018" -->
+<!-- 				onExit="true" direction="forward" condition="uba01a.value" /> -->
+<!-- 			<zofar:variable variable="uba03" value="12" label="Dezember" -->
+<!-- 				onExit="true" direction="forward" condition="uba03a.value" /> -->
+<!-- 			<zofar:variable variable="uba04" value="2019" -->
+<!-- 				onExit="true" direction="forward" condition="uba03a.value" /> -->
+			<zofar:variable variable="flag_uba01" value="true"
+				direction="forward" onExit="true"
+				condition="                                         (((zofar.asNumber(uba02dropDown) * 100) + zofar.asNumber(uba01dropDown))                                         gt                                          (zofar.asNumber(h_exitdatum) +1 )                                        and                                        (zofar.getMonth(startPoint) lt 12)                                        and                                          (zofar.asNumber(uba02dropDown) lt 999999)                                         and                                         (zofar.asNumber(uba01dropDown) lt 999999)                                         )                                        or                                        (((zofar.asNumber(uba02dropDown) * 100) + zofar.asNumber(uba01dropDown))                                        gt                                          (zofar.asNumber(h_exitdatum) + 89)                                        and                                        (zofar.getMonth(startPoint) == 12)                                        and                                          (zofar.asNumber(uba02dropDown) lt 999999)                                         and                                         (zofar.asNumber(uba01dropDown) lt 999999))                                                                                  or                                         (((zofar.asNumber(uba04dropDown) * 100) + zofar.asNumber(uba03dropDown))                                         gt                                          (zofar.asNumber(h_exitdatum) +1 )                                        and                                        (zofar.getMonth(startPoint) lt 12)                                        and                                          (zofar.asNumber(uba04dropDown) lt 999999)                                         and                                         (zofar.asNumber(uba03dropDown) lt 999999)                                         )                                        or                                        (((zofar.asNumber(uba04dropDown) * 100) + zofar.asNumber(uba03dropDown))                                        gt                                          (zofar.asNumber(h_exitdatum) + 89)                                        and                                        (zofar.getMonth(startPoint) == 12)                                        and                                          (zofar.asNumber(uba04dropDown) lt 999999)                                         and                                         (zofar.asNumber(uba03dropDown) lt 999999))                                         " />
+		</zofar:triggers>
+		<zofar:side xsi:nil="true" />
+		<zofar:researchdata xsi:nil="true" />
+		<zofar:breadcrumb xsi:nil="true" />
+	</zofar:page>
+	<zofar:page uid="uba05" customLayout="false">
+		<zofar:header>
+			<zofar:text uid="txt" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Arbeitslosigkeit
+				#{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="body">
+			<zofar:questionSingleChoice uid="qsc1">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="zofar.asNumber(uba01)!=999999 and zofar.asNumber(uba02)!=999999 and zofar.asNumber(uba03)!=999999 and zofar.asNumber(uba04)!=999999">Waren Sie während dieser Arbeitslosigkeit zwischen
+						#{zofar.labelOf(uba01)} #{zofar.labelOf(uba02)} und
+						#{zofar.labelOf(uba03)} #{zofar.labelOf(uba04)} arbeitslos oder
+						arbeitssuchend gemeldet?</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="zofar.asNumber(uba01)==999999 or zofar.asNumber(uba02)==999999 or zofar.asNumber(uba03)==999999 or zofar.asNumber(uba04)==999999">Waren Sie in dieser Zeit arbeitslos oder arbeitssuchend
+						gemeldet?</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="uba05" uid="rd">
+					<zofar:answerOption uid="ao1" value="1"
+						label="ja, die gesamte Zeit" />
+					<zofar:answerOption uid="ao2" value="2"
+						label="ja, aber nicht die gesamte Zeit" />
+					<zofar:answerOption uid="ao3" value="3"
+						label="nein" />
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="uba06" condition="zofar.asNumber(uba05)==1 or zofar.asNumber(uba05)==2"/>
+			<zofar:transition target="uba20" 		condition=" (((	zofar.asNumber(uba04dropDown)*100) + zofar.asNumber(uba03dropDown))!=zofar.asNumber(h_exitdatum))" />
+			<zofar:transition target="zwischen_u"  	condition="	(((	zofar.asNumber(uba04dropDown)*100) + zofar.asNumber(uba03dropDown))==zofar.asNumber(h_exitdatum))" />				
+		</zofar:transitions>
+		<zofar:triggers></zofar:triggers>
+		<zofar:side xsi:nil="true" />
+		<zofar:researchdata xsi:nil="true" />
+		<zofar:breadcrumb xsi:nil="true" />
+	</zofar:page>
+	<zofar:page uid="uba06" customLayout="false">
+		<zofar:header>
+			<zofar:text uid="txt" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Arbeitslosigkeit
+				#{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="body">
+			<zofar:questionSingleChoice uid="qsc1">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="zofar.asNumber(uba01)!=999999 and zofar.asNumber(uba02)!=999999 and zofar.asNumber(uba03)!=999999 and zofar.asNumber(uba04)!=999999">Und haben Sie während dieser Arbeitslosigkeit zwischen
+						#{zofar.labelOf(uba01)} #{zofar.labelOf(uba02)} und
+						#{zofar.labelOf(uba03)} #{zofar.labelOf(uba04)} Zeit
+						Arbeitslosengeld (auch Unterhaltsgeld, Arbeitslosengeld 1) oder
+						Arbeitslosengeld 2 (z. B. durch Hartz IV) bekommen?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="zofar.asNumber(uba01)==999999 or zofar.asNumber(uba02)==999999 or zofar.asNumber(uba03)==999999 or zofar.asNumber(uba04)==999999">Und haben Sie in dieser Zeit Arbeitslosengeld (auch
+						Unterhaltsgeld, Arbeitslosengeld 1) oder Arbeitslosengeld 2 (z. B.
+						durch Hartz IV) bekommen?</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="uba06" uid="rd">
+					<zofar:answerOption uid="ao1" value="1"
+						label="ja, die gesamte Zeit" />
+					<zofar:answerOption uid="ao2" value="2"
+						label="ja, aber nicht die gesamte Zeit" />
+					<zofar:answerOption uid="ao3" value="3"
+						label="nein" />
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="uba20" 		condition=" (((	zofar.asNumber(uba04dropDown)*100) + zofar.asNumber(uba03dropDown))!=zofar.asNumber(h_exitdatum))" />
+			<zofar:transition target="zwischen_u"  	condition="	(((	zofar.asNumber(uba04dropDown)*100) + zofar.asNumber(uba03dropDown))==zofar.asNumber(h_exitdatum))" />				
+		</zofar:transitions>
+		<zofar:triggers></zofar:triggers>
+		<zofar:side xsi:nil="true" />
+		<zofar:researchdata xsi:nil="true" />
+		<zofar:breadcrumb xsi:nil="true" />
+	</zofar:page>
+	<zofar:page uid="uba20" customLayout="false">
+		<zofar:header>
+			<zofar:text uid="txt" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Arbeitslosigkeit
+				#{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="body">
+			<zofar:questionSingleChoice uid="qsc1">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="                  zofar.asNumber(uba03) != 999999                  and                  zofar.asNumber(uba04) != 999999                  ">Waren Sie seit
+						#{zofar.labelOf(uba03)}
+						#{zofar.labelOf(uba04)} ein weiteres Mal
+						arbeitslos?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="                  zofar.asNumber(uba03) == 999999                  or                  zofar.asNumber(uba04) == 999999                  ">Waren Sie danach ein weiteres Mal arbeitslos?
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="uba20" uid="rd">
+					<zofar:answerOption uid="ao1" value="1"
+						label="ja" />
+					<zofar:answerOption uid="ao2" value="2"
+						label="nein" />
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+			<zofar:section uid="sw"
+				visible="navigatorBean.isSame() or zofar.isBooleanSet('flag_uba20',sessionController.participant)">
+				<zofar:header />
+				<zofar:body uid="bb">
+					<zofar:multipleChoice uid="mcsf">
+						<zofar:header>
+							<zofar:introduction uid="intro1">#{layout.WARNING_START}
+								Für den weiteren Fragebogenverlauf und
+								die Auswertung der Daten
+								ist es wichtig, dass Sie die Frage
+								beantworten.
+								#{layout.WARNING_END}
+							</zofar:introduction>
+							<zofar:question uid="q1"></zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_uba20"
+								uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten." />
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="uca01"
+				condition="zofar.asNumber(uba20)==1" />
+			<zofar:transition target="zwischen_u"
+				condition="zofar.asNumber(uba20)==2" />
+			<zofar:transition target="zwischen_u"
+				condition="zofar.isMissing(uba20) and sf_uba20.value" />
+			<zofar:transition target="uba20" />
+		</zofar:transitions>
+		<zofar:triggers>
+			<zofar:variable variable="flag_uba20" value="true"
+				direction="same" onExit="false" />
+		</zofar:triggers>
+		<zofar:side xsi:nil="true" />
+		<zofar:researchdata xsi:nil="true" />
+		<zofar:breadcrumb xsi:nil="true" />
+	</zofar:page>
+	<zofar:page uid="uca01" customLayout="false">
+		<zofar:header>
+			<zofar:text uid="txt" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Arbeitslosigkeit
+				#{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="body">
+			<zofar:matrixQuestionSingleChoice
+				uid="msc">
+				<zofar:header>
+					<zofar:question uid="q1" block="true">Wann waren Sie erneut
+						arbeitslos?</zofar:question>
+					<zofar:instruction uid="is" block="true">
+                    	#{layout.BREAK}Wir interessieren uns auch für Tätigkeiten, die vor #{h_enterdatum.value} begonnen haben und zu dem Zeitpunkt noch andauerten. Machen Sie für diese Tätigkeiten bitte Angaben ab #{h_enterdatum.value}.
+                    </zofar:instruction>
+				</zofar:header>
+                <zofar:responseDomain noResponseOptions="1" uid="rd">
+                    <zofar:header>
+                        <zofar:title uid="t1"/>
+                    </zofar:header>
+                    <zofar:item uid="i1">
+                        <zofar:header>
+                            <zofar:question uid="qi1" block="true">#{layout.BOLD_START}von: #{layout.BOLD_END}</zofar:question>
+                        </zofar:header>
+                        <zofar:responseDomain variable="uca01" uid="rd1" type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" label="Monat"/>
+                            <zofar:answerOption uid="ao1" value="1" label="Januar"/>
+                            <zofar:answerOption uid="ao2" value="2" label="Februar"/>
+                            <zofar:answerOption uid="ao3" value="3" label="März"/>
+                            <zofar:answerOption uid="ao4" value="4" label="April"/>
+                            <zofar:answerOption uid="ao5" value="5" label="Mai"/>
+                            <zofar:answerOption uid="ao6" value="6" label="Juni"/>
+                            <zofar:answerOption uid="ao7" value="7" label="Juli"/>
+                            <zofar:answerOption uid="ao8" value="8" label="August"/>
+                            <zofar:answerOption uid="ao9" value="9" label="September"/>
+                            <zofar:answerOption uid="ao10" value="10" label="Oktober"/>
+                            <zofar:answerOption uid="ao11" value="11" label="November"/>
+                            <zofar:answerOption uid="ao12" value="12" label="Dezember"/>
+                        </zofar:responseDomain>
+                    </zofar:item>
+                    <zofar:item uid="i2">
+                        <zofar:header>
+                            <zofar:question uid="qi2"/>
+                        </zofar:header>
+                        <zofar:responseDomain variable="uca02" uid="rd2" type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+                        </zofar:responseDomain>
+                    </zofar:item>
+                </zofar:responseDomain>
+            </zofar:matrixQuestionSingleChoice>
+            <zofar:multipleChoice uid="mc1">
+                <zofar:header>
+                    <zofar:question uid="q1"/>
+                </zofar:header>
+                <zofar:responseDomain uid="rd3">
+                    <zofar:answerOption variable="uca01a" uid="ao1" label="#{layout.BOLD_START}Beginn vor #{h_enterdatum.value}#{layout.BOLD_END}"/>
+                </zofar:responseDomain>
+            </zofar:multipleChoice>
+            <zofar:matrixQuestionSingleChoice uid="msc2">
+                <zofar:header>
+                    <zofar:question uid="q3" block="true"/>
+                </zofar:header>
+                <zofar:responseDomain noResponseOptions="1" uid="rd4">
+                    <zofar:header>
+                        <zofar:title uid="t2"/>
+                    </zofar:header>
+                    <zofar:item uid="i3">
+                        <zofar:header>
+                            <zofar:question uid="qi3">#{layout.BOLD_START}bis: #{layout.BOLD_END}</zofar:question>
+                        </zofar:header>
+                        <zofar:responseDomain variable="uca03" uid="rd5" type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" label="Monat"/>
+                            <zofar:answerOption uid="ao1" value="1" label="Januar"/>
+                            <zofar:answerOption uid="ao2" value="2" label="Februar"/>
+                            <zofar:answerOption uid="ao3" value="3" label="März"/>
+                            <zofar:answerOption uid="ao4" value="4" label="April"/>
+                            <zofar:answerOption uid="ao5" value="5" label="Mai"/>
+                            <zofar:answerOption uid="ao6" value="6" label="Juni"/>
+                            <zofar:answerOption uid="ao7" value="7" label="Juli"/>
+                            <zofar:answerOption uid="ao8" value="8" label="August"/>
+                            <zofar:answerOption uid="ao9" value="9" label="September"/>
+                            <zofar:answerOption uid="ao10" value="10" label="Oktober"/>
+                            <zofar:answerOption uid="ao11" value="11" label="November"/>
+                            <zofar:answerOption uid="ao12" value="12" label="Dezember"/>
+                        </zofar:responseDomain>
+                    </zofar:item>
+                    <zofar:item uid="i4">
+                        <zofar:header>
+                            <zofar:question uid="qi4"/>
+                        </zofar:header>
+                        <zofar:responseDomain variable="uca04" uid="rd6" type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+                        </zofar:responseDomain>
+                    </zofar:item>
+                </zofar:responseDomain>
+            </zofar:matrixQuestionSingleChoice>
+            <zofar:multipleChoice uid="mc2">
+                <zofar:header>
+                    <zofar:question uid="q4"/>
+                </zofar:header>
+                <zofar:responseDomain uid="rd7">
+                    <zofar:answerOption variable="uca03a" uid="ao1" label="#{layout.BOLD_START}dauert noch an#{layout.BOLD_END}"/>
+                </zofar:responseDomain>
+            </zofar:multipleChoice>
+			<zofar:section uid="sw1" visible="flag_uca01.value">
+				<zofar:header>
+					<zofar:text uid="t">#{layout.WARNING_START}
+						Bitte überprüfen Sie Ihre Eingabe. Sie haben ein Datum eingegeben, das
+						in der Zukunft liegt.
+						#{layout.WARNING_END}
+					</zofar:text>
+				</zofar:header>
+				<zofar:body uid="bb" />
+			</zofar:section>
+			<zofar:multipleChoice uid="mcsf"
+				visible="(navigatorBean.isSame()               and               (              ((zofar.asNumber(uca01dropDown)==999999 or zofar.asNumber(uca02dropDown)==999999) and !uca01a.value)              or               ((zofar.asNumber(uca03dropDown)==999999 or zofar.asNumber(uca04dropDown)==999999) and !uca03a.value)              ))              or               sf_uca01.value">
+				<zofar:header>
+					<zofar:introduction uid="intro1">#{layout.WARNING_START}
+						Für den weiteren Fragebogenverlauf und die Auswertung der Daten
+						ist es wichtig, dass Sie die Frage beantworten.
+						#{layout.WARNING_END}
+					</zofar:introduction>
+					<zofar:question uid="q1"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd8">
+					<zofar:answerOption variable="sf_uca01"
+						uid="ao1"
+						label="Ich möchte diese Frage dennoch nicht beantworten." />
+				</zofar:responseDomain>
+			</zofar:multipleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="uca01"
+				condition="            (            ((zofar.asNumber(uca01dropDown)==999999 or zofar.asNumber(uca02dropDown)==999999) and !uca01a.value)            or             ((zofar.asNumber(uca03dropDown)==999999 or zofar.asNumber(uca04dropDown)==999999) and !uca03a.value)            )            and             !sf_uca01.value" />
+			<zofar:transition target="uca01"
+				condition="                       !flag_uca01.value                        and                          (((zofar.asNumber(uca02dropDown) * 100) + zofar.asNumber(uca01dropDown))                                         gt                                          (zofar.asNumber(h_exitdatum) +1 )                                        and                                        (zofar.getMonth(startPoint) lt 12)                                        and                                          (zofar.asNumber(uca02dropDown) lt 999999)                                         and                                         (zofar.asNumber(uca01dropDown) lt 999999)                                         )                                        or                                        (((zofar.asNumber(uca02dropDown) * 100) + zofar.asNumber(uca01dropDown))                                        gt                                          (zofar.asNumber(h_exitdatum) + 89)                                        and                                        (zofar.getMonth(startPoint) == 12)                                        and                                          (zofar.asNumber(uca02dropDown) lt 999999)                                         and                                         (zofar.asNumber(uca01dropDown) lt 999999))                                                                                  or                                         (((zofar.asNumber(uca04dropDown) * 100) + zofar.asNumber(uca03dropDown))                                         gt                                          (zofar.asNumber(h_exitdatum) +1 )                                        and                                        (zofar.getMonth(startPoint) lt 12)                                        and                                          (zofar.asNumber(uca04dropDown) lt 999999)                                         and                                         (zofar.asNumber(uca03dropDown) lt 999999)                                         )                                        or                                        (((zofar.asNumber(uca04dropDown) * 100) + zofar.asNumber(uca03dropDown))                                        gt                                          (zofar.asNumber(h_exitdatum) + 89)                                        and                                        (zofar.getMonth(startPoint) == 12)                                        and                                          (zofar.asNumber(uca04dropDown) lt 999999)                                         and                                         (zofar.asNumber(uca03dropDown) lt 999999))                          " />
+			<zofar:transition target="uca05"
+				condition="zofar.asNumber(PRELOADcohort)==2" />
+			<zofar:transition target="uca20"
+				condition="		zofar.asNumber(PRELOADcohort)==1 and 
+							(((	zofar.asNumber(uca04dropDown)*100) + zofar.asNumber(uca03dropDown))!=zofar.asNumber(h_exitdatum))" />
+			<zofar:transition target="zwischen_u"
+				condition="		zofar.asNumber(PRELOADcohort)==1 and 
+							(((	zofar.asNumber(uca04dropDown)*100) + zofar.asNumber(uca03dropDown))==zofar.asNumber(h_exitdatum))" />				
+		</zofar:transitions>
+		<zofar:triggers>
+<!-- 			<zofar:variable variable="uca01" value="1" label="Januar" -->
+<!-- 				onExit="true" direction="forward" -->
+<!-- 				condition="zofar.asNumber(PRELOADcohort)==1 and uca01a.value" /> -->
+<!-- 			<zofar:variable variable="uca01" value="7" label="Juli" -->
+<!-- 				onExit="true" direction="forward" -->
+<!-- 				condition="zofar.asNumber(PRELOADcohort)==2 and uca01a.value" /> -->
+<!-- 			<zofar:variable variable="uca02" value="2018" -->
+<!-- 				onExit="true" direction="forward" condition="uca01a.value" /> -->
+<!-- 			<zofar:variable variable="uca03" value="12" label="Dezember" -->
+<!-- 				onExit="true" direction="forward" condition="uca03a.value" /> -->
+<!-- 			<zofar:variable variable="uca04" value="2019" -->
+<!-- 				onExit="true" direction="forward" condition="uca03a.value" /> -->
+			<zofar:variable variable="flag_uca01" value="true"
+				direction="forward" onExit="true"
+				condition="                                         (((zofar.asNumber(uca02dropDown) * 100) + zofar.asNumber(uca01dropDown))                                         gt                                          (zofar.asNumber(h_exitdatum) +1 )                                        and                                        (zofar.getMonth(startPoint) lt 12)                                        and                                          (zofar.asNumber(uca02dropDown) lt 999999)                                         and                                         (zofar.asNumber(uca01dropDown) lt 999999)                                         )                                        or                                        (((zofar.asNumber(uca02dropDown) * 100) + zofar.asNumber(uca01dropDown))                                        gt                                          (zofar.asNumber(h_exitdatum) + 89)                                        and                                        (zofar.getMonth(startPoint) == 12)                                        and                                          (zofar.asNumber(uca02dropDown) lt 999999)                                         and                                         (zofar.asNumber(uca01dropDown) lt 999999))                                                                                  or                                         (((zofar.asNumber(uca04dropDown) * 100) + zofar.asNumber(uca03dropDown))                                         gt                                          (zofar.asNumber(h_exitdatum) +1 )                                        and                                        (zofar.getMonth(startPoint) lt 12)                                        and                                          (zofar.asNumber(uca04dropDown) lt 999999)                                         and                                         (zofar.asNumber(uca03dropDown) lt 999999)                                         )                                        or                                        (((zofar.asNumber(uca04dropDown) * 100) + zofar.asNumber(uca03dropDown))                                        gt                                          (zofar.asNumber(h_exitdatum) + 89)                                        and                                        (zofar.getMonth(startPoint) == 12)                                        and                                          (zofar.asNumber(uca04dropDown) lt 999999)                                         and                                         (zofar.asNumber(uca03dropDown) lt 999999))                                         " />
+		</zofar:triggers>
+		<zofar:side xsi:nil="true" />
+		<zofar:researchdata xsi:nil="true" />
+		<zofar:breadcrumb xsi:nil="true" />
+	</zofar:page>
+	<zofar:page uid="uca05" customLayout="false">
+		<zofar:header>
+			<zofar:text uid="txt" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Arbeitslosigkeit
+				#{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="body">
+			<zofar:questionSingleChoice uid="qsc1">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="zofar.asNumber(uca01)!=999999 and zofar.asNumber(uca02)!=999999 and zofar.asNumber(uca03)!=999999 and zofar.asNumber(uca04)!=999999">Waren Sie während dieser Arbeitslosigkeit zwischen
+						#{zofar.labelOf(uca01)} #{zofar.labelOf(uca02)} und
+						#{zofar.labelOf(uca03)} #{zofar.labelOf(uca04)} arbeitslos oder
+						arbeitssuchend gemeldet?</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="zofar.asNumber(uca01)==999999 or zofar.asNumber(uca02)==999999 or zofar.asNumber(uca03)==999999 or zofar.asNumber(uca04)==999999">Waren Sie in dieser Zeit arbeitslos oder arbeitssuchend
+						gemeldet?</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="uca05" uid="rd">
+					<zofar:answerOption uid="ao1" value="1"
+						label="ja, die gesamte Zeit" />
+					<zofar:answerOption uid="ao2" value="2"
+						label="ja, aber nicht die gesamte Zeit" />
+					<zofar:answerOption uid="ao3" value="3"
+						label="nein" />
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="uca06" condition="zofar.asNumber(uca05)==1 or zofar.asNumber(uca05)==2"/>
+			<zofar:transition target="uca20" 		condition=" (((	zofar.asNumber(uca04dropDown)*100) + zofar.asNumber(uca03dropDown))!=zofar.asNumber(h_exitdatum))" />
+			<zofar:transition target="zwischen_u"  	condition="	(((	zofar.asNumber(uca04dropDown)*100) + zofar.asNumber(uca03dropDown))==zofar.asNumber(h_exitdatum))" />				
+		</zofar:transitions>
+		<zofar:triggers></zofar:triggers>
+		<zofar:side xsi:nil="true" />
+		<zofar:researchdata xsi:nil="true" />
+		<zofar:breadcrumb xsi:nil="true" />
+	</zofar:page>
+	<zofar:page uid="uca06" customLayout="false">
+		<zofar:header>
+			<zofar:text uid="txt" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Arbeitslosigkeit
+				#{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="body">
+			<zofar:questionSingleChoice uid="qsc1">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="zofar.asNumber(uca01)!=999999 and zofar.asNumber(uca02)!=999999 and zofar.asNumber(uca03)!=999999 and zofar.asNumber(uca04)!=999999">Und haben Sie während dieser Arbeitslosigkeit zwischen
+						#{zofar.labelOf(uca01)} #{zofar.labelOf(uca02)} und
+						#{zofar.labelOf(uca03)} #{zofar.labelOf(uca04)} Zeit
+						Arbeitslosengeld (auch Unterhaltsgeld, Arbeitslosengeld 1) oder
+						Arbeitslosengeld 2 (z. B. durch Hartz IV) bekommen?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="zofar.asNumber(uca01)==999999 or zofar.asNumber(uca02)==999999 or zofar.asNumber(uca03)==999999 or zofar.asNumber(uca04)==999999">Und haben Sie in dieser Zeit Arbeitslosengeld (auch
+						Unterhaltsgeld, Arbeitslosengeld 1) oder Arbeitslosengeld 2 (z. B.
+						durch Hartz IV) bekommen?</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="uca06" uid="rd">
+					<zofar:answerOption uid="ao1" value="1"
+						label="ja, die gesamte Zeit" />
+					<zofar:answerOption uid="ao2" value="2"
+						label="ja, aber nicht die gesamte Zeit" />
+					<zofar:answerOption uid="ao3" value="3"
+						label="nein" />
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="uca20" 		condition=" (((	zofar.asNumber(uca04dropDown)*100) + zofar.asNumber(uca03dropDown))!=zofar.asNumber(h_exitdatum))" />
+			<zofar:transition target="zwischen_u"  	condition="	(((	zofar.asNumber(uca04dropDown)*100) + zofar.asNumber(uca03dropDown))==zofar.asNumber(h_exitdatum))" />				
+		</zofar:transitions>
+		<zofar:triggers></zofar:triggers>
+		<zofar:side xsi:nil="true" />
+		<zofar:researchdata xsi:nil="true" />
+		<zofar:breadcrumb xsi:nil="true" />
+	</zofar:page>
+	<zofar:page uid="uca20" customLayout="false">
+		<zofar:header>
+			<zofar:text uid="txt" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Arbeitslosigkeit
+				#{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="body">
+			<zofar:questionSingleChoice uid="qsc1">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="                  zofar.asNumber(uca03) != 999999                  and                  zofar.asNumber(uca04) != 999999                  ">Waren Sie seit
+						#{zofar.labelOf(uca03)}
+						#{zofar.labelOf(uca04)} ein weiteres Mal
+						arbeitslos?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="                  zofar.asNumber(uca03) == 999999                  or                  zofar.asNumber(uca04) == 999999                  ">Waren Sie danach ein weiteres Mal arbeitslos?
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="uca20" uid="rd">
+					<zofar:answerOption uid="ao1" value="1"
+						label="ja" />
+					<zofar:answerOption uid="ao2" value="2"
+						label="nein" />
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+			<zofar:section uid="sw"
+				visible="navigatorBean.isSame() or zofar.isBooleanSet('flag_uca20',sessionController.participant)">
+				<zofar:header />
+				<zofar:body uid="bb">
+					<zofar:multipleChoice uid="mcsf">
+						<zofar:header>
+							<zofar:introduction uid="intro1">#{layout.WARNING_START}
+								Für den weiteren Fragebogenverlauf und
+								die Auswertung der Daten
+								ist es wichtig, dass Sie die Frage
+								beantworten.
+								#{layout.WARNING_END}
+							</zofar:introduction>
+							<zofar:question uid="q1"></zofar:question>
+						</zofar:header>
+						<zofar:responseDomain uid="rd">
+							<zofar:answerOption variable="sf_uca20"
+								uid="ao1"
+								label="Ich möchte diese Frage dennoch nicht beantworten." />
+						</zofar:responseDomain>
+					</zofar:multipleChoice>
+				</zofar:body>
+			</zofar:section>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="uda01"
+				condition="zofar.asNumber(uca20)==1" />
+			<zofar:transition target="zwischen_u"
+				condition="zofar.asNumber(uca20)==2" />
+			<zofar:transition target="zwischen_u"
+				condition="zofar.isMissing(uca20) and sf_uca20.value" />
+			<zofar:transition target="uca20" />
+		</zofar:transitions>
+		<zofar:triggers>
+			<zofar:variable variable="flag_uca20" value="true"
+				direction="same" onExit="false" />
+		</zofar:triggers>
+		<zofar:side xsi:nil="true" />
+		<zofar:researchdata xsi:nil="true" />
+		<zofar:breadcrumb xsi:nil="true" />
+	</zofar:page>
+	<zofar:page uid="uda01" customLayout="false">
+		<zofar:header>
+			<zofar:text uid="txt" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Arbeitslosigkeit
+				#{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="body">
+			<zofar:matrixQuestionSingleChoice
+				uid="msc">
+				<zofar:header>
+					<zofar:question uid="q1" block="true">Wann waren Sie erneut
+						arbeitslos?</zofar:question>
+					<zofar:instruction uid="is" block="true">
+                    	#{layout.BREAK}Wir interessieren uns auch für Tätigkeiten, die vor #{h_enterdatum.value} begonnen haben und zu dem Zeitpunkt noch andauerten. Machen Sie für diese Tätigkeiten bitte Angaben ab #{h_enterdatum.value}.
+                    </zofar:instruction>
+				</zofar:header>
+                <zofar:responseDomain noResponseOptions="1" uid="rd">
+                    <zofar:header>
+                        <zofar:title uid="t1"/>
+                    </zofar:header>
+                    <zofar:item uid="i1">
+                        <zofar:header>
+                            <zofar:question uid="qi1" block="true">#{layout.BOLD_START}von: #{layout.BOLD_END}</zofar:question>
+                        </zofar:header>
+                        <zofar:responseDomain variable="uda01" uid="rd1" type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" label="Monat"/>
+                            <zofar:answerOption uid="ao1" value="1" label="Januar"/>
+                            <zofar:answerOption uid="ao2" value="2" label="Februar"/>
+                            <zofar:answerOption uid="ao3" value="3" label="März"/>
+                            <zofar:answerOption uid="ao4" value="4" label="April"/>
+                            <zofar:answerOption uid="ao5" value="5" label="Mai"/>
+                            <zofar:answerOption uid="ao6" value="6" label="Juni"/>
+                            <zofar:answerOption uid="ao7" value="7" label="Juli"/>
+                            <zofar:answerOption uid="ao8" value="8" label="August"/>
+                            <zofar:answerOption uid="ao9" value="9" label="September"/>
+                            <zofar:answerOption uid="ao10" value="10" label="Oktober"/>
+                            <zofar:answerOption uid="ao11" value="11" label="November"/>
+                            <zofar:answerOption uid="ao12" value="12" label="Dezember"/>
+                        </zofar:responseDomain>
+                    </zofar:item>
+                    <zofar:item uid="i2">
+                        <zofar:header>
+                            <zofar:question uid="qi2"/>
+                        </zofar:header>
+                        <zofar:responseDomain variable="uda02" uid="rd2" type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+                        </zofar:responseDomain>
+                    </zofar:item>
+                </zofar:responseDomain>
+            </zofar:matrixQuestionSingleChoice>
+            <zofar:multipleChoice uid="mc1">
+                <zofar:header>
+                    <zofar:question uid="q1"/>
+                </zofar:header>
+                <zofar:responseDomain uid="rd3">
+                    <zofar:answerOption variable="uda01a" uid="ao1" label="#{layout.BOLD_START}Beginn vor #{h_enterdatum.value}#{layout.BOLD_END}"/>
+                </zofar:responseDomain>
+            </zofar:multipleChoice>
+            <zofar:matrixQuestionSingleChoice uid="msc2">
+                <zofar:header>
+                    <zofar:question uid="q3" block="true"/>
+                </zofar:header>
+                <zofar:responseDomain noResponseOptions="1" uid="rd4">
+                    <zofar:header>
+                        <zofar:title uid="t2"/>
+                    </zofar:header>
+                    <zofar:item uid="i3">
+                        <zofar:header>
+                            <zofar:question uid="qi3">#{layout.BOLD_START}bis: #{layout.BOLD_END}</zofar:question>
+                        </zofar:header>
+                        <zofar:responseDomain variable="uda03" uid="rd5" type="dropdown">
+                            <zofar:answerOption uid="ao0" value="999999" label="Monat"/>
+                            <zofar:answerOption uid="ao1" value="1" label="Januar"/>
+                            <zofar:answerOption uid="ao2" value="2" label="Februar"/>
+                            <zofar:answerOption uid="ao3" value="3" label="März"/>
+                            <zofar:answerOption uid="ao4" value="4" label="April"/>
+                            <zofar:answerOption uid="ao5" value="5" label="Mai"/>
+                            <zofar:answerOption uid="ao6" value="6" label="Juni"/>
+                            <zofar:answerOption uid="ao7" value="7" label="Juli"/>
+                            <zofar:answerOption uid="ao8" value="8" label="August"/>
+                            <zofar:answerOption uid="ao9" value="9" label="September"/>
+                            <zofar:answerOption uid="ao10" value="10" label="Oktober"/>
+                            <zofar:answerOption uid="ao11" value="11" label="November"/>
+                            <zofar:answerOption uid="ao12" value="12" label="Dezember"/>
+                        </zofar:responseDomain>
+                    </zofar:item>
+                    <zofar:item uid="i4">
+                        <zofar:header>
+                            <zofar:question uid="qi4"/>
+                        </zofar:header>
+                        <zofar:responseDomain variable="uda04" uid="rd6" type="dropdown">
+							<zofar:answerOption uid="ao0" value="999999" 	label="Jahr" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao1" value="2018" 		label="2018" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao2" value="2019" 		label="2019" visible="zofar.asNumber(PRELOADwave)!=1" />
+							<zofar:answerOption uid="ao3" value="2020" 		label="2020"/>	
+                        </zofar:responseDomain>
+                    </zofar:item>
+                </zofar:responseDomain>
+            </zofar:matrixQuestionSingleChoice>
+            <zofar:multipleChoice uid="mc2">
+                <zofar:header>
+                    <zofar:question uid="q4"/>
+                </zofar:header>
+                <zofar:responseDomain uid="rd7">
+                    <zofar:answerOption variable="uda03a" uid="ao1" label="#{layout.BOLD_START}dauert noch an#{layout.BOLD_END}"/>
+                </zofar:responseDomain>
+            </zofar:multipleChoice>
+			<zofar:section uid="sw1" visible="flag_uda01.value">
+				<zofar:header>
+					<zofar:text uid="t">#{layout.WARNING_START}
+						Bitte überprüfen Sie Ihre Eingabe. Sie haben ein Datum eingegeben, das
+						in der Zukunft liegt.
+						#{layout.WARNING_END}
+					</zofar:text>
+				</zofar:header>
+				<zofar:body uid="bb" />
+			</zofar:section>
+			<zofar:multipleChoice uid="mcsf"
+				visible="(navigatorBean.isSame()               and               (              ((zofar.asNumber(uda01dropDown)==999999 or zofar.asNumber(uda02dropDown)==999999) and !uda01a.value)              or               ((zofar.asNumber(uda03dropDown)==999999 or zofar.asNumber(uda04dropDown)==999999) and !uda03a.value)              ))              or               sf_uda01.value">
+				<zofar:header>
+					<zofar:introduction uid="intro1">#{layout.WARNING_START}
+						Für den weiteren Fragebogenverlauf und die Auswertung der Daten
+						ist es wichtig, dass Sie die Frage beantworten.
+						#{layout.WARNING_END}
+					</zofar:introduction>
+					<zofar:question uid="q1"></zofar:question>
+				</zofar:header>
+				<zofar:responseDomain uid="rd8">
+					<zofar:answerOption variable="sf_uda01"
+						uid="ao1"
+						label="Ich möchte diese Frage dennoch nicht beantworten." />
+				</zofar:responseDomain>
+			</zofar:multipleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="uda01"
+				condition="            (            ((zofar.asNumber(uda01dropDown)==999999 or zofar.asNumber(uda02dropDown)==999999) and !uda01a.value)            or             ((zofar.asNumber(uda03dropDown)==999999 or zofar.asNumber(uda04dropDown)==999999) and !uda03a.value)            )            and             !sf_uda01.value" />
+			<zofar:transition target="uda01"
+				condition="                       !flag_uda01.value                        and                          (((zofar.asNumber(uda02dropDown) * 100) + zofar.asNumber(uda01dropDown))                                         gt                                          (zofar.asNumber(h_exitdatum) +1 )                                        and                                        (zofar.getMonth(startPoint) lt 12)                                        and                                          (zofar.asNumber(uda02dropDown) lt 999999)                                         and                                         (zofar.asNumber(uda01dropDown) lt 999999)                                         )                                        or                                        (((zofar.asNumber(uda02dropDown) * 100) + zofar.asNumber(uda01dropDown))                                        gt                                          (zofar.asNumber(h_exitdatum) + 89)                                        and                                        (zofar.getMonth(startPoint) == 12)                                        and                                          (zofar.asNumber(uda02dropDown) lt 999999)                                         and                                         (zofar.asNumber(uda01dropDown) lt 999999))                                                                                  or                                         (((zofar.asNumber(uda04dropDown) * 100) + zofar.asNumber(uda03dropDown))                                         gt                                          (zofar.asNumber(h_exitdatum) +1 )                                        and                                        (zofar.getMonth(startPoint) lt 12)                                        and                                          (zofar.asNumber(uda04dropDown) lt 999999)                                         and                                         (zofar.asNumber(uda03dropDown) lt 999999)                                         )                                        or                                        (((zofar.asNumber(uda04dropDown) * 100) + zofar.asNumber(uda03dropDown))                                        gt                                          (zofar.asNumber(h_exitdatum) + 89)                                        and                                        (zofar.getMonth(startPoint) == 12)                                        and                                          (zofar.asNumber(uda04dropDown) lt 999999)                                         and                                         (zofar.asNumber(uda03dropDown) lt 999999))                          " />
+			<zofar:transition target="uda05"
+				condition="zofar.asNumber(PRELOADcohort)==2" />
+			<zofar:transition target="uda20"
+				condition="		zofar.asNumber(PRELOADcohort)==1 and 
+							(((	zofar.asNumber(uda04dropDown)*100) + zofar.asNumber(uda03dropDown))!=zofar.asNumber(h_exitdatum))" />
+			<zofar:transition target="zwischen_u"
+				condition="		zofar.asNumber(PRELOADcohort)==1 and 
+							(((	zofar.asNumber(uda04dropDown)*100) + zofar.asNumber(uda03dropDown))==zofar.asNumber(h_exitdatum))" />				
+		</zofar:transitions>
+		<zofar:triggers>
+<!-- 			<zofar:variable variable="uda01" value="1" label="Januar" -->
+<!-- 				onExit="true" direction="forward" -->
+<!-- 				condition="zofar.asNumber(PRELOADcohort)==1 and uda01a.value" /> -->
+<!-- 			<zofar:variable variable="uda01" value="7" label="Juli" -->
+<!-- 				onExit="true" direction="forward" -->
+<!-- 				condition="zofar.asNumber(PRELOADcohort)==2 and uda01a.value" /> -->
+<!-- 			<zofar:variable variable="uda02" value="2018" -->
+<!-- 				onExit="true" direction="forward" condition="uda01a.value" /> -->
+<!-- 			<zofar:variable variable="uda03" value="12" label="Dezember" -->
+<!-- 				onExit="true" direction="forward" condition="uda03a.value" /> -->
+<!-- 			<zofar:variable variable="uda04" value="2019" -->
+<!-- 				onExit="true" direction="forward" condition="uda03a.value" /> -->
+			<zofar:variable variable="flag_uda01" value="true"
+				direction="forward" onExit="true"
+				condition="                                         (((zofar.asNumber(uda02dropDown) * 100) + zofar.asNumber(uda01dropDown))                                         gt                                          (zofar.asNumber(h_exitdatum) +1 )                                        and                                        (zofar.getMonth(startPoint) lt 12)                                        and                                          (zofar.asNumber(uda02dropDown) lt 999999)                                         and                                         (zofar.asNumber(uda01dropDown) lt 999999)                                         )                                        or                                        (((zofar.asNumber(uda02dropDown) * 100) + zofar.asNumber(uda01dropDown))                                        gt                                          (zofar.asNumber(h_exitdatum) + 89)                                        and                                        (zofar.getMonth(startPoint) == 12)                                        and                                          (zofar.asNumber(uda02dropDown) lt 999999)                                         and                                         (zofar.asNumber(uda01dropDown) lt 999999))                                                                                  or                                         (((zofar.asNumber(uda04dropDown) * 100) + zofar.asNumber(uda03dropDown))                                         gt                                          (zofar.asNumber(h_exitdatum) +1 )                                        and                                        (zofar.getMonth(startPoint) lt 12)                                        and                                          (zofar.asNumber(uda04dropDown) lt 999999)                                         and                                         (zofar.asNumber(uda03dropDown) lt 999999)                                         )                                        or                                        (((zofar.asNumber(uda04dropDown) * 100) + zofar.asNumber(uda03dropDown))                                        gt                                          (zofar.asNumber(h_exitdatum) + 89)                                        and                                        (zofar.getMonth(startPoint) == 12)                                        and                                          (zofar.asNumber(uda04dropDown) lt 999999)                                         and                                         (zofar.asNumber(uda03dropDown) lt 999999))                                         " />
+		</zofar:triggers>
+		<zofar:side xsi:nil="true" />
+		<zofar:researchdata xsi:nil="true" />
+		<zofar:breadcrumb xsi:nil="true" />
+	</zofar:page>
+	<zofar:page uid="uda05" customLayout="false">
+		<zofar:header>
+			<zofar:text uid="txt" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Arbeitslosigkeit
+				#{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="body">
+			<zofar:questionSingleChoice uid="qsc1">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="zofar.asNumber(uda01)!=999999 and zofar.asNumber(uda02)!=999999 and zofar.asNumber(uda03)!=999999 and zofar.asNumber(uda04)!=999999">Waren Sie während dieser Arbeitslosigkeit zwischen
+						#{zofar.labelOf(uda01)} #{zofar.labelOf(uda02)} und
+						#{zofar.labelOf(uda03)} #{zofar.labelOf(uda04)} arbeitslos oder
+						arbeitssuchend gemeldet?</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="zofar.asNumber(uda01)==999999 or zofar.asNumber(uda02)==999999 or zofar.asNumber(uda03)==999999 or zofar.asNumber(uda04)==999999">Waren Sie in dieser Zeit arbeitslos oder arbeitssuchend
+						gemeldet?</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="uda05" uid="rd">
+					<zofar:answerOption uid="ao1" value="1"
+						label="ja, die gesamte Zeit" />
+					<zofar:answerOption uid="ao2" value="2"
+						label="ja, aber nicht die gesamte Zeit" />
+					<zofar:answerOption uid="ao3" value="3"
+						label="nein" />
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="uda06" condition="zofar.asNumber(uda05)==1 or zofar.asNumber(uda05)==2"/>
+			<zofar:transition target="uda20" 		condition=" (((	zofar.asNumber(uda04dropDown)*100) + zofar.asNumber(uda03dropDown))!=zofar.asNumber(h_exitdatum))" />
+			<zofar:transition target="zwischen_u"  	condition="	(((	zofar.asNumber(uda04dropDown)*100) + zofar.asNumber(uda03dropDown))==zofar.asNumber(h_exitdatum))" />				
+		</zofar:transitions>
+		<zofar:triggers></zofar:triggers>
+		<zofar:side xsi:nil="true" />
+		<zofar:researchdata xsi:nil="true" />
+		<zofar:breadcrumb xsi:nil="true" />
+	</zofar:page>
+	<zofar:page uid="uda06" customLayout="false">
+		<zofar:header>
+			<zofar:text uid="txt" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Arbeitslosigkeit
+				#{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="body">
+			<zofar:questionSingleChoice uid="qsc1">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="zofar.asNumber(uda01)!=999999 and zofar.asNumber(uda02)!=999999 and zofar.asNumber(uda03)!=999999 and zofar.asNumber(uda04)!=999999">Und haben Sie während dieser Arbeitslosigkeit zwischen
+						#{zofar.labelOf(uda01)} #{zofar.labelOf(uda02)} und
+						#{zofar.labelOf(uda03)} #{zofar.labelOf(uda04)} Zeit
+						Arbeitslosengeld (auch Unterhaltsgeld, Arbeitslosengeld 1) oder
+						Arbeitslosengeld 2 (z. B. durch Hartz IV) bekommen?
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="zofar.asNumber(uda01)==999999 or zofar.asNumber(uda02)==999999 or zofar.asNumber(uda03)==999999 or zofar.asNumber(uda04)==999999">Und haben Sie in dieser Zeit Arbeitslosengeld (auch
+						Unterhaltsgeld, Arbeitslosengeld 1) oder Arbeitslosengeld 2 (z. B.
+						durch Hartz IV) bekommen?</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="uda06" uid="rd">
+					<zofar:answerOption uid="ao1" value="1"
+						label="ja, die gesamte Zeit" />
+					<zofar:answerOption uid="ao2" value="2"
+						label="ja, aber nicht die gesamte Zeit" />
+					<zofar:answerOption uid="ao3" value="3"
+						label="nein" />
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="uda20" 		condition=" (((	zofar.asNumber(uda04dropDown)*100) + zofar.asNumber(uda03dropDown))!=zofar.asNumber(h_exitdatum))" />
+			<zofar:transition target="zwischen_u"  	condition="	(((	zofar.asNumber(uda04dropDown)*100) + zofar.asNumber(uda03dropDown))==zofar.asNumber(h_exitdatum))" />				
+		</zofar:transitions>
+		<zofar:triggers></zofar:triggers>
+		<zofar:side xsi:nil="true" />
+		<zofar:researchdata xsi:nil="true" />
+		<zofar:breadcrumb xsi:nil="true" />
+	</zofar:page>
+	<zofar:page uid="uda20" customLayout="false">
+		<zofar:header>
+			<zofar:text uid="txt" block="true">#{layout.BOLD_START}
+				#{layout.HEADLINE_START} #{layout.DZHW_GREY_START}Arbeitslosigkeit
+				#{layout.DZHW_GREY_END} #{layout.HEADLINE_END} #{layout.BOLD_END}
+			</zofar:text>
+		</zofar:header>
+		<zofar:body uid="body">
+			<zofar:questionSingleChoice uid="qsc1">
+				<zofar:header>
+					<zofar:question uid="q1" block="true"
+						visible="                  zofar.asNumber(uda03) != 999999                  and                  zofar.asNumber(uda04) != 999999                  ">
+						Damit die Befragung nicht zu lang wird,  
+						begrenzen wir die Fragen nach weiteren Arbeitslosigkeiten. #{layout.BREAK} #{layout.BREAK}
+						Bitte geben Sie uns nur noch an, ob Sie seit
+						#{zofar.labelOf(uda03)}
+						#{zofar.labelOf(uda04)} ein weiteres Mal
+						arbeitslos waren.
+					</zofar:question>
+					<zofar:question uid="q2" block="true"
+						visible="                  zofar.asNumber(uda03) == 999999                  or                  zofar.asNumber(uda04) == 999999                  ">
+						Damit die Befragung nicht zu lang wird,  
+						begrenzen wir die Fragen nach weiteren Arbeitslosigkeiten. #{layout.BREAK} #{layout.BREAK}
+						Bitte geben Sie uns nur noch an, ob Sie 
+						danach noch ein weiteres Mal arbeitslos waren.
+					</zofar:question>
+				</zofar:header>
+				<zofar:responseDomain variable="uea20" uid="rd">
+					<zofar:answerOption uid="ao1" value="1"
+						label="ja, noch einmal" />
+					<zofar:answerOption uid="ao2" value="2"
+						label="ja, noch mehrmals" />
+					<zofar:answerOption uid="ao3" value="3"
+						label="nein" />
+				</zofar:responseDomain>
+			</zofar:questionSingleChoice>
+		</zofar:body>
+		<zofar:transitions>
+			<zofar:transition target="zwischen_u" />
+		</zofar:transitions>
+		<zofar:side xsi:nil="true" />
+		<zofar:researchdata xsi:nil="true" />
+		<zofar:breadcrumb xsi:nil="true" />
+	</zofar:page>
+</zofar:questionnaire>
