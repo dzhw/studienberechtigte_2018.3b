@@ -272,7 +272,7 @@ Persönlichkeitseigenschaften beeinflusst. Inwieweit
 
 treffen die folgenden Aussagen auf Sie zu?
 
-q: Bin ich jemand, der...
+q: Ich bin jemand, der...
 
 is: Bitte jeweils den zutreffenden Skalenwert ankreuzen.
 
