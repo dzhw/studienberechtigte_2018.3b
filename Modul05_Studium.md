@@ -62,7 +62,7 @@ tc:
 
 vn: chaausbe\_183b
 
-qt: Einfachauswahl, horizontale ao
+qt: Einfachauswahl, vertikale ao
 
 hl:
 
@@ -119,7 +119,7 @@ tc:
 
 vn: einflfin\_183b
 
-qt: Einfachauswahl, horizontale ao
+qt: Einfachauswahl, vertikale ao
 
 hl:
 
@@ -176,7 +176,7 @@ tc:
 
 vn: kostausb1\_183b
 
-qt: Einfachauswahl, horizontale ao
+qt: Einfachauswahl, vertikale ao
 
 hl:
 
@@ -237,7 +237,7 @@ tc:
 
 vn: koststud1\_183b
 
-qt: Einfachauswahl, horizontale ao
+qt: Einfachauswahl, vertikale ao
 
 hl:
 
@@ -298,7 +298,7 @@ tc:
 
 vn: kostausb2\_183b
 
-qt: Einfachauswahl, horizontale ao
+qt: Einfachauswahl, vertikale ao
 
 hl:
 
@@ -357,7 +357,7 @@ tc:
 
 vn: koststud2\_183b
 
-qt: Einfachauswahl, horizontale ao
+qt: Einfachauswahl, vertikale ao
 
 hl:
 
