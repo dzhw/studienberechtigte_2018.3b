@@ -54,7 +54,7 @@ tc:
 
 vn: gesund\_183b
 
-qt: Einfachauswahl mit horizontaler ao
+qt: Einfachauswahl mit vertikaler ao
 
 hl:
 
