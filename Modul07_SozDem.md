@@ -122,7 +122,7 @@ tc:
 
 vn: fairy\_183b
 
-qt: Einfachauswahl mit horizontalen ao
+qt: Einfachauswahl mit vertikalen ao
 
 hl:
 
@@ -190,7 +190,7 @@ tc:
 
 vn: menver\_183b
 
-qt: Einfachauswahl mit horizontalen ao
+qt: Einfachauswahl mit vertikalen ao
 
 hl:
 
@@ -1420,7 +1420,7 @@ tc:
 
 vn: zuf4leben\_183b
 
-qt: Einfachauswahl, horizontale ao
+qt: Einfachauswahl, vertikale ao
 
 hl:
 
