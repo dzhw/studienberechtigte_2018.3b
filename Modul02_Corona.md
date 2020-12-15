@@ -574,7 +574,7 @@ fo:
 
 tr: 
 
-GOTO aus\_00 IF wave=1 OR wave=2 OR wave=3
+GOTO zwischen_epi IF wave=1 OR wave=2 OR wave=3
 
 
 
