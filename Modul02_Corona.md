@@ -574,11 +574,7 @@ fo:
 
 tr: 
 
-GOTO zwischen_epi IF wave=1 OR wave=2 OR wave=3
-
-
-
-GOTO reife\_00 IF wave=4 OR wave=5
+GOTO zwischen_epi
 
 hi:
 
