@@ -136,7 +136,7 @@ is:
 
 it:
 
-ao1:1: Menschen verhalten sich im Allgemeinen nicht fair (1)
+ao1:1: (1) Menschen verhalten sich im Allgemeinen nicht fair 
 
 ao2:2: (2)
 
@@ -156,7 +156,7 @@ ao9:9: (9)
 
 ao10:10: (10)
 
-ao11:11: Menschen verhalten sich im Allgemeinen fair (11)
+ao11:11: (11) Menschen verhalten sich im Allgemeinen fair 
 
 mv:
 
@@ -202,7 +202,7 @@ is:
 
 it:
 
-ao1:1: man kann im Allgemeinen nicht vertrauen (1)
+ao1:1: (1) man kann im Allgemeinen nicht vertrauen 
 
 ao2:2: (2)
 
@@ -222,7 +222,7 @@ ao9:9: (9)
 
 ao10:10: (10)
 
-ao11:11: man kann im Allgemeinen vertrauen (11)
+ao11:11: (11) man kann im Allgemeinen vertrauen 
 
 mv:
 
@@ -1435,7 +1435,7 @@ st:
 
 it:
 
-ao1:1: sehr zufrieden (1)
+ao1:1: (1) sehr zufrieden 
 
 ao2:2: (2)
 
@@ -1443,7 +1443,7 @@ ao3:3: (3)
 
 ao4:4: (4)
 
-ao5:5: sehr unzufrieden (5)
+ao5:5: (5) sehr unzufrieden 
 
 mv:
 
