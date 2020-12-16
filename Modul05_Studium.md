@@ -78,7 +78,7 @@ st:
 
 it:
 
-ao1:1: sehr hoch (1)
+ao1:1: (1) sehr hoch 
 
 ao2:2: (2)
 
@@ -86,7 +86,7 @@ ao3:3: (3)
 
 ao4:4: (4)
 
-ao5:5: sehr gering (5)
+ao5:5: (5) sehr gering 
 
 mv:
 
@@ -135,7 +135,7 @@ st:
 
 it:
 
-ao1:1: großen Einfluss (1)
+ao1:1: (1) großen Einfluss 
 
 ao2:2: (2)
 
@@ -143,7 +143,7 @@ ao3:3: (3)
 
 ao4:4: (4)
 
-ao5:5: keinen Einfluss (5)
+ao5:5: (5) keinen Einfluss 
 
 mv:
 
@@ -196,7 +196,7 @@ st:
 
 it: ... wenn Sie eine berufliche Ausbildung machen würden?
 
-ao1:1: sehr leicht (1)
+ao1:1: (1) sehr leicht 
 
 ao2:2: (2)
 
@@ -204,7 +204,7 @@ ao3:3: (3)
 
 ao4:4: (4)
 
-ao5:5: sehr schwer (5)
+ao5:5: (5) sehr schwer
 
 mv:
 
@@ -257,7 +257,7 @@ st:
 
 it: ... wenn Sie ein Studium aufnehmen würden?
 
-ao1:1: sehr leicht (1)
+ao1:1: (1) sehr leicht 
 
 ao2:2: (2)
 
@@ -265,7 +265,7 @@ ao3:3: (3)
 
 ao4:4: (4)
 
-ao5:5: sehr schwer (5)
+ao5:5: (5) sehr schwer 
 
 mv:
 
@@ -316,7 +316,7 @@ st:
 
 it: ...wenn Sie eine berufliche Ausbildung machen würden?
 
-ao1:1: sehr gering (1)
+ao1:1: (1) sehr gering 
 
 ao2:2: (2)
 
@@ -324,7 +324,7 @@ ao3:3: (3)
 
 ao4:4: (4)
 
-ao5:5: sehr hoch (5)
+ao5:5: (5) sehr hoch 
 
 mv:
 
@@ -375,7 +375,7 @@ st:
 
 It1: ... wenn Sie ein Studium aufnehmen würden?
 
-ao1:1: sehr gering (1)
+ao1:1: (1) sehr gering 
 
 ao2:2: (2)
 
@@ -383,7 +383,7 @@ ao3:3: (3)
 
 ao4:4: (4)
 
-ao5:5: sehr hoch (5)
+ao5:5: (5) sehr hoch 
 
 mv:
 
