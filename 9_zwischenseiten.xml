@@ -5419,35 +5419,37 @@
 <!-- 			</zofar:display> -->
 		</zofar:body>
 		<zofar:transitions>
+			<zofar:transition target="reife_01"
+				condition="	zofar.asNumber(PRELOADwave)==4
+						or
+						zofar.asNumber(PRELOADwave)==5" />
 			<zofar:transition target="zwischen_cal_am"
 				condition="	zofar.asNumber(PRELOADwave)==1
-							and
-							jsCheck2.value 
-							and 
-							width2.value lt 768" />
+						and
+						jsCheck2.value 
+						and 
+						width2.value lt 768" />
 			<zofar:transition target="zwischen_cal_ad"
 				condition="	zofar.asNumber(PRELOADwave)==1
-							and
-							jsCheck2.value 
-							and 
-							width2.value ge 768
-							" />
+						and
+						jsCheck2.value 
+						and 
+						width2.value ge 768
+						" />
 			<zofar:transition target="zwischen_cal_bm"
 				condition="	zofar.asNumber(PRELOADwave)!=1
-							and
-							jsCheck2.value 
-							and 
-							width2.value lt 768" />
+						and
+						jsCheck2.value 
+						and 
+						width2.value lt 768" />
 			<zofar:transition target="zwischen_cal_bd"
 				condition="	zofar.asNumber(PRELOADwave)!=1
-							and
-							jsCheck2.value 
-							and 
-							width2.value ge 768
-							" />
+						and
+						jsCheck2.value 
+						and 
+						width2.value ge 768" />
 			<zofar:transition target="zwischen_k" 
-				condition=" !jsCheck2.value
-							"/>
+				condition=" !jsCheck2.value"/>
 		</zofar:transitions>
 	</zofar:page>
  
