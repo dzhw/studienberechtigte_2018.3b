@@ -27,20 +27,20 @@
 																		zofar.asNumber(h_schule)==1
 																		or
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)==1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		(
@@ -64,20 +64,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -94,20 +94,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)==1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		(
@@ -126,20 +126,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -167,20 +167,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -211,20 +211,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -257,20 +257,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -309,20 +309,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -363,20 +363,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -425,20 +425,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -487,20 +487,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -559,20 +559,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -642,20 +642,20 @@
 																zofar.asNumber(h_schule)==1
 																or
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)==1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																(
@@ -679,20 +679,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)==1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																(
@@ -833,20 +833,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -888,20 +888,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -945,20 +945,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -990,20 +990,20 @@
 																		or
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)==1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		(
@@ -1032,20 +1032,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -1074,20 +1074,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -1118,20 +1118,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -1168,20 +1168,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -1220,20 +1220,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -1280,20 +1280,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -1340,20 +1340,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -1410,20 +1410,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -1455,20 +1455,20 @@
 																"/>
 					<zofar:transition target="st0001" condition="
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)==1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																(
@@ -1591,20 +1591,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -1644,20 +1644,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -1699,20 +1699,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -1745,20 +1745,20 @@
 																		or
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)==1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		(
@@ -1789,20 +1789,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -1833,20 +1833,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -1883,20 +1883,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -1935,20 +1935,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -1995,20 +1995,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -2055,20 +2055,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -2125,20 +2125,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -2750,20 +2750,20 @@
 																"/>
 					<zofar:transition target="v0001" condition="
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)==1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																(
@@ -2881,20 +2881,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -2934,20 +2934,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -2989,20 +2989,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -3033,20 +3033,20 @@
 																		or
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)==1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		(
@@ -3069,20 +3069,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -3110,20 +3110,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -3142,20 +3142,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -3189,20 +3189,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -3245,20 +3245,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -3301,20 +3301,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -3367,20 +3367,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -3461,20 +3461,20 @@
 																" />
 					<zofar:transition target="t0001" condition="
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)==1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																(
@@ -3568,20 +3568,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -3617,20 +3617,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -3668,20 +3668,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -3712,20 +3712,20 @@
 																		or
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)==1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		(
@@ -3753,20 +3753,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -3783,20 +3783,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -3828,20 +3828,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -3882,20 +3882,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -3936,20 +3936,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -4000,20 +4000,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -4045,20 +4045,20 @@
 																" />
 					<zofar:transition target="i0001" condition="
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)==1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																(
@@ -4137,20 +4137,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -4184,20 +4184,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -4233,20 +4233,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -4281,20 +4281,20 @@
 																		or
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)==1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		(
@@ -4327,20 +4327,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -4379,20 +4379,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -4431,20 +4431,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -4493,20 +4493,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -4542,20 +4542,20 @@
 																" />
 					<zofar:transition target="em0001" condition="
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)==1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																(
@@ -4618,20 +4618,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -4663,20 +4663,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -4710,20 +4710,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -4758,20 +4758,20 @@
 																		or 
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)==1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		(
@@ -4802,20 +4802,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -4844,20 +4844,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -4896,20 +4896,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -4939,20 +4939,20 @@
 																"/>
 					<zofar:transition target="u0001" condition="
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)==1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																(
@@ -4992,20 +4992,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -5033,20 +5033,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -5076,20 +5076,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -5120,20 +5120,20 @@
 																		or
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)==1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		(
@@ -5154,20 +5154,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -5196,20 +5196,20 @@
 																		and
 																		(
 																		(
-																		PRELOADwave==1
+																		zofar.asNumber(PRELOADwave)==1
 																		and
 																		zofar.asNumber(h_calmis2020)!=1
 																		)
 																		or
 																		(
 																		(
-																		PRELOADwave==2
+																		zofar.asNumber(PRELOADwave)==2
 																		or
-																		PRELOADwave==3
+																		zofar.asNumber(PRELOADwave)==3
 																		or
-																		PRELOADwave==4
+																		zofar.asNumber(PRELOADwave)==4
 																		or
-																		PRELOADwave==5
+																		zofar.asNumber(PRELOADwave)==5
 																		)
 																		and
 																		zofar.asNumber(h_calmis2018)!=1
@@ -5234,20 +5234,20 @@
 																zofar.asNumber(h_sonstiges)==1
 																or 
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)==1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																(
@@ -5264,20 +5264,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -5295,20 +5295,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
@@ -5328,20 +5328,20 @@
 																and
 																(
 																(
-																PRELOADwave==1
+																zofar.asNumber(PRELOADwave)==1
 																and
 																zofar.asNumber(h_calmis2020)!=1
 																)
 																or
 																(
 																(
-																PRELOADwave==2
+																zofar.asNumber(PRELOADwave)==2
 																or
-																PRELOADwave==3
+																zofar.asNumber(PRELOADwave)==3
 																or
-																PRELOADwave==4
+																zofar.asNumber(PRELOADwave)==4
 																or
-																PRELOADwave==5
+																zofar.asNumber(PRELOADwave)==5
 																)
 																and
 																zofar.asNumber(h_calmis2018)!=1
