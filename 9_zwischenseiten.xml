@@ -9,13 +9,59 @@
                                  Vielen Dank für Ihre Angaben. #{layout.BREAK}#{layout.BREAK}
                           </display:text>
 
-						  <display:text uid="dt20" block="true" visible="zofar.asNumber(h_calmis2018)!=1 and zofar.asNumber(h_calmis2019)!=1">
+						  <display:text uid="dt20" block="true" visible="(
+																		zofar.asNumber(PRELOADwave)==1
+																		and
+																		zofar.asNumber(h_calmis2020)!=1
+																		)
+																		or
+																		(
+																		(
+																		zofar.asNumber(PRELOADwave)==2
+																		or
+																		zofar.asNumber(PRELOADwave)==3
+																		or
+																		zofar.asNumber(PRELOADwave)==4
+																		or
+																		zofar.asNumber(PRELOADwave)==5
+																		)
+																		and
+																		zofar.asNumber(h_calmis2018)!=1
+																		and 
+																		zofar.asNumber(h_calmis2019)!=1
+																		and
+																		zofar.asNumber(h_calmis2020)!=1
+																		)">
                                  Lebensläufe sind sehr komplex. 
 								 Um sicherzugehen, dass wir Ihren individuellen Werdegang richtig verstehen, lässt es sich leider nicht immer ganz vermeiden, 
 								 dass im Fragebogenverlauf einige ähnlich erscheinende Fragen gestellt werden. #{layout.BREAK}#{layout.BREAK}
                           </display:text>
 
-						  <display:text uid="dt21" block="true" visible="zofar.asNumber(h_calmis2018)==1 or zofar.asNumber(h_calmis2019)==1" >
+						  <display:text uid="dt21" block="true" visible="(
+																		zofar.asNumber(PRELOADwave)==1
+																		and
+																		zofar.asNumber(h_calmis2020)==1
+																		)
+																		or
+																		(
+																		(
+																		zofar.asNumber(PRELOADwave)==2
+																		or
+																		zofar.asNumber(PRELOADwave)==3
+																		or
+																		zofar.asNumber(PRELOADwave)==4
+																		or
+																		zofar.asNumber(PRELOADwave)==5
+																		)
+																		and
+																		(
+																		zofar.asNumber(h_calmis2018)==1
+																		or 
+																		zofar.asNumber(h_calmis2019)==1
+																		or 
+																		zofar.asNumber(h_calmis2020)==1
+																		)
+																		)" >
                                  Um sicherzugehen, dass wir Ihren Werdegang richtig verstehen, 
 								 möchten wir Ihnen noch einige Nachfragen zu Ihren Aktivitäten seit #{zofar.valueOf(h_enterdatum)} stellen. #{layout.BREAK}#{layout.BREAK}
                           </display:text>
