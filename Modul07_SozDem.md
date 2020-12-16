@@ -266,15 +266,16 @@ qt: Einfachauswahlmatrix mit horizontalen ao
 
 hl:
 
-in: Die eigenen Entscheidungen werden durch die
+q1: Die eigenen Entscheidungen werden durch die
 
 Persönlichkeitseigenschaften beeinflusst. Inwieweit
 
 treffen die folgenden Aussagen auf Sie zu?
 
-q: Ich bin jemand, der...
-
 is: Bitte jeweils den zutreffenden Skalenwert ankreuzen.
+
+q2: Ich bin jemand, der...
+
 
 it1: ... gründlich arbeitet.
 
