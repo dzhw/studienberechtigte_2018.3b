@@ -68,7 +68,7 @@ is:
 
 it:
 
-ao1:1: sehr zufrieden (1)
+ao1:1: (1) sehr zufrieden 
 
 ao2:2: (2)
 
@@ -76,7 +76,7 @@ ao3:3: (3)
 
 ao4:4: (4)
 
-ao5:5: sehr unzufrieden (5)
+ao5:5: (5) sehr unzufrieden 
 
 mv:
 
@@ -347,7 +347,7 @@ is:
 
 it:
 
-ao1: gar nicht risikobereit (1)
+ao1: (1) gar nicht risikobereit 
 
 ao2: (2)
 
@@ -359,7 +359,7 @@ ao5: (5)
 
 ao6: (6)
 
-ao7: sehr risikobereit (7)
+ao7: (7) sehr risikobereit 
 
 mv:
 
