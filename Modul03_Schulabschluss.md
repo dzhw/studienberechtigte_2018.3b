@@ -331,7 +331,9 @@ fo:
 
 tr: 
 
-GOTO aus\_00
+GOTO zwischen_cal_bm IF jsCheck2.value AND width2.value <=768"
+GOTO zwischen_cal_bd IF jsCheck2.value AND width2.value >=768"
+Goto zwischen_k IF !jsCheck2.value
 
 hi:
 
