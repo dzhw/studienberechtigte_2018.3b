@@ -2802,15 +2802,15 @@ st:
 
 it:
 
-ao1:1: ja, auf jeden Fall (1)
+ao1:1: (1) ja, auf jeden Fall 
 
 ao2:2: (2)
 
-ao3:3: eventuell (3)
+ao3:3: (3) eventuell
 
 ao4:4: (4)
 
-ao5:5: nein, auf keinen Fall (5)
+ao5:5: (5) nein, auf keinen Fall 
 
 ao6:6: weiß ich nicht \[abgesetzt darstellen\]
 
