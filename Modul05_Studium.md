@@ -1694,7 +1694,7 @@ ao4:4: die meisten
 
 ao5:5: alle
 
-mv: -90 : keine Präsenzveranstaltung besucht
+mv: 
 
 ka:
 
