@@ -194,7 +194,7 @@ is:
 
 st:
 
-it: ... wenn Sie eine berufliche Ausbildung machen würden?
+it: ... wenn Sie eine **berufliche Ausbildung** machen würden?
 
 ao1:1: (1) sehr leicht 
 
@@ -255,7 +255,7 @@ is:
 
 st:
 
-it: ... wenn Sie ein Studium aufnehmen würden?
+it: ... wenn Sie ein **Studium** aufnehmen würden?
 
 ao1:1: (1) sehr leicht 
 
@@ -314,7 +314,7 @@ is:
 
 st:
 
-it: ...wenn Sie eine berufliche Ausbildung machen würden?
+it: ...wenn Sie eine **berufliche Ausbildung** machen würden?
 
 ao1:1: (1) sehr gering 
 
@@ -373,7 +373,7 @@ is:
 
 st:
 
-It1: ... wenn Sie ein Studium aufnehmen würden?
+It1: ... wenn Sie ein **Studium** aufnehmen würden?
 
 ao1:1: (1) sehr gering 
 
