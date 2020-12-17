@@ -2159,7 +2159,7 @@ q: Unabhängig davon, ob Sie ein Masterstudium aufnehmen
 
 möchten oder aufgenommen haben: Inwieweit sprechen folgende
 
-Aspekte für Sie persönlich ++für++ ein Masterstudium?
+Aspekte für Sie persönlich **für** ein Masterstudium?
 
 is:
 
@@ -2250,7 +2250,7 @@ in:
 
 q: Und inwieweit sprechen folgende Aspekte für Sie persönlich
 
-++gegen++ ein Masterstudium?
+**gegen** ein Masterstudium?
 
 is:
 
