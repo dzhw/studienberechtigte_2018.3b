@@ -299,7 +299,7 @@ Punktzahl an.
 
 is:
 
-it1: Zensurendurchschnitt Ihres Abschlusszeugnisses
+it1: Zensurendurchschnitt Ihres Abschlusszeugnisses:
 
 ao1: Note (z. B. 2,6): \[grade\]
 
