@@ -2500,7 +2500,7 @@ ao7: Magister
 
 ao8: Diplom
 
-ao9: Sonstiges, und zwar : \[string\]
+ao9: Sonstiges, und zwar: \[string\]
 
 mv:
 
