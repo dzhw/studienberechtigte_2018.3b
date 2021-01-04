@@ -2855,14 +2855,14 @@
         <zofar:body uid="body">
             <zofar:questionSingleChoice uid="qsc1">
                 <zofar:header>
-                    <zofar:question uid="q1" block="true" visible="zofar.asNumber(vaa03dropDown) != 999999 and zofar.asNumber(vaa04dropDown) != 999999">Haben Sie diese Ausbildung/Umschulung im #{zofar.labelOf(vaa03)} #{zofar.labelOf(vaa04)}...</zofar:question>
-                    <zofar:question uid="q2" block="true" visible="zofar.asNumber(vaa03dropDown)==999999 or zofar.asNumber(vaa04dropDown)==999999">Haben Sie diese Ausbildung/Umschulung am Ende...</zofar:question>
+                    <zofar:question uid="q1" block="true" visible="zofar.asNumber(vaa03dropDown) != 999999 and zofar.asNumber(vaa04dropDown) != 999999">Haben Sie diese Ausbildung/Umschulung im #{zofar.labelOf(vaa03)} #{zofar.labelOf(vaa04)} ...</zofar:question>
+                    <zofar:question uid="q2" block="true" visible="zofar.asNumber(vaa03dropDown)==999999 or zofar.asNumber(vaa04dropDown)==999999">Haben Sie diese Ausbildung/Umschulung am Ende ...</zofar:question>
                 </zofar:header>
                 <zofar:responseDomain variable="vaa23" uid="rd1">
-                    <zofar:answerOption uid="ao1" value="1" label="...gewechselt?"/>
-                    <zofar:answerOption uid="ao2" value="2" label="...abgebrochen?"/>
-                    <zofar:answerOption uid="ao3" value="3" label="...unterbrochen?"/>
-                    <zofar:answerOption uid="ao4" value="4" label="...abgeschlossen?"/>
+                    <zofar:answerOption uid="ao1" value="1" label="... gewechselt?"/>
+                    <zofar:answerOption uid="ao2" value="2" label="... abgebrochen?"/>
+                    <zofar:answerOption uid="ao3" value="3" label="... unterbrochen?"/>
+                    <zofar:answerOption uid="ao4" value="4" label="... abgeschlossen?"/>
                     <zofar:answerOption uid="ao5" value="5" label="Die Ausbildung/Umschulung dauert noch an."/>
                 </zofar:responseDomain>
             </zofar:questionSingleChoice>
@@ -4751,14 +4751,14 @@
         <zofar:body uid="body">
             <zofar:questionSingleChoice uid="qsc1">
                 <zofar:header>
-                    <zofar:question uid="q1" block="true" visible="zofar.asNumber(vba03dropDown) != 999999 and zofar.asNumber(vba04dropDown) != 999999">Haben Sie diese Ausbildung/Umschulung im #{zofar.labelOf(vba03)} #{zofar.labelOf(vba04)}...</zofar:question>
-                    <zofar:question uid="q2" block="true" visible="zofar.asNumber(vba03dropDown)==999999 or zofar.asNumber(vba04dropDown)==999999">Haben Sie diese Ausbildung/Umschulung am Ende...</zofar:question>
+                    <zofar:question uid="q1" block="true" visible="zofar.asNumber(vba03dropDown) != 999999 and zofar.asNumber(vba04dropDown) != 999999">Haben Sie diese Ausbildung/Umschulung im #{zofar.labelOf(vba03)} #{zofar.labelOf(vba04)} ...</zofar:question>
+                    <zofar:question uid="q2" block="true" visible="zofar.asNumber(vba03dropDown)==999999 or zofar.asNumber(vba04dropDown)==999999">Haben Sie diese Ausbildung/Umschulung am Ende ...</zofar:question>
                 </zofar:header>
                 <zofar:responseDomain variable="vba23" uid="rd1">
-                    <zofar:answerOption uid="ao1" value="1" label="...gewechselt?"/>
-                    <zofar:answerOption uid="ao2" value="2" label="...abgebrochen?"/>
-                    <zofar:answerOption uid="ao3" value="3" label="...unterbrochen?"/>
-                    <zofar:answerOption uid="ao4" value="4" label="...abgeschlossen?"/>
+                    <zofar:answerOption uid="ao1" value="1" label="... gewechselt?"/>
+                    <zofar:answerOption uid="ao2" value="2" label="... abgebrochen?"/>
+                    <zofar:answerOption uid="ao3" value="3" label="... unterbrochen?"/>
+                    <zofar:answerOption uid="ao4" value="4" label="... abgeschlossen?"/>
                     <zofar:answerOption uid="ao5" value="5" label="Die Ausbildung/Umschulung dauert noch an."/>
                 </zofar:responseDomain>
             </zofar:questionSingleChoice>
@@ -6301,14 +6301,14 @@
         <zofar:body uid="body">
             <zofar:questionSingleChoice uid="qsc1">
                 <zofar:header>
-                    <zofar:question uid="q1" block="true" visible="zofar.asNumber(vca03dropDown) != 999999 and zofar.asNumber(vca04dropDown) != 999999">Haben Sie diese Ausbildung/Umschulung im #{zofar.labelOf(vca03)} #{zofar.labelOf(vca04)}...</zofar:question>
-                    <zofar:question uid="q2" block="true" visible="zofar.asNumber(vca03dropDown)==999999 or zofar.asNumber(vca04dropDown)==999999">Haben Sie diese Ausbildung/Umschulung am Ende...</zofar:question>
+                    <zofar:question uid="q1" block="true" visible="zofar.asNumber(vca03dropDown) != 999999 and zofar.asNumber(vca04dropDown) != 999999">Haben Sie diese Ausbildung/Umschulung im #{zofar.labelOf(vca03)} #{zofar.labelOf(vca04)} ...</zofar:question>
+                    <zofar:question uid="q2" block="true" visible="zofar.asNumber(vca03dropDown)==999999 or zofar.asNumber(vca04dropDown)==999999">Haben Sie diese Ausbildung/Umschulung am Ende ...</zofar:question>
                 </zofar:header>
                 <zofar:responseDomain variable="vca23" uid="rd1">
-                    <zofar:answerOption uid="ao1" value="1" label="...gewechselt?"/>
-                    <zofar:answerOption uid="ao2" value="2" label="...abgebrochen?"/>
-                    <zofar:answerOption uid="ao3" value="3" label="...unterbrochen?"/>
-                    <zofar:answerOption uid="ao4" value="4" label="...abgeschlossen?"/>
+                    <zofar:answerOption uid="ao1" value="1" label="... gewechselt?"/>
+                    <zofar:answerOption uid="ao2" value="2" label="... abgebrochen?"/>
+                    <zofar:answerOption uid="ao3" value="3" label="... unterbrochen?"/>
+                    <zofar:answerOption uid="ao4" value="4" label="... abgeschlossen?"/>
                     <zofar:answerOption uid="ao5" value="5" label="Die Ausbildung/Umschulung dauert noch an."/>
                 </zofar:responseDomain>
             </zofar:questionSingleChoice>
@@ -7498,14 +7498,14 @@
         <zofar:body uid="body">
             <zofar:questionSingleChoice uid="qsc1">
                 <zofar:header>
-                    <zofar:question uid="q1" block="true" visible="zofar.asNumber(vda03dropDown) != 999999 and zofar.asNumber(vda04dropDown) != 999999">Haben Sie diese Ausbildung/Umschulung im #{zofar.labelOf(vda03)} #{zofar.labelOf(vda04)}...</zofar:question>
-                    <zofar:question uid="q2" block="true" visible="zofar.asNumber(vda03dropDown)==999999 or zofar.asNumber(vda04dropDown)==999999">Haben Sie diese Ausbildung/Umschulung am Ende...</zofar:question>
+                    <zofar:question uid="q1" block="true" visible="zofar.asNumber(vda03dropDown) != 999999 and zofar.asNumber(vda04dropDown) != 999999">Haben Sie diese Ausbildung/Umschulung im #{zofar.labelOf(vda03)} #{zofar.labelOf(vda04)} ...</zofar:question>
+                    <zofar:question uid="q2" block="true" visible="zofar.asNumber(vda03dropDown)==999999 or zofar.asNumber(vda04dropDown)==999999">Haben Sie diese Ausbildung/Umschulung am Ende ...</zofar:question>
                 </zofar:header>
                 <zofar:responseDomain variable="vda23" uid="rd1">
-                    <zofar:answerOption uid="ao1" value="1" label="...gewechselt?"/>
-                    <zofar:answerOption uid="ao2" value="2" label="...abgebrochen?"/>
-                    <zofar:answerOption uid="ao3" value="3" label="...unterbrochen?"/>
-                    <zofar:answerOption uid="ao4" value="4" label="...abgeschlossen?"/>
+                    <zofar:answerOption uid="ao1" value="1" label="... gewechselt?"/>
+                    <zofar:answerOption uid="ao2" value="2" label="... abgebrochen?"/>
+                    <zofar:answerOption uid="ao3" value="3" label="... unterbrochen?"/>
+                    <zofar:answerOption uid="ao4" value="4" label="... abgeschlossen?"/>
                     <zofar:answerOption uid="ao5" value="5" label="Die Ausbildung/Umschulung dauert noch an."/>
                 </zofar:responseDomain>
             </zofar:questionSingleChoice>
@@ -8321,14 +8321,14 @@
         <zofar:body uid="body">
             <zofar:questionSingleChoice uid="qsc1">
                 <zofar:header>
-                    <zofar:question uid="q1" block="true" visible="zofar.asNumber(vea03dropDown) != 999999 and zofar.asNumber(vea04dropDown) != 999999">Haben Sie diese Ausbildung/Umschulung im #{zofar.labelOf(vea03)} #{zofar.labelOf(vea04)}...</zofar:question>
-                    <zofar:question uid="q2" block="true" visible="zofar.asNumber(vea03dropDown)==999999 or zofar.asNumber(vea04dropDown)==999999">Haben Sie diese Ausbildung/Umschulung am Ende...</zofar:question>
+                    <zofar:question uid="q1" block="true" visible="zofar.asNumber(vea03dropDown) != 999999 and zofar.asNumber(vea04dropDown) != 999999">Haben Sie diese Ausbildung/Umschulung im #{zofar.labelOf(vea03)} #{zofar.labelOf(vea04)} ...</zofar:question>
+                    <zofar:question uid="q2" block="true" visible="zofar.asNumber(vea03dropDown)==999999 or zofar.asNumber(vea04dropDown)==999999">Haben Sie diese Ausbildung/Umschulung am Ende ...</zofar:question>
                 </zofar:header>
                 <zofar:responseDomain variable="vea23" uid="rd1">
-                    <zofar:answerOption uid="ao1" value="1" label="...gewechselt?"/>
-                    <zofar:answerOption uid="ao2" value="2" label="...abgebrochen?"/>
-                    <zofar:answerOption uid="ao3" value="3" label="...unterbrochen?"/>
-                    <zofar:answerOption uid="ao4" value="4" label="...abgeschlossen?"/>
+                    <zofar:answerOption uid="ao1" value="1" label="... gewechselt?"/>
+                    <zofar:answerOption uid="ao2" value="2" label="... abgebrochen?"/>
+                    <zofar:answerOption uid="ao3" value="3" label="... unterbrochen?"/>
+                    <zofar:answerOption uid="ao4" value="4" label="... abgeschlossen?"/>
                     <zofar:answerOption uid="ao5" value="5" label="Die Ausbildung/Umschulung dauert noch an."/>
                 </zofar:responseDomain>
             </zofar:questionSingleChoice>
@@ -8784,14 +8784,14 @@
         <zofar:body uid="body">
             <zofar:questionSingleChoice uid="qsc1">
                 <zofar:header>
-                    <zofar:question uid="q1" block="true" visible="zofar.asNumber(vza03dropDown) != 9999999 and zofar.asNumber(vza04dropDown) != 9999999">Haben Sie diese Ausbildung/Umschulung im #{zofar.labelOf(vza03)} #{zofar.labelOf(vza04)}...</zofar:question>
-                    <zofar:question uid="q2" block="true" visible="zofar.asNumber(vza03dropDown)==9999999 or zofar.asNumber(vza04dropDown)==9999999">Haben Sie diese Ausbildung/Umschulung am Ende...</zofar:question>
+                    <zofar:question uid="q1" block="true" visible="zofar.asNumber(vza03dropDown) != 9999999 and zofar.asNumber(vza04dropDown) != 9999999">Haben Sie diese Ausbildung/Umschulung im #{zofar.labelOf(vza03)} #{zofar.labelOf(vza04)} ...</zofar:question>
+                    <zofar:question uid="q2" block="true" visible="zofar.asNumber(vza03dropDown)==9999999 or zofar.asNumber(vza04dropDown)==9999999">Haben Sie diese Ausbildung/Umschulung am Ende ...</zofar:question>
                 </zofar:header>
                 <zofar:responseDomain variable="vza23" uid="rd1">
-                    <zofar:answerOption uid="ao1" value="1" label="...gewechselt?"/>
-                    <zofar:answerOption uid="ao2" value="2" label="...abgebrochen?"/>
-                    <zofar:answerOption uid="ao3" value="3" label="...unterbrochen?"/>
-                    <zofar:answerOption uid="ao4" value="4" label="...abgeschlossen?"/>
+                    <zofar:answerOption uid="ao1" value="1" label="... gewechselt?"/>
+                    <zofar:answerOption uid="ao2" value="2" label="... abgebrochen?"/>
+                    <zofar:answerOption uid="ao3" value="3" label="... unterbrochen?"/>
+                    <zofar:answerOption uid="ao4" value="4" label="... abgeschlossen?"/>
                     <zofar:answerOption uid="ao5" value="5" label="Die Ausbildung/Umschulung dauert noch an."/>
                 </zofar:responseDomain>
             </zofar:questionSingleChoice>
