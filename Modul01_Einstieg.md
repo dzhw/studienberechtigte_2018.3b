@@ -215,7 +215,7 @@ hl:
 
 in:
 
-q: Wie schätzen Sie...
+q: Wie schätzen Sie ...
 
 is: Bitte jeweils den zutreffenden Skalenwert ankreuzen.
 
