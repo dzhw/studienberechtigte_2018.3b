@@ -924,7 +924,7 @@ is:
 
 it1: Meine Eltern finden, dass ich ein gutes Studienfach
 
-gewählt habe
+gewählt habe.
 
 it2: Meine Freundinnen und Freunde finden, dass ich ein
 
