@@ -274,7 +274,7 @@ treffen die folgenden Aussagen auf Sie zu?
 
 is: Bitte jeweils den zutreffenden Skalenwert ankreuzen.
 
-q2: Ich bin jemand, der...
+q2: Ich bin jemand, der ...
 
 
 it1: ... gründlich arbeitet.
