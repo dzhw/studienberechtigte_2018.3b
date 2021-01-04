@@ -239,7 +239,7 @@
                     <zofar:answerOption variable="sc0001h" uid="ao8" label="Fachoberschule"/>
                     <zofar:answerOption variable="sc0001i" uid="ao9" label="(Höhere) Berufsfachschule"/>
                     <zofar:answerOption variable="sc0001j" uid="ao10" label="Fachschule/Fachakademie"/>
-                    <zofar:answerOption variable="sc0001k" uid="ao11" missing="true" label="Andere Schulart, und zwar ">
+                    <zofar:answerOption variable="sc0001k" uid="ao11" missing="true" label="Andere Schulart, und zwar: ">
                         <zofar:questionOpen variable="sc0001l" uid="ato" size="20"/>
                     </zofar:answerOption>
                     <zofar:answerOption variable="sc0001m" uid="ao12" label="Ich habe in dieser Zeit keine Schule besucht." exclusive="true"/>
