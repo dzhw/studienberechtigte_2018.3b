@@ -897,9 +897,9 @@ st:
 
 it:
 
-ao1:1: Ja, wir haben einen gemeinsamen Haushalt
+ao1:1: ja, wir haben einen gemeinsamen Haushalt
 
-ao2:2: Ja, aber neben dem gemeinsamen Haushalt führen ich bzw.
+ao2:2: ja, aber neben dem gemeinsamen Haushalt führen ich bzw.
 
 mein(e) Partner(in) einen zweiten Haushalt (z. B. wegen
 
