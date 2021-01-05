@@ -263,7 +263,7 @@ in:
 
 q: Wie zufrieden sind bzw. waren Sie mit Ihrer Ausbildung
 
-hinsichtlich...
+hinsichtlich ...
 
 is:
 
