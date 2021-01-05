@@ -1742,11 +1742,11 @@ Studiengang gefördert werden:
 
 is:
 
-it1: kritische Auseinandersetzung mit den Studieninhalten
+it1: kritische Auseinandersetzung mit den Studieninhalten.
 
-it2: Fähigkeit, selbständig forschend tätig zu sein
+it2: Fähigkeit, selbständig forschend tätig zu sein.
 
-it3: berufspraktische Fähigkeiten
+it3: berufspraktische Fähigkeiten.
 
 st:
 
