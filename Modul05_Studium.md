@@ -1191,7 +1191,6 @@ ka:
 
 vc:
 
-SHOW is IF h\_fernstakt ==1
 
 SHOW ao1 IF h\_staktsga \\\<\\\> MISSING
 
