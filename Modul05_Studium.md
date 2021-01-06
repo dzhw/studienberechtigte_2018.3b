@@ -1183,7 +1183,7 @@ ao5: \\\<h\_staktsge \\\>
 
 ao6: \\\<h\_staktsgz \\\>
 
-ao7: ein anderer Studiengang, und zwar \[string\]
+ao7: ein anderer Studiengang, und zwar: \[string\]
 
 mv:
 
@@ -1285,7 +1285,7 @@ ao11: \\\<h\_staktsfz01 \\\>
 
 ao12: \\\<h\_staktsfz02 \\\>
 
-ao13: ein anderes Studien- bzw. Unterrichtsfach, und zwar
+ao13: ein anderes Studien- bzw. Unterrichtsfach, und zwar:
 
 \[string\]
 
