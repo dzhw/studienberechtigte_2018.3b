@@ -1145,7 +1145,7 @@ den nächsten Fragen beziehen möchten. Falls Sie aktuell
 
 nur einen Studiengang und ein Haupt- bzw. Unterrichtsfach
 
-studieren, wählen Sie diese bitte aus der Liste aus bzw.
+studieren, wählen Sie diese bitte unten aus bzw.
 
 tragen Sie sie in die offenen Antwortfelder ein.
 
