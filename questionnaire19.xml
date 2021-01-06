@@ -654,7 +654,7 @@
             <zofar:variable variable="h_calmis2018" value="zofar.ifthenelse((zofar.countTilesWithEpisodesInRange(zofar.decodeEpisodes(calendar183Data1.value),zofar.list(1,2,3,4,5,6,7,8,9,10),1,12) lt 6),'1','0')" condition="zofar.asNumber(PRELOADwave)==1"/>
             <zofar:variable variable="h_calmis2019" value="zofar.ifthenelse((zofar.countTilesWithEpisodesInRange(zofar.decodeEpisodes(calendar183Data1.value),zofar.list(1,2,3,4,5,6,7,8,9,10),13,24) lt 6),'1','0')" condition="zofar.asNumber(PRELOADwave)==1"/>
             <zofar:variable variable="h_calmis2020" value="zofar.ifthenelse((zofar.countTilesWithEpisodesInRange(zofar.decodeEpisodes(calendar183Data1.value),zofar.list(1,2,3,4,5,6,7,8,9,10),25,36) lt 6),'1','0')" condition="zofar.asNumber(PRELOADwave)==1"/>
-            <zofar:variable variable="h_schule" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data1.value),zofar.list(1))),'1','0')" condition="zofar.asNumber(PRELOADwave)!=1"/>
+            <zofar:variable variable="h_schule" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data1.value),zofar.list(1))),'1','0')" condition="zofar.asNumber(PRELOADwave)==1"/>
             <zofar:variable variable="h_studium" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data1.value),zofar.list(2))),'1','0')" condition="zofar.asNumber(PRELOADwave)==1"/>
             <zofar:variable variable="h_studever" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data1.value),zofar.list(2))),'1','0')" condition="zofar.asNumber(PRELOADwave)==1"/>
             <zofar:variable variable="h_ausb" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data1.value),zofar.list(3))),'1','0')" condition="zofar.asNumber(PRELOADwave)==1"/>
@@ -676,7 +676,7 @@
             <zofar:variable variable="h_schule" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data25.value),zofar.list(1))),'1','0')" condition="zofar.asNumber(PRELOADwave)!=1"/>
             <zofar:variable variable="h_studium" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data25.value),zofar.list(2))),'1','0')" condition="zofar.asNumber(PRELOADwave)!=1"/>
             <zofar:variable variable="h_studever" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data25.value),zofar.list(2))),'1','0')" condition="zofar.asNumber(PRELOADwave)!=1"/>
-            <zofar:variable variable="h_ausbakt" value="zofar.ifthenelse((zofar.countTilesWithEpisodesInRange(zofar.decodeEpisodes(calendar183Data25.value),zofar.list(3),24,24) == 1),'1','0')" condition="zofar.asNumber(PRELOADwave)==2"/>
+            <zofar:variable variable="h_ausbakt" value="zofar.ifthenelse((zofar.countTilesWithEpisodesInRange(zofar.decodeEpisodes(calendar183Data25.value),zofar.list(3),24,24) == 1),'1','0')" condition="zofar.asNumber(PRELOADwave)!=1"/>
             <zofar:variable variable="h_ausb" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data25.value),zofar.list(3))),'1','0')" condition="zofar.asNumber(PRELOADwave)!=1"/>
             <zofar:variable variable="h_ausbever" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data25.value),zofar.list(3))),'1','0')" condition="zofar.asNumber(PRELOADwave)!=1"/>
             <zofar:variable variable="h_fortb" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data25.value),zofar.list(4))),'1','0')" condition="zofar.asNumber(PRELOADwave)!=1"/>
