@@ -951,7 +951,7 @@ st:
 
 it:
 
-ao1:1: ja, und zwar \[number\] Kinder (kinderanz\_183b)
+ao1:1: ja, und zwar: \[number\] Kinder (kinderanz\_183b)
 
 ao2:2: nein
 
