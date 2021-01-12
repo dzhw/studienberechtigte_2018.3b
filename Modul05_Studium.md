@@ -1180,6 +1180,8 @@ ao6: \\\<h\_staktsgz \\\>
 
 ao7: ein anderer Studiengang, und zwar: \[string\]
 
+ao8: Studiengang: [string]
+
 mv:
 
 ka:
