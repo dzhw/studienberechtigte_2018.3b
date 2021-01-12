@@ -347,7 +347,7 @@ is:
 
 it:
 
-ao1: (1) gar nicht risikobereit 
+ao1: (1) sehr risikobereit 
 
 ao2: (2)
 
@@ -359,7 +359,7 @@ ao5: (5)
 
 ao6: (6)
 
-ao7: (7) sehr risikobereit 
+ao7: (7) gar nicht risikobereit 
 
 mv:
 
