@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------
 // Hauptbefragung: Endseiten
 -------------------------------------------------------------------------------------------------------------------------------------------------
-_end1_
+_end_0_
 
 tc: (alle)
 
@@ -37,12 +37,12 @@ hv:
 
 fo:
 
-tr: GOTO end0
+tr: GOTO end_1
 
 hi: 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
-_end0_
+_end_1_
 
 tc:(alle)
 
@@ -53,17 +53,13 @@ qt: Text
 hl: 
 
 in:
-
-ka: [Bild]
+ 
+ka: [Bild] Zwischenseite_8
 q: !!Hat sich Ihre Anschrift seit der letzten Befragung geändert?!!
 
-txt1: Dann teilen Sie uns bitte Ihre aktuellen Kontaktdaten mit, damit wir Sie für die nächste Befragung (in ca. 2 Jahren) erreichen und im Falle eines Gewinns
-informieren können. Ihre Kontaktadresse wird streng vertraulich behandelt und nicht mit den Befragungsdaten verknüpft.
 
-txt2: Dann teilen Sie uns bitte Ihre aktuellen Kontaktdaten mit, damit wir Sie für die nächste Befragung (in ca. 1 Jahr) erreichen und im Falle eines Gewinns
+txt2: Dann teilen Sie uns bitte Ihre aktuellen Kontaktdaten mit, damit wir Sie für die nächste Befragung erreichen und im Falle eines Gewinns
 informieren können. Ihre Kontaktadresse wird streng vertraulich behandelt und nicht mit den Befragungsdaten verknüpft.
-
-txt3: (Klicken Sie hier, um Ihre aktuelle Adresse anzugeben){Link zur SLC-IntEr15-4}
 
 txt4: (Klicken Sie hier, um Ihre aktuelle Adresse anzugeben){Link zur SLC-IntEr18-3}
 
@@ -77,11 +73,6 @@ mv:
 
 ka:
 
-vc1: txt1: if cohort==1
-vc2: txt2: if cohort==2
-vc3: txt3: if cohort==1
-vc4: txt5: if cohort==2
-
 av:
 
 kh:
@@ -92,7 +83,7 @@ hv:
 
 fo:
 
-hi: Bild-Einblendung über Fragetext. Bildname: 
+hi: Bild-Einblendung über Fragetext. Bildname: Zwischenseite_8
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 _end_
@@ -156,12 +147,12 @@ hv:
 
 fo:
 
-tr: GOTO end
+tr: GOTO end_2
 
 hi:
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
-_end_
+_end_2_
 
 tc:
 
