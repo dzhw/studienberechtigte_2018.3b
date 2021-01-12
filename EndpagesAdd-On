@@ -1,0 +1,202 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------
+// Hauptbefragung: Endseiten
+-------------------------------------------------------------------------------------------------------------------------------------------------
+_end1_
+
+tc: (alle)
+
+vn: 
+
+qt: offene Frage (string)
+
+hl: 
+
+in:
+
+q: 
+
+is: Wenn Sie noch Kommentare oder Anregungen haben, können Sie uns diese gerne hier mitteilen:
+
+it:
+
+ao1: [string] 8 cm; 4 Zeilen
+
+mv:
+
+ka:
+
+vc:
+
+av:
+
+kh:
+
+fv:
+
+hv:
+
+fo:
+
+tr: GOTO end0
+
+hi: 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+_end0_
+
+tc:(alle)
+
+vn: 
+
+qt: Text
+
+hl: 
+
+in:
+
+ka: [Bild]
+q: !!Hat sich Ihre Anschrift seit der letzten Befragung geändert?!!
+
+txt1: Dann teilen Sie uns bitte Ihre aktuellen Kontaktdaten mit, damit wir Sie für die nächste Befragung (in ca. 2 Jahren) erreichen und im Falle eines Gewinns
+informieren können. Ihre Kontaktadresse wird streng vertraulich behandelt und nicht mit den Befragungsdaten verknüpft.
+
+txt2: Dann teilen Sie uns bitte Ihre aktuellen Kontaktdaten mit, damit wir Sie für die nächste Befragung (in ca. 1 Jahr) erreichen und im Falle eines Gewinns
+informieren können. Ihre Kontaktadresse wird streng vertraulich behandelt und nicht mit den Befragungsdaten verknüpft.
+
+txt3: (Klicken Sie hier, um Ihre aktuelle Adresse anzugeben){Link zur SLC-IntEr15-4}
+
+txt4: (Klicken Sie hier, um Ihre aktuelle Adresse anzugeben){Link zur SLC-IntEr18-3}
+
+is: 
+
+it:
+
+ao: 
+
+mv:
+
+ka:
+
+vc1: txt1: if cohort==1
+vc2: txt2: if cohort==2
+vc3: txt3: if cohort==1
+vc4: txt5: if cohort==2
+
+av:
+
+kh:
+
+fv:
+
+hv:
+
+fo:
+
+hi: Bild-Einblendung über Fragetext. Bildname: 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+_end_
+
+tc: (alle)
+
+is: Vielen Dank! Wir haben Ihre Anmerkungen erhalten.
+
+vc:
+
+tr:
+
+hi:
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+// Add-On-Befragung
+-------------------------------------------------------------------------------------------------------------------------------------------------
+_index_
+
+tc:
+
+vn: name, ggfco, street, plzort, land, mail
+
+qt: Offene Fragen
+
+hl:
+
+in:
+
+q: Hat sich Ihre Anschrift seit der letzten Befragung geändert?
+is: Dann teilen Sie uns bitte Ihre aktuellen Kontaktdaten mit, damit wir Sie für die nächste Befragung (in einem Jahr) erreichen und im Falle eines Gewinns informieren können. 
+Ihre Kontaktadresse wird streng vertraulich behandelt und nicht mit den Befragungsdaten verknüpft. 
+
+is: Zum Speichern Ihrer Angaben klicken Sie bitte auf "weiter".
+
+it1: (name)[string, 100]: Vor- und Nachname:
+
+it2: (ggfco)[string, 100]: ggf. c/o:
+
+it3: (street)[string, 100]: Straße, Hausnummer:
+ 
+it4: (plzort)[string, 100]: PLZ, Ort: 
+
+it5: (land)[string, 100]: Land (wenn Ausland): 
+
+it6: (mail)[string, 100]: E-Mail-Adresse:
+
+mv:
+
+ka:
+
+vc: 
+
+av:
+
+kh:
+
+fv:
+
+hv:
+
+fo:
+
+tr: GOTO end
+
+hi:
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+_end_
+
+tc:
+
+vn: 
+
+qt: 
+
+hl:
+
+in:
+
+q: Vielen Dank!
+
+is: 
+
+it:
+
+ao: 
+
+mv:
+
+ka:
+
+vc:
+
+av:
+
+kh:
+
+fv:
+
+hv:
+
+fo:
+
+tr: 
+
+hi: 
