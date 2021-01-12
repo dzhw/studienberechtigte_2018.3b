@@ -119,7 +119,7 @@ vn:
 qt:
 
 hl: Um Ihren Werdegang besser verstehen zu können, geben Sie uns bitte im
-Kalender auf der folgenden Seite an, welche Aktivitäten Sie zwischen Januar 2018
+Kalender auf der folgenden Seite an, welche Aktivitäten Sie zwischen Juli 2018
 und Dezember 2020 ausgeübt haben. Machen Sie nach Möglichkeit in jedem Monat
 mindestens eine Angabe. Sie können auch mehrere Aktivitäten parallel angeben.
 Für eine optimale Darstellung dieser Frage sollten Sie das Display drehen.
@@ -177,7 +177,7 @@ vn:
 qt:
 
 hl: Um Ihren Werdegang besser verstehen zu können, geben Sie uns bitte im
-Kalender auf der folgenden Seite an, welche Aktivitäten Sie zwischen Januar 2018
+Kalender auf der folgenden Seite an, welche Aktivitäten Sie zwischen Juli 2018
 und Dezember 2020 ausgeübt haben. Machen Sie nach Möglichkeit in jedem Monat
 mindestens eine Angabe. Sie können auch mehrere Aktivitäten parallel angeben.
 
