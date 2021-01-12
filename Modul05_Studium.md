@@ -1286,6 +1286,8 @@ ao13: ein anderes Studien- bzw. Unterrichtsfach, und zwar:
 
 \[string\]
 
+ao14: Studienfach: [string]
+
 
 
 mv:
