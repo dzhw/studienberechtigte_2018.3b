@@ -915,10 +915,7 @@ hl:
 
 in:
 
-q1: Was halten Ihre Eltern und Ihre Freunde von Ihrem
-
-Studienfach: (h\_staktsfz01)?
-q2: Was halten Ihre Eltern und Ihre Freunde von Ihrem Studienfach?
+q1: Was halten Ihre Eltern und Ihre Freunde von Ihrem Studienfach?
 
 is:
 
@@ -945,8 +942,6 @@ mv:
 ka:
 
 vc: 
-Show q1 IF h_staktsfz01=1
-Show q2 IF h_staktsfz01==MISSING
 
 av:
 
