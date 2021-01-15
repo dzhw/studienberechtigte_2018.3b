@@ -2340,7 +2340,7 @@ st:
 
 it:
 
-ao1:1: sehr hoch (1)
+ao1:1: (1) sehr hoch
 
 ao2:2: (2)
 
@@ -2348,7 +2348,7 @@ ao3:3: (3)
 
 ao4:4: (4)
 
-ao5:5: sehr gering (5)
+ao5:5: (5) sehr gering
 
 mv:
 
