@@ -242,7 +242,9 @@ fo:
 
 tr: 
 
-GOTO msg\_04
+GOTO msg\_05 IF wave=1 OR wave=2 OR wave=3
+
+GOTO msg\_06 IF wave=4 OR wave=5
 
 hi:
 
@@ -343,11 +345,6 @@ fo:
 
 tr: 
 
-GOTO msg\_05 IF wave=1 OR wave=2 OR wave=3
-
-
-
-GOTO msg\_06 IF wave=4 OR wave=5
 
 hi:
 
