@@ -935,7 +935,7 @@ hi:
 
 tc:
 
-vn: kinder\_183b, kinderanz\_183b
+vn: kinder\_183b, kinderanz\_183b, sf_kinderanz_183b
 
 qt: Einfachauswahl, vertikale ao mit offener Antwortoption
 
@@ -961,15 +961,15 @@ ka:
 
 vc:
 
-av: \[number\]: soft Rangecheck 0 TO 9
+av: 
 
-kh: Bitte überprüfen Sie Ihre Eingabe. Sie haben einen Wert
+kh: 
+
+fv: sf_kinderanz_183b: \[number\]: soft force 0 TO 9: Bitte überprüfen Sie Ihre Eingabe. Sie haben einen Wert
 
 kleiner 0 oder größer 9 eingegeben. Wenn Ihre Angabe korrekt
 
 ist, können Sie diesen Hinweis ignorieren.
-
-fv:
 
 hv:
 
