@@ -430,7 +430,7 @@ is:
 
 it1: Ich halte meine Begabung für das Studium für ...
 
-ao1:1: hoch (1)
+ao1:1: niedrig (1)
 
 ao2:2: (2)
 
@@ -442,7 +442,7 @@ ao5:5: (5)
 
 ao6:6: (6)
 
-ao7:7: niedrig (7)
+ao7:7: hoch (7)
 
 mv:
 
