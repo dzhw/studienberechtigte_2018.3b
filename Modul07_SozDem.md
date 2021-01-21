@@ -962,11 +962,7 @@ av:
 
 kh: 
 
-fv: sf_kinderanz_183b: \[number\]: soft force 0 TO 9: Bitte überprüfen Sie Ihre Eingabe. Sie haben einen Wert
-
-kleiner 0 oder größer 9 eingegeben. Wenn Ihre Angabe korrekt
-
-ist, können Sie diesen Hinweis ignorieren.
+fv: sf_kinderanz_183b: \[number\]: soft force 0 TO 99: "Bitte geben Sie eine gültige Zahl ein!"
 
 hv:
 
