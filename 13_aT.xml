@@ -162,7 +162,7 @@
         <zofar:body uid="body">
             <zofar:matrixQuestionSingleChoice uid="msc">
                 <zofar:header>
-                    <zofar:instruction uid="instr" block="true">Sie haben angegeben, mindestens einen Freiwilligendienst (inkl. AuPair, Work #{layout.KaufUND} Travel gemacht zu haben).</zofar:instruction>
+                    <zofar:instruction uid="instr" block="true">Sie haben angegeben, mindestens einen Freiwilligendienst (inkl. Au Pair, Work #{layout.KaufUND} Travel gemacht zu haben).</zofar:instruction>
                     <zofar:question uid="q1" block="true">Wann haben Sie erstmals seit #{zofar.valueOf(h_enterdatum)} einen Freiwilligendienst absolviert, waren als Au Pair tätig oder in Work #{layout.KaufUND} Travel?</zofar:question>
                     <zofar:instruction uid="is" block="true">
                     	#{layout.BREAK}Wir interessieren uns auch für Tätigkeiten, die vor #{h_enterdatum.value} begonnen haben und zu dem Zeitpunkt noch andauerten. Machen Sie für diese Tätigkeiten bitte Angaben ab #{h_enterdatum.value}.
@@ -319,7 +319,7 @@
                     <zofar:answerOption uid="ao2" value="2" label="Europäischer Freiwilligendienst (EFD)"/>
                     <zofar:answerOption uid="ao3" value="3" label="Freiwilliges Soziales Jahr (FSJ)"/>
                     <zofar:answerOption uid="ao4" value="4" label="Freiwilliges Ökologisches Jahr (FÖJ)"/>
-                    <zofar:answerOption uid="ao5" value="5" label="AuPair"/>
+                    <zofar:answerOption uid="ao5" value="5" label="Au Pair"/>
                     <zofar:answerOption uid="ao6" value="6" label="Work #{layout.KaufUND} Travel"/>
                     <zofar:answerOption uid="ao7" value="7" label="Sonstiges, und zwar: ">
                         <zofar:questionOpen variable="oaa06" uid="qo" size="35"/>
@@ -596,7 +596,7 @@
                     <zofar:answerOption uid="ao2" value="2" label="Europäischer Freiwilligendienst (EFD)"/>
                     <zofar:answerOption uid="ao3" value="3" label="Freiwilliges Soziales Jahr (FSJ)"/>
                     <zofar:answerOption uid="ao4" value="4" label="Freiwilliges Ökologisches Jahr (FÖJ)"/>
-                    <zofar:answerOption uid="ao5" value="5" label="AuPair"/>
+                    <zofar:answerOption uid="ao5" value="5" label="Au Pair"/>
                     <zofar:answerOption uid="ao6" value="6" label="Work #{layout.KaufUND} Travel"/>
                     <zofar:answerOption uid="ao7" value="7" label="Sonstiges, und zwar: ">
                         <zofar:questionOpen variable="oab06" uid="qo" size="35"/>
