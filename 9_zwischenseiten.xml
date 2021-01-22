@@ -652,7 +652,7 @@
             <zofar:variable variable="h_schule" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data1.value),zofar.list(1))),'1','0')" condition="zofar.asNumber(PRELOADwave)==1"/>
             <zofar:variable variable="h_studium" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data1.value),zofar.list(2))),'1','0')" condition="zofar.asNumber(PRELOADwave)==1"/>
             <zofar:variable variable="h_studever" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data1.value),zofar.list(2))),'1','0')" condition="zofar.asNumber(PRELOADwave)==1"/>
-<!--             <zofar:variable variable="h_studakt" value="zofar.ifthenelse((zofar.countTilesWithEpisodesInRange(zofar.decodeEpisodes(calendar183Data1.value),zofar.list(2),12,12) == 1),'1','0')" condition="zofar.asNumber(PRELOADwave)==1"/> -->
+			<zofar:variable variable="h_studakt" value="zofar.ifthenelse((zofar.countTilesWithEpisodesInRange(zofar.decodeEpisodes(calendar183Data1.value),zofar.list(2),12,12) == 1),'1','0')" condition="zofar.asNumber(PRELOADwave)==1"/>
             <zofar:variable variable="h_ausb" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data1.value),zofar.list(3))),'1','0')" condition="zofar.asNumber(PRELOADwave)==1"/>
             <zofar:variable variable="h_ausbakt" value="zofar.ifthenelse((zofar.countTilesWithEpisodesInRange(zofar.decodeEpisodes(calendar183Data1.value),zofar.list(3),12,12) == 1),'1','0')" condition="zofar.asNumber(PRELOADwave)==1"/>
             <zofar:variable variable="h_ausbever" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data1.value),zofar.list(3))),'1','0')" condition="zofar.asNumber(PRELOADwave)==1"/>
@@ -672,7 +672,7 @@
             <zofar:variable variable="h_calmis2020" value="zofar.ifthenelse((zofar.countTilesWithEpisodesInRange(zofar.decodeEpisodes(calendar183Data25.value),zofar.list(1,2,3,4,5,6,7,8,9,10),25,36) lt 6),'1','0')" condition="zofar.asNumber(PRELOADwave)!=1"/>
             <zofar:variable variable="h_schule" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data25.value),zofar.list(1))),'1','0')" condition="zofar.asNumber(PRELOADwave)!=1"/>
             <zofar:variable variable="h_studium" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data25.value),zofar.list(2))),'1','0')" condition="zofar.asNumber(PRELOADwave)!=1"/>
-<!--             <zofar:variable variable="h_studakt" value="zofar.ifthenelse((zofar.countTilesWithEpisodesInRange(zofar.decodeEpisodes(calendar183Data25.value),zofar.list(2),36,36) == 1),'1','0')" condition="zofar.asNumber(PRELOADwave)!=1"/> -->
+            <zofar:variable variable="h_studakt" value="zofar.ifthenelse((zofar.countTilesWithEpisodesInRange(zofar.decodeEpisodes(calendar183Data25.value),zofar.list(2),36,36) == 1),'1','0')" condition="zofar.asNumber(PRELOADwave)!=1"/>
             <zofar:variable variable="h_studever" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data25.value),zofar.list(2))),'1','0')" condition="zofar.asNumber(PRELOADwave)!=1"/>
             <zofar:variable variable="h_ausbakt" value="zofar.ifthenelse((zofar.countTilesWithEpisodesInRange(zofar.decodeEpisodes(calendar183Data25.value),zofar.list(3),36,36) == 1),'1','0')" condition="zofar.asNumber(PRELOADwave)!=1"/>
             <zofar:variable variable="h_ausb" value="zofar.ifthenelse((zofar.hasEpisodes(zofar.decodeEpisodes(calendar183Data25.value),zofar.list(3))),'1','0')" condition="zofar.asNumber(PRELOADwave)!=1"/>
@@ -2265,6 +2265,7 @@
 																			zofar.asNumber(h_studakte)!=1
 																			and
 																			zofar.asNumber(h_studaktz)!=1" direction="forward" onExit="true" />
+				<zofar:variable variable="h_studakt" value="0" condition="zofar.asNumber(h_studever)!=1" direction="forward" onExit="true" />																			
 				<zofar:variable variable="h_dualaus" value="1" condition="zofar.asNumber(staa23)==2
 																			or
 																			zofar.asNumber(stab23)==2
