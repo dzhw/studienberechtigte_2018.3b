@@ -1024,7 +1024,8 @@ fo:
 
 tr: 
 
-GOTO stu\_12
+GOTO stu_12 IF h_studakt=1
+GOTO stu_22 IF (h_studakt=0) OR (h_studakt=MISSING)
 
 hi:
 
