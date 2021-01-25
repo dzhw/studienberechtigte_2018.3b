@@ -1124,7 +1124,7 @@ qt: Einfachauswahl mit offener Angabe
 
 hl:
 
-in: Im Folgenden geht es um Ihren derzeitigen Studiengang.
+in: Im Folgenden geht es um Ihren Studiengang.
 
 Wenn Sie mehrere Fächer studieren, können diese z. B.
 
