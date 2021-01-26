@@ -313,7 +313,19 @@ fo:
 
 tr: 
 
-GOTO aus\_05
+GOTO stu\_00 IF (h\_ausbakt=0 OR h\_ausbakt=MISSING) OR
+
+(h\_ausb20=0 OR h\_ausb20=MISSING) OR (h\_ausbakt=1 AND
+
+(h\_studever=1 OR h\_studever=MISSING)) OR (h\_ausb20=1 AND
+
+(h\_studever=1 OR h\_studever=MISSING))
+
+
+
+GOTO aus\_06 IF (h\_ausbakt=1 AND h\_studever!=1) OR
+
+(h\_ausb20=1 AND h\_studever!=1)
 
 hi:
 
@@ -380,19 +392,7 @@ fo:
 
 tr: 
 
-GOTO stu\_00 IF (h\_ausbakt=0 OR h\_ausbakt=MISSING) OR
 
-(h\_ausb20=0 OR h\_ausb20=MISSING) OR (h\_ausbakt=1 AND
-
-(h\_studever=1 OR h\_studever=MISSING)) OR (h\_ausb20=1 AND
-
-(h\_studever=1 OR h\_studever=MISSING))
-
-
-
-GOTO aus\_06 IF (h\_ausbakt=1 AND h\_studever!=1) OR
-
-(h\_ausb20=1 AND h\_studever!=1)
 
 hi:
 
