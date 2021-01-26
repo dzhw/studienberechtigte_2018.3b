@@ -1140,7 +1140,7 @@ Oberschule der DDR mit Abschluss der 10. Klasse
 
 it4: Hauptschulabschluss, Polytechnische Oberschule der
 
-DDR mit Abschluss der 8. Oder 9. Klasse
+DDR mit Abschluss der 8. oder 9. Klasse
 
 it5: kein Abschluss/unter 8. Klasse
 
